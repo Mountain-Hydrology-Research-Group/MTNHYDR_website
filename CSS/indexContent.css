@@ -1,0 +1,214 @@
+/*Animations*/
+@keyframes buttonFlash {
+    0% {opacity: 100%}
+    50% {opacity: 0%;}
+    100% {opacity: 100%;}
+}
+
+/*Main Content*/
+.page{
+    height: 100vh;
+    color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 10% 30% 10% 10% 30% 10%;
+    grid-template-rows: 20% 6.67% 46.6% 6.67% 6.67% 1fr;
+}
+
+#pageOne {
+    background-image: url("../src/Copy\ of\ IMG_7435.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 70%;
+}
+
+#pageTwo {
+    background-color: white;
+}
+
+.meetTheTeam{
+    height: 110vh;
+    color:rgb(255, 255, 255);
+    display: grid;
+    background-image: url("../src/BoundaryWatersTrip2020-0555\ -\ Copy.jpg");
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-template-columns: 5%  1fr 1fr 1fr 1fr 1fr 5%;
+    grid-gap: 5% 2%;
+    grid-template-rows: 15% 1fr 1fr 15%;
+}
+
+.scrollDown{
+    grid-row: 6;
+    grid-column: 3 / span 2;
+    height: 10vh;
+}
+
+.scrollButton{   
+    height: 100%;
+    display: grid;
+}
+
+.scrollButton img{
+    animation-name: buttonFlash;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    justify-self: center;
+    height: 75%;
+}
+
+/*Info boxes and Drawings */
+.initialInfo{
+    grid-column: 2/ span 2;
+    grid-row: 3/ span 2;
+    font-size: 1.2em;
+    padding: 1.5% 3%;
+    background-color: rgba(0, 0, 0, 0.596);
+    height: auto;
+    border-radius: 1%;
+}
+
+    #info-left {
+        grid-column: 2/ span 2;
+    }
+
+    #infoRight {
+        grid-column: 4/ span 2;
+    }
+
+.illustrationSpace{ 
+    grid-row: 2 / span 4;
+}
+
+    #illusRight{
+        grid-column: 5 / span 1;
+    }
+
+    #illusLeft{
+        grid-column: 2 / span 1;
+    }
+
+    .illustrationSpace img{
+        height: 100%
+    }
+.initInfoBold{
+    text-decoration: underline;
+}
+
+/* Profiles */
+.profile {
+    display: grid;
+    grid-template-rows: 4fr 2fr;
+    background-color: rgba(255, 255, 255, 0.534);
+    border-radius: 7%;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    justify-items: center;
+}
+.profilePicture{
+    grid-row: 1;
+    height: 170px;
+    width: 170px;
+    border-radius: 100%;
+}
+.profile .labelProfile {
+    display: block;
+    grid-row: 2;
+    align-self: end;
+    justify-self: center;
+}
+
+.meetTheTeam h1{
+    justify-self: center;
+    align-self: end;
+    grid-column: 4;
+    grid-row: 1;
+    font-size: 2.5em;
+    color: black
+}
+
+    #profOne{
+        grid-row: 2;
+        grid-column: 2;
+    }
+        #profOne .profilePicture{
+            background-image: url(../src/Profile\ Pictures/JessicaProfile.jpg);
+            background-position: top;
+            background-size: cover;
+        }
+    #profTwo{
+        grid-row: 2;
+        grid-column: 3;
+    }
+        #profTwo .profilePicture{
+            background-image: url(../src/Profile\ Pictures/JustinProfile.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+    #profThree{
+        grid-row: 2;
+        grid-column: 4;
+    }
+        #profThree .profilePicture{
+            background-image: url(../src/Profile\ Pictures/VictoriaProfile.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+    #profFour{
+        grid-row: 2;
+        grid-column: 5;
+    }
+        #profFour .profilePicture{
+            background-image: url(../src/Profile\ Pictures/StevenProfile.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+    #profFive{
+        grid-row: 2;
+        grid-column: 6;
+    }
+        #profFive .profilePicture{
+            background-image: url(../src/Profile\ Pictures/CassieProfile.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+    #profSix{
+        grid-row: 3;
+        grid-column: 2;
+    }
+        #profSix .profilePicture{
+            background-image: url(../src/Profile\ Pictures/HannahProfile.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+    #profSeven{
+        grid-row: 3;
+        grid-column: 3;
+    }
+        #profSeven .profilePicture{
+            background-image: url(../src/Profile\ Pictures/CalistaProfile.jpg);
+            background-position: top;
+            background-size: cover;
+        }
+    #profEight{
+        grid-row: 3;
+        grid-column: 4;
+    }
+        #profEight .profilePicture{
+            background-image: url(../src/Profile\ Pictures/JoeProfile.png);
+            background-position: center left;
+            background-size: cover;
+        }
+    #profNine{
+        grid-row: 3;
+        grid-column: 5;
+    }
+        #profNine .profilePicture{
+            background-image: url(../src/Profile\ Pictures/JoriProfile.jpg);
+            background-position: top;
+            background-size: cover;
+        }
+    #profTen{
+        grid-row: 3;
+        grid-column: 6;
+    }

@@ -1,0 +1,54 @@
+
+.profileFull {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    display: grid;
+    grid-template-columns: repeat(10, 9vw);
+    grid-template-rows: repeat(8, 20vh);
+}
+
+.mainPicture {
+    grid-row: 1/span 2;
+    grid-column: 1 / span 4;
+    margin: 2%;
+    border: 1px black dotted;
+}
+
+.titleFull {
+    grid-row: 1/ span 2;
+    grid-column: 5 / span 6;
+    margin: 2%;
+    border: 1px black dotted;
+}
+
+.bioDesc {
+    grid-row: 3 /span 3;
+    grid-column: 1 / span 7;
+    margin: 2%;
+    border: 1px black dotted;
+    padding: 0 10%
+}
+.bioDesc p {
+    font-size: 1.2em;
+}
+
+.secondPicture {
+    grid-row: 3/ span 3;
+    grid-column: 8 / span 3;
+    margin: 2%;
+    border: 1px black dotted;
+}
+
+.tertiaryPicture {
+    grid-row: 6 / span 3;
+    grid-column: 1 / span 3;
+    margin: 2%;
+    border: 1px black dotted;
+}
+
+.notablePubLinks {
+    grid-row: 6 / span 3;
+    grid-column: 4 / span 8;
+    margin: 2%;
+    border: 1px black dotted;
+}

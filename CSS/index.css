@@ -1,0 +1,138 @@
+/*
+This is the main CSS file that applies to all pages in the site. This include the header, footer, banner/banner menu, as well as general font and style
+conventions followed in the site.
+
+Jori Carter
+*/
+
+body, html {
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Animations*/
+@keyframes buttonFlash {
+    0% {opacity: 100%}
+    50% {opacity: 0%;}
+    100% {opacity: 100%;}
+}
+
+/*Heading*/
+.heading {
+    color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 30% 10% 1fr;
+    top: 0;
+    position: fixed;
+    height: 10vh;
+    width: 100vw; 
+    text-decoration: none; 
+    background: linear-gradient( #4d515f, #333333);
+    justify-content: center;
+    z-index: 1;
+
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    grid-column: 1 / span 1;
+}
+
+.title h1{
+    font-size: 1.4em;
+}
+
+.navBar {
+    grid-column-start: 3;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 3%;
+}
+
+.heading a {
+    color: white;
+    font-size: 1.2em;
+    padding: 3%;
+}
+
+.heading img {
+    height: 10vh;
+    margin: 0 2%;
+}
+
+.heading a:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+#current{
+    color: rgb(187, 187, 187);
+}
+
+/* Banner and Time Menu Component */
+.banner{
+    display: grid;
+    margin-top: 10vh;
+    width: 100vw;
+    height: 36.67vh;
+    grid-template-rows: 81% 19%;
+    background: linear-gradient(90deg, #464646, #8890aa) ;
+    color: white;
+}
+.bannerImage{
+    grid-row: 1;
+    background-size: 100vw;
+    background-position: center;
+}
+.bannerImage h1{
+    justify-self: center;
+    font-size: 3em;
+}
+.timeMenu{
+    align-self: center;
+    justify-self: center;
+    grid-row: 2;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: white
+}
+.timeMenu a+a::before{
+    content: '||  ';
+    color: white;
+}
+.timeMenu a {
+    color: white;
+}
+.timeMenu a:hover {
+    color: rgb(187, 187, 187)
+}
+
+
+/* Footer */
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 15vh;
+    width: 100vw;
+    justify-self: center;
+    align-self: center;
+}
+
+.UWLogo{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.UWLogo img{
+    height: 70%;
+}

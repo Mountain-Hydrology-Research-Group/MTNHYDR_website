@@ -1,0 +1,30 @@
+.publishedContent{
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+}
+
+.bannerImage{
+    background-image: url(../src/Copy\ of\ IMG_9206.jpeg);
+    background-size: cover;
+}
+
+.publicationYear{
+    grid-column: 2;
+}
+
+.publicationYear h2{
+    width: 100%;
+    font-size: 1.7em;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.publicationYear li{
+    font-size: 1.3em;
+    list-style: circle;
+    padding: 5px;
+    
+}

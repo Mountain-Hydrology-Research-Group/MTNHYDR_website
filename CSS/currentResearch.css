@@ -1,0 +1,43 @@
+.bannerImage{
+    background-image: url(../src/Copy\ of\ IMG_9727.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.researchContent{
+    display: grid;
+    grid-template-columns: 2fr 6fr 2fr;
+    grid-template-rows: 1fr 6fr 1fr 6fr 1fr 6fr 1fr 6fr 1fr;
+}
+.indivProj{
+    grid-column: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    height: 40vh;
+    justify-self: center;
+    align-self: center;
+}
+
+.projImage{
+    grid-column: 2;
+    align-self: center;
+    justify-self: center;
+}
+.projImage img{
+    width: 100%;
+}
+
+    #proj1{
+        grid-row: 2;
+    }
+    #proj2{
+        grid-row: 4;
+    }
+    #proj3{
+        grid-row: 6;
+    }
+    #proj4{
+        grid-row: 8;
+    }
+
