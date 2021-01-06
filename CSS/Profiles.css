@@ -1,54 +1,87 @@
+.bannerImage{
+    grid-row: 1;
+    background-image: url(../src/Copy\ of\ IMG_9752.jpeg);
+    background-size: cover;
+    background-position: center;
+}
 
 .profileFull {
+    margin-top: 2vh;
     margin-left: 5vw;
     margin-right: 5vw;
     display: grid;
     grid-template-columns: repeat(10, 9vw);
     grid-template-rows: repeat(8, 20vh);
+    row-gap: 2%;
 }
 
-.mainPicture {
-    grid-row: 1/span 2;
-    grid-column: 1 / span 4;
-    margin: 2%;
-    border: 1px black dotted;
+
+.firstBar {
+    grid-row: 1 / span 2;
+    grid-column: 1 / span 10;
+    display: flex;
+    background-color: #255996;
 }
 
-.titleFull {
-    grid-row: 1/ span 2;
-    grid-column: 5 / span 6;
-    margin: 2%;
-    border: 1px black dotted;
+    .mainPicture {
+        height: 100%;
+        background-color: white;
+        padding-right: 2%;
+    }
+
+    .mainPicture img{
+        height: 100%;
+    }
+
+    .titleFull {
+        color: white;
+        padding-left: 5%;
+        height: 100%;
+        width: 50%;
+    }
+
+.secondBar {
+    grid-row: 3 / span 2;
+    grid-column: 1 / span 10;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+}
+    .bioDesc {
+        padding: 0 5%;
+    }
+    .bioDesc p {
+        font-size: 100%;
+    }
+
+    .secondPicture {
+        height: 100%
+    }
+    .secondPicture img{
+        height: 100%
+    }
+
+.thirdBar{
+    grid-row: 5 / span 2;
+    grid-column: 1 / span 10;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    color: white;
+    background-color: #255996;
+}
+.tertiaryPicture, iframe{
+    height: 100%;
+    padding-right: 2%; 
+    background-color: #ffffff;
 }
 
-.bioDesc {
-    grid-row: 3 /span 3;
-    grid-column: 1 / span 7;
-    margin: 2%;
-    border: 1px black dotted;
-    padding: 0 10%
-}
-.bioDesc p {
-    font-size: 1.2em;
-}
-
-.secondPicture {
-    grid-row: 3/ span 3;
-    grid-column: 8 / span 3;
-    margin: 2%;
-    border: 1px black dotted;
-}
-
-.tertiaryPicture {
-    grid-row: 6 / span 3;
-    grid-column: 1 / span 3;
-    margin: 2%;
-    border: 1px black dotted;
+.tertiaryPicture img{
+    height: 100%;
+    
 }
 
 .notablePubLinks {
-    grid-row: 6 / span 3;
-    grid-column: 4 / span 8;
-    margin: 2%;
-    border: 1px black dotted;
+    padding: 0 2%;
+    font-size: 18px;
 }

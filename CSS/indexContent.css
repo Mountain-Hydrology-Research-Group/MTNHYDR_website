@@ -5,6 +5,18 @@
     100% {opacity: 100%;}
 }
 
+@keyframes introFade {
+    0% {
+        Opacity: 0%;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        Opacity: 100%;
+    }
+}
+
 /*Main Content*/
 .page{
     height: 100vh;
@@ -15,7 +27,7 @@
 }
 
 #pageOne {
-    background-image: url("../src/Copy\ of\ IMG_7435.jpeg");
+    background-image: url("../src/MntBaker_Ridge.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 70%;
@@ -58,6 +70,13 @@
 }
 
 /*Info boxes and Drawings */
+.webTitle{
+    grid-column: 2 / span 4;
+    grid-row: 4 / span 2;
+    font-size: 1.8em;
+    animation-name: introFade;
+    animation-duration: 2s;
+}
 .initialInfo{
     grid-column: 2/ span 2;
     grid-row: 3/ span 2;
@@ -82,6 +101,8 @@
 
     #illusRight{
         grid-column: 5 / span 1;
+        animation-name: introFade;
+        animation-duration: 1s;
     }
 
     #illusLeft{
@@ -168,7 +189,7 @@
         grid-column: 6;
     }
         #profFive .profilePicture{
-            background-image: url(../src/Profile\ Pictures/CassieProfile.jpg);
+            background-image: url(../src/Profile\ Pictures/CassieProfile.jpeg);
             background-position: center;
             background-size: cover;
         }
