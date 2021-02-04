@@ -4,12 +4,11 @@
     background-position: center;
 }
 .researchContent{
-    display: grid;
-    grid-template-columns: 2fr 6fr 2fr;
-    grid-template-rows: 1fr 6fr 1fr 6fr 1fr 6fr 1fr 6fr 1fr;
+    margin-top: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 .indivProj{
-    grid-column: 2;
     display: grid;
     grid-template-columns: 1fr 1fr;
     border-top: 1px solid black;
@@ -17,6 +16,7 @@
     height: 40vh;
     justify-self: center;
     align-self: center;
+    margin-bottom: 50px;
 }
 
 .projImage{
@@ -28,16 +28,4 @@
     width: 100%;
 }
 
-    #proj1{
-        grid-row: 2;
-    }
-    #proj2{
-        grid-row: 4;
-    }
-    #proj3{
-        grid-row: 6;
-    }
-    #proj4{
-        grid-row: 8;
-    }
 

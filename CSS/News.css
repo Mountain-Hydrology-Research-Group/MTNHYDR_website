@@ -1,0 +1,29 @@
+.bannerImage{
+    background-image: url(../src/Copy\ of\ IMG_9727.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.mainNewsContent {
+    margin: 0 5vw;
+    width: 90vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.newsPanel{
+    grid-column: 1;
+    width: 100%;
+}
+
+.twitterBoard {
+    grid-column: 2;
+}
+
+.twitterArea {
+    height: 90%;
+    width: 90%;
+    border: dotted 1px black;
+    margin: 5%;
+    background-color: rgb(86, 194, 236);
+}

@@ -8,6 +8,12 @@
     background-size: cover;
 }
 
+.bannerImageToolBox{
+    background-image: url(../src/Copy\ of\ IMG_9727.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
 .publicationYear{
     grid-column: 2;
 }

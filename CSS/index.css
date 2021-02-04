@@ -10,8 +10,6 @@ body, html {
     margin: 0;
     padding: 0;
     background-color: rgb(255, 255, 255);
-    overflow-x: hidden;
-    overflow-y: inherit;
 }
 
 a {
@@ -154,9 +152,11 @@ a {
 /* Footer */
 .footer {
     display: grid;
+    margin: 0;
+    padding: 0;
     grid-template-columns: 1fr 1fr 1fr;
     height: 15vh;
-    width: 100vw;
+    width: 90vw;
     justify-self: center;
     align-self: center;
 }
@@ -170,3 +170,7 @@ a {
 .UWLogo img{
     height: 70%;
 }
+
+@media only screen and (max-width: 600px) {
+    
+  }
