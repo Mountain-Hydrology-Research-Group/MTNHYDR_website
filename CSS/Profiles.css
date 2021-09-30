@@ -54,6 +54,14 @@
         font-size: 100%;
     }
 
+    .bioDesc a {
+        color: black;
+    }
+
+    .bioDesc a:hover {
+        color: rgb(78, 78, 78)
+    }
+
     .secondPicture {
         height: 100%
     }
@@ -85,3 +93,57 @@
     padding: 0 2%;
     font-size: 18px;
 }
+
+/*Here is the media query for the Tablet/Phone sizes*/
+@media only screen and (max-width: 1200px) {
+    .profileFull {
+        display: block;
+        margin-top: 2vh;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    
+    
+    .firstBar {
+        display: flex;
+        height: 40vh;
+        width: 100%;
+        background-color: #255996;
+        justify-content: center;
+    }
+    
+        .mainPicture {
+            visibility: hidden;
+        }
+    
+        .titleFull {
+            color: white;
+            height: 100%;
+            width: 100%;
+            justify-content: center;
+        }
+    
+    .secondBar {
+        display: flex;
+        justify-content: flex-start;
+        align-content: center;
+    }
+        .secondPicture {
+            visibility: hidden;
+        }
+        .bioDesc p {
+            font-size: 100%;
+            width: 100%;
+        }
+    
+    .thirdBar{
+        width: 90vw;
+        display: flex;
+        justify-content: flex-start;
+        align-content: center;
+    
+    }
+    .tertiaryPicture, iframe{
+        visibility: hidden;
+    }
+  }

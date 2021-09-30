@@ -9,7 +9,6 @@ body, html {
     font-family: "Raleway", Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: rgb(255, 255, 255);
 }
 
 a {
@@ -36,7 +35,7 @@ a {
 .heading {
     color: rgb(255, 255, 255);
     display: grid;
-    grid-template-columns: 30% 10% 1fr;
+    grid-template-columns: 40% 10% 1fr;
     top: 0;
     position: fixed;
     height: 10vh;
@@ -45,7 +44,6 @@ a {
     background-color: #333333;
     justify-content: center;
     z-index: 1;
-
 }
 
 .title{
@@ -65,6 +63,7 @@ a {
     justify-content: flex-end;
     align-items: center;
     margin-right: 3%;
+    height: 100%;
 }
 
 .mainMenuOption {
@@ -110,6 +109,10 @@ a {
     color: rgb(187, 187, 187);
 }
 
+.navBarPhone{
+    visibility: hidden;
+}
+
 /* Banner and Time Menu Component */
 .banner{
     display: grid;
@@ -153,12 +156,20 @@ a {
 .footer {
     display: grid;
     margin: 0;
-    padding: 0;
+    padding: 0 5vw;
     grid-template-columns: 1fr 1fr 1fr;
-    height: 15vh;
+    height: 100%;
     width: 90vw;
-    justify-self: center;
-    align-self: center;
+    background-color: #333333;
+    color: white;
+}
+
+.footer a {
+    color: white;
+}
+
+a:hover {
+    color:rgb(187, 187, 187);
 }
 
 .UWLogo{
@@ -168,9 +179,42 @@ a {
 }
 
 .UWLogo img{
-    height: 70%;
+    height: 60%;
 }
 
-@media only screen and (max-width: 600px) {
-    
+
+/*Here is the media query for the Tablet/Phone sizes*/
+@media only screen and (max-width: 1200px) {
+    .heading {
+        grid-template-columns: 85% 15%;
+    }
+    .navBar {
+        grid-column: 2;
+    }
+        .mainMenuOption {
+            visibility: hidden;
+        }
+        .navBarPhone {
+            visibility: visible;
+        }
+    .footer {
+        display: grid;
+        margin: 0;
+        padding: 0 5vw;
+        grid-template-columns: 1fr 1fr;
+        height: 60%;
+        width: 90vw;
+    }
+    .joinUs {
+        visibility: hidden;
+    }
+    .copyRights {
+        grid-column: 1;
+    }
+    .UWLogo{
+        grid-column: 2;
+        opacity: 0.8;
+        justify-content: flex-end;
+        width: 100%;
+    }
   }

@@ -3,6 +3,10 @@
     background-size: cover;
     background-position: center;
 }
+
+a {
+    color: black;
+}
 .researchContent{
     margin-top: 20px;
     margin-left: 15%;
@@ -23,6 +27,8 @@
     grid-column: 2;
     align-self: center;
     justify-self: center;
+    width: 100%;
+    height: 100%;
 }
 .projImage img{
     width: 100%;

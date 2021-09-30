@@ -2,6 +2,13 @@
     display: grid;
     grid-template-columns: 1fr 5fr 1fr;
 }
+.publishedContent a {
+    color: black;
+}
+
+.publishedContent a:hover {
+    color: grey;
+}
 
 .bannerImage{
     background-image: url(../src/Copy\ of\ IMG_9206.jpeg);

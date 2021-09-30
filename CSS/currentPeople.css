@@ -47,93 +47,72 @@
     justify-self: center;
 }
 
-    #profOne{
-        grid-row: 1;
-        grid-column: 1;
+
+    #profOne .profilePicture{
+        background-image: url(../src/Profile\ Pictures/JessicaProfile.jpg);
+        background-position: top;
+        background-size: cover;
     }
-        #profOne .profilePicture{
-            background-image: url(../src/Profile\ Pictures/JessicaProfile.jpg);
-            background-position: top;
-            background-size: cover;
-        }
-    #profTwo{
-        grid-row: 1;
-        grid-column: 2;
+
+    #profTwo .profilePicture{
+        background-image: url(../src/Profile\ Pictures/JustinProfile.jpg);
+        background-position: center;
+        background-size: cover;
     }
-        #profTwo .profilePicture{
-            background-image: url(../src/Profile\ Pictures/JustinProfile.jpg);
-            background-position: center;
-            background-size: cover;
-        }
-    #profThree{
-        grid-row: 1;
-        grid-column: 3;
+
+    #profThree .profilePicture{
+        background-color: grey;
+        background-position: center;
+        background-size: cover;
     }
-        #profThree .profilePicture{
-            background-color: grey;
-            background-position: center;
-            background-size: cover;
-        }
-    #profFour{
-        grid-row: 1;
-        grid-column: 4;
+
+    #profFour .profilePicture{
+        background-image: url(../src/Profile\ Pictures/StevenProfile.jpg);
+        background-position: center;
+        background-size: cover;
     }
-        #profFour .profilePicture{
-            background-image: url(../src/Profile\ Pictures/StevenProfile.jpg);
-            background-position: center;
-            background-size: cover;
-        }
-    #profFive{
-        grid-row: 2;
-        grid-column: 1;
+
+    #profFive .profilePicture{
+        background-image: url(../src/Profile\ Pictures/CassieProfile.jpeg);
+        background-position: center;
+        background-size: cover;
     }
-        #profFive .profilePicture{
-            background-image: url(../src/Profile\ Pictures/CassieProfile.jpeg);
-            background-position: center;
-            background-size: cover;
-        }
-    #profSix{
-        grid-row: 2;
-        grid-column: 2;
+
+    #profSix .profilePicture{
+        background-image: url(../src/Profile\ Pictures/HannahProfile.jpg);
+        background-position: center;
+        background-size: cover;
     }
-        #profSix .profilePicture{
-            background-image: url(../src/Profile\ Pictures/HannahProfile.jpg);
-            background-position: center;
-            background-size: cover;
-        }
-    #profSeven{
-        grid-row: 2;
-        grid-column: 3;
+
+    #profSeven .profilePicture{
+        background-image: url(../src/Profile\ Pictures/JoeProfile.png);
+        background-position: center left;
+        background-size: cover;
     }
-        #profSeven .profilePicture{
-            background-image: url(../src/Profile\ Pictures/CalistaProfile.jpg);
-            background-position: top;
-            background-size: cover;
-        }
-    #profEight{
-        grid-row: 2;
-        grid-column: 4;
+
+    #profEight .profilePicture{
+        background-image: url(../src/Profile\ Pictures/JoriProfile.jpg);
+        background-position: center;
+        background-size: cover;
     }
-        #profEight .profilePicture{
-            background-image: url(../src/Profile\ Pictures/JoeProfile.png);
-            background-position: center left;
-            background-size: cover;
-        }
-    #profNine{
-        grid-row: 3;
-        grid-column: 2;
+
+    #profNine .profilePicture{
+        background-color: grey;
+        background-position: top;
+        background-size: cover;
     }
-        #profNine .profilePicture{
-            background-image: url(../src/Profile\ Pictures/JoriProfile.jpg);
-            background-position: top;
-            background-size: cover;
+
+    /*Here is the media query for the Tablet/Phone sizes*/
+    @media only screen and (max-width: 1200px) {
+        .peopleMain{
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+            column-gap: 5px;
+            grid-gap: 5px;
         }
-    #profTen{
-        grid-row: 3;
-        grid-column: 3;
+
+        .profile a{
+            width: 30vw;
+            height: 20vh;       
+        }
     }
-        #profTen .profilePicture{
-            background-color: grey;
-            background-position: top;
-            background-size: cover;
-        }

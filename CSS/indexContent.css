@@ -19,7 +19,7 @@
 
 /*Main Content*/
 .page{
-    height: 100vh;
+    height: 800px;
     width: 100vw;
     color: rgb(255, 255, 255);
     display: grid;
@@ -28,7 +28,7 @@
 }
 
 #pageOne {
-    background-image: url("../src/MntBaker_Ridge.jpg");
+    background-image: url("../src/MntBaker_Ridge_1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 70%;
@@ -39,17 +39,21 @@
 }
 
 .meetTheTeam{
-    height: 110vh;
+    height: 1000px;
     color:rgb(255, 255, 255);
-    display: grid;
     background-image: url("../src/BoundaryWatersTrip2020-0555\ -\ Copy.jpg");
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
-    grid-template-columns: 5%  1fr 1fr 1fr 1fr 1fr 5%;
-    grid-gap: 5% 2%;
-    grid-template-rows: 15% 1fr 1fr 15%;
 }
+
+    .profileSpace {
+        padding: 5%;
+        width: 90%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 5% 2%;
+    }
 
 .scrollDown{
     grid-row: 6;
@@ -88,8 +92,9 @@
     border-radius: 1%;
 }
 
-    #info-left {
+    #infoLeft {
         grid-column: 2/ span 2;
+        grid-row: 3;
     }
 
     #infoRight {
@@ -141,96 +146,153 @@
 }
 
 .meetTheTeam h1{
-    justify-self: center;
-    align-self: end;
-    grid-column: 4;
-    grid-row: 1;
-    font-size: 2.5em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 4%;
+    font-size: 3.5em;
     color: black
 }
 
-    #profOne{
-        grid-row: 2;
-        grid-column: 2;
+    #profOne .profilePicture{
+        background-image: url(../src/Profile\ Pictures/JessicaProfile.jpg);
+        background-position: top;
+        background-size: cover;
     }
-        #profOne .profilePicture{
-            background-image: url(../src/Profile\ Pictures/JessicaProfile.jpg);
-            background-position: top;
-            background-size: cover;
-        }
-    #profTwo{
-        grid-row: 2;
-        grid-column: 3;
+
+    #profTwo .profilePicture{
+        background-image: url(../src/Profile\ Pictures/JustinProfile.jpg);
+        background-position: center;
+        background-size: cover;
     }
-        #profTwo .profilePicture{
-            background-image: url(../src/Profile\ Pictures/JustinProfile.jpg);
-            background-position: center;
-            background-size: cover;
-        }
-    #profThree{
-        grid-row: 2;
-        grid-column: 4;
+
+    #profThree .profilePicture{
+        
+        background-position: center;
+        background-size: cover;
     }
-        #profThree .profilePicture{
-            background-image: url(../src/Profile\ Pictures/VictoriaProfile.jpg);
-            background-position: center;
-            background-size: cover;
-        }
-    #profFour{
-        grid-row: 2;
-        grid-column: 5;
+
+    #profFour .profilePicture{
+        background-image: url(../src/Profile\ Pictures/StevenProfile.jpg);
+        background-position: center;
+        background-size: cover;
     }
-        #profFour .profilePicture{
-            background-image: url(../src/Profile\ Pictures/StevenProfile.jpg);
-            background-position: center;
-            background-size: cover;
-        }
-    #profFive{
-        grid-row: 2;
-        grid-column: 6;
+
+    #profFive .profilePicture{
+        background-image: url(../src/Profile\ Pictures/CassieProfile.jpeg);
+        background-position: center;
+        background-size: cover;
     }
-        #profFive .profilePicture{
-            background-image: url(../src/Profile\ Pictures/CassieProfile.jpeg);
-            background-position: center;
-            background-size: cover;
-        }
-    #profSix{
-        grid-row: 3;
-        grid-column: 2;
+
+    #profSix .profilePicture{
+        background-image: url(../src/Profile\ Pictures/HannahProfile.jpg);
+        background-position: center;
+        background-size: cover;
     }
-        #profSix .profilePicture{
-            background-image: url(../src/Profile\ Pictures/HannahProfile.jpg);
-            background-position: center;
-            background-size: cover;
-        }
-    #profSeven{
-        grid-row: 3;
-        grid-column: 3;
+
+    #profSeven .profilePicture{
+        background-image: url(../src/Profile\ Pictures/JoeProfile.png);
+        background-position: center left;
+        background-size: cover;
     }
-        #profSeven .profilePicture{
-            background-image: url(../src/Profile\ Pictures/CalistaProfile.jpg);
-            background-position: top;
-            background-size: cover;
-        }
-    #profEight{
-        grid-row: 3;
-        grid-column: 4;
+
+    #profEight .profilePicture{
+        background-image: url(../src/Profile\ Pictures/JoriProfile.jpg);
+        background-position: center;
+        background-size: cover;
     }
-        #profEight .profilePicture{
-            background-image: url(../src/Profile\ Pictures/JoeProfile.png);
-            background-position: center left;
-            background-size: cover;
+
+
+    /*Tablet and Phone screens*/
+    @media only screen and (max-width: 1200px) {
+        .page{
+            height: 100vh;
+            width: 100vw;
+            color: white;
+            display: grid;
+            grid-template-columns: 15% 70% 15%;
+            grid-template-rows: 15% 70% 15%;
         }
-    #profNine{
-        grid-row: 3;
-        grid-column: 5;
-    }
-        #profNine .profilePicture{
-            background-image: url(../src/Profile\ Pictures/JoriProfile.jpg);
-            background-position: top;
+        
+        #pageOne {
+            background-image: url("../src/MntBaker_Ridge_1.jpg");
             background-size: cover;
+            background-repeat: no-repeat;
+            background-position: left center ;
         }
-    #profTen{
-        grid-row: 3;
-        grid-column: 6;
+        
+        #pageTwo {
+            background-color: white;
+        }
+        
+        .webTitle{
+            grid-column: 2 / span 4;
+            grid-row: 4 / span 2;
+            font-size: 1.8em;
+            animation-name: introFade;
+            animation-duration: 2s;
+        }
+        .initialInfo{
+            font-size: 1.2em;
+            padding: 1.5% 3%;
+            background-color: rgba(0, 0, 0, 0.541);
+            height: auto;
+            border-radius: 1%;
+        }
+        
+            #infoLeft {
+                grid-row: 3;
+                grid-column: 2;
+                font-size: 1em;
+            }
+        
+            #infoRight {
+                grid-column: 2;
+                grid-row: 2;
+            }
+        .illustrationSpace{
+            display: flex;
+            justify-content: center;
+        }
+            #illusRight{
+                animation-name: introFade;
+                animation-duration: 1s;
+                height: 100%;
+                grid-column: 2; 
+                grid-row: 2;
+            }
+        
+            #illusLeft{
+                grid-column: 2;
+                grid-row: 2;
+                visibility: hidden;
+            }
+        
+            .illustrationSpace img{
+                height: 80%;
+                opacity: 0.8;
+            }
+        .initInfoBold{
+            text-decoration: underline;
+        }
+
+
+        .meetTheTeam{
+            
+            width: 100vw;
+            color:rgb(255, 255, 255);
+            background-image: url("../src/BoundaryWatersTrip2020-0555\ -\ Copy.jpg");
+            background-position: bottom;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        
+            .profileSpace {
+                padding: 5%;
+                width: 90%;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-gap: 5% 2%;
+            }
+        
     }
