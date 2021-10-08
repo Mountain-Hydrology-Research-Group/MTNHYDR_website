@@ -113,6 +113,29 @@ a {
     visibility: hidden;
 }
 
+/*Drop Down Menu Component --> NOTICE: This component is only visible when using the media query*/
+.dropdownMenu{
+    color: white;
+    background-color: #252525;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    width: 100vw;
+    height: 0;
+    visibility: hidden;
+}
+    .dropdownMenu li {
+        padding: 10px;
+        text-decoration: none;
+        list-style-type: none;
+    }
+    .dropdownMenu a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.2em;
+    }
+
 /* Banner and Time Menu Component */
 .banner{
     display: grid;
