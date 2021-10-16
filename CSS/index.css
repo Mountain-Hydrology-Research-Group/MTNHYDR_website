@@ -115,6 +115,7 @@ a {
 
 /*Drop Down Menu Component --> NOTICE: This component is only visible when using the media query*/
 .dropdownMenu{
+    position: fixed;
     color: white;
     background-color: #252525;
     margin-top: 0;
@@ -124,6 +125,7 @@ a {
     width: 100vw;
     height: 0;
     visibility: hidden;
+    z-index: 1;
 }
     .dropdownMenu li {
         padding: 10px;
@@ -153,6 +155,7 @@ a {
 }
 .bannerImage h1{
     justify-self: center;
+    align-self: center;
     font-size: 3em;
 }
 .timeMenu{
