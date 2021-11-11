@@ -54,7 +54,7 @@ a {
 }
 
     .title h1{
-        font-size: 1.4em;
+        font-size: 1.4vw;
     }
 
 .navBar {
@@ -73,7 +73,7 @@ a {
 
 .mainMenuOption a {
     color: white;
-    font-size: 1.2em;
+    font-size: 1.2vw;
 }
 
 .heading img {
@@ -135,7 +135,7 @@ a {
     .dropdownMenu a {
         color: white;
         text-decoration: none;
-        font-size: 1.2em;
+        font-size: 1.2vw;
     }
 
 /* Banner and Time Menu Component */
@@ -154,15 +154,17 @@ a {
     background-position: center;
 }
 .bannerImage h1{
+    width: 100%;
+    height: 100%;
     justify-self: center;
     align-self: center;
-    font-size: 3em;
+    font-size: 3vw;
 }
 .timeMenu{
     align-self: center;
     justify-self: center;
     grid-row: 2;
-    font-size: 1.2em;
+    font-size: 1.2vw;
     text-decoration: none;
     color: white
 }
