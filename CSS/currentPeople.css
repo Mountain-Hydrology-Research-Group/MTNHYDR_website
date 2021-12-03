@@ -61,7 +61,7 @@
     }
 
     #profThree .profilePicture{
-        background-color: grey;
+        background-image: url(../src/Profile\ Pictures/DannyProfile.jpg);
         background-position: center;
         background-size: cover;
     }
