@@ -40,6 +40,14 @@
         width: 50%;
     }
 
+        .titleFull a {
+            color: white;
+        }
+
+        .titleFull a:hover {
+            color: grey;
+        }
+
 .secondBar {
     grid-row: 3 / span 2;
     grid-column: 1 / span 10;
@@ -51,7 +59,7 @@
         padding: 0 5%;
     }
     .bioDesc p {
-        font-size: 100%;
+        font-size: 1vw;
     }
 
     .bioDesc a {
@@ -78,6 +86,10 @@
     color: white;
     background-color: #255996;
 }
+
+    .thirdBar p {
+        font-size: 1vw;
+    }
 .tertiaryPicture, iframe{
     height: 100%;
     padding-right: 2%; 
@@ -101,6 +113,7 @@
         margin-top: 2vh;
         margin-left: 5vw;
         margin-right: 5vw;
+        width: 90vw;
     }
     
     

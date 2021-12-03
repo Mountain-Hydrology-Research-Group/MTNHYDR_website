@@ -1,5 +1,5 @@
 const menu = document.getElementById("myMenu");
-const indexMenu = document.getElementById("indexMyMenu")
+const indexMenu = document.getElementById("indexMyMenu");
 totalClicks = -1;
 
 const openNav = () => {
