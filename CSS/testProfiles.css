@@ -11,13 +11,6 @@
     grid-template-columns: 1fr 4fr;
 }
 
-a {
-    color: black;
-}
-    a:hover {
-        color: grey
-    }
-
 .sideBar {
     grid-column: 1;
     padding: 20%;
@@ -38,7 +31,7 @@ a {
     padding: 10%;
 }
 
-    .mainTextArea img, iframe {
+    .mainTextArea img {
         width: 40%;
         margin: 5vw 30%; 
     }
@@ -273,8 +266,8 @@ a {
     background-size: cover;
 }
 
-/*Spatial Patterns of Snow Fed Streamflow*/
-#profSPOSFS {
+/*Spatial Patterns of Snow*/
+#profSpatialPatternsOfSnow {
     background-image: url(../../src/Copy\ of\ Ryan_Currier_Drone_Survey_Easton_Glacier_Mount_Baker_3.jpeg);
     background-position: center;
     background-size: cover;
@@ -286,10 +279,5 @@ a {
     background-position: center;
     background-size: cover;
 }
-/*Outreach*/
-/*General*/
-#profOutreach {
-    background-image: url(../../src/OlympexFieldCrew2.jpeg);
-    background-position: center;
-    background-size: cover;
-}
+
+
