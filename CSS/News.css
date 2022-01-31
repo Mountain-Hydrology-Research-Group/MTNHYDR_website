@@ -16,14 +16,34 @@
     width: 100%;
 }
 
-.twitterBoard {
-    grid-column: 2;
+.titleNews{
+    width: 50%;
+    margin: 20px 25%;
 }
 
-.twitterArea {
-    height: 90%;
+    .news {
+        width: 90%;
+        padding: 2%;
+        background-color: rgb(236, 235, 235);
+        margin: 2% 0;
+    }
+        .news h1 {
+            font-size: 2vw;
+            margin: 0;
+        }
+        .news h2 {
+            font-size: 1.5vw;
+            padding-bottom: 5px;
+        }
+
+.twitterBoard {
+    grid-column: 2;
+    height: 95%;
     width: 90%;
-    border: dotted 1px black;
-    margin: 5%;
-    background-color: rgb(86, 194, 236);
+    padding: 5%;
+}
+
+/*Media Queries*/
+@media only screen and (max-width: 1200px) {
+
 }
