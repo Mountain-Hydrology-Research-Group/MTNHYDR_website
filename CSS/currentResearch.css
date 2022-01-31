@@ -31,7 +31,8 @@ a {
     height: 100%;
 }
 .projImage img{
-    width: 100%;
+    padding: 1vh;
+    height: 38vh;
 }
 
 
