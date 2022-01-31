@@ -132,6 +132,7 @@ a {
         padding: 10px;
         text-decoration: none;
         list-style-type: none;
+        font-size: 10px;
     }
     .dropdownMenu a {
         color: white;
@@ -244,6 +245,31 @@ a:hover {
         grid-column: 2;
         opacity: 0.8;
         justify-content: flex-end;
+        width: 25vw;
+    }
+  }
+
+  @media only screen and (max-width: 850px) {
+    .footer {
+        display: grid;
+        margin: 0;
+        padding: 0 5vw;
+        grid-template-rows: 1fr 1fr;
+        height: 60%;
+        width: 90vw;
+        justify-content: center;
+    }
+    .joinUs {
+        visibility: hidden;
+    }
+    .copyRights {
+        grid-column: row;
+        justify-content: center;
+    }
+    .UWLogo{
+        grid-row: 2;
+        opacity: 0.8;
+        justify-content: center;
         width: 25vw;
     }
   }
