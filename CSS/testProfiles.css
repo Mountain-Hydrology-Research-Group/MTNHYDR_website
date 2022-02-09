@@ -1,0 +1,283 @@
+.bannerImage{
+    grid-row: 1;
+    background-image: url(../src/Copy\ of\ IMG_9752.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.profileFull {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.sideBar {
+    grid-column: 1;
+    padding: 20%;
+}
+
+    .mainPicture {
+        border-radius: 100%;
+        height: 300px;
+        width: 300px;
+    }
+
+    .titleFull {
+        text-align: center;
+    }
+
+.mainTextArea {
+    grid-column: 2;
+    padding: 10%;
+}
+
+    .mainTextArea img {
+        width: 40%;
+        margin: 5vw 30%; 
+    }
+
+/*Media Queries*/
+@media only screen and (max-width: 1200px) {
+    .profileFull {
+        width: 100vw;
+        display: block;
+    }
+    
+    .sideBar{
+        width: 100%;
+        padding: 0;
+        display: block;
+    }
+    
+        .mainPicture {
+            border-radius: 100%;
+            height: 25vw;
+            width: 25vw;
+            margin: 2vh 37.5vw
+        }
+        .titleFull {
+            text-align: center;
+        }
+            .titleFull h1{
+                font-size: 3vw;
+            }
+            .titleFull h2{
+                font-size: 2vw;
+            }
+            .titleFull h3{
+                font-size: 1.5vw;
+            }
+    
+    .mainTextArea {
+        padding: 5vw;
+        width: 90vw;
+    }
+
+        .mainTextArea h1 {
+            font-size: 3vw;
+        }
+        .mainTextArea p, li{
+            font-size: 1.5vw;
+        }
+        
+
+}
+
+
+
+
+/*Here is the code for each the profile circular images*/
+
+/*People*/
+/*Jessica Lundquist*/
+#profJessica{
+    background-image: url(../src/Profile\ Pictures/JessicaProfile.jpg);
+    background-position: top;
+    background-size: cover;
+}
+
+/*Annalise Pree*/
+#profAnnalise{
+    background-image: url(../src/Profile\ Pictures/anna\ profile\ picture.PNG);
+    background-position: top;
+    background-size: cover;
+}
+
+/*Annika Prom*/
+#profAnnika{
+    background-image: url(../src/Profile\ Pictures/annika\ profile\ picture.PNG);
+    background-position: top;
+    background-size: cover;
+}
+
+/*Jori Carter*/
+#profJori{
+    background-image: url(../src/Profile\ Pictures/JoriProfile.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*Joe Ammatelli*/
+#profJoe{
+    background-image: url(../src/Profile\ Pictures/JoeProfile.jpg);
+    background-position: center left;
+    background-size: cover;
+}
+
+/*Hannah Besso*/
+#profHannah{
+    background-image: url(../src/Profile\ Pictures/HannahProfile.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*Cassie Lumbrazo*/
+#profCassie{
+    background-image: url(../src/Profile\ Pictures/CassieProfile.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*Steven Pestana*/
+#profSteven{
+    background-image: url(../src/Profile\ Pictures/StevenProfile.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*Danny Hogan*/
+#profDanny{
+    background-image: url(../src/Profile\ Pictures/DannyProfile.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*Justin Pflug*/
+#profJustin{
+    background-image: url(../src/Profile\ Pictures/JustinProfile.jpg);
+    background-position: center;
+    background-size: contain;
+}
+
+/*Calista Moore*/
+#profCalista {
+    background-image: url(../src/Profile\ Pictures/CalistaProfile.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+/*Research*/
+/*Forests and Snow*/
+#profForestAndSnow {
+    background-image: url(../../src/Copy\ of\ Ryan_Currier_Drone_Survey_Easton_Glacier_Mount_Baker_3.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*Intercomparison of Meteorological Forcing Data from Empirical and Mesoscale Model Sources*/
+#profIMFDEMMS {
+    background-image: url(../../src/Copy\ of\ Ryan_Currier_Drone_Survey_Easton_Glacier_Mount_Baker_3.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*Intermittent Snow and Process Dynamics*/
+#profIntermittentSnowProcessDynamics {
+    background-image: url(../../src/Copy\ of\ Ryan_Currier_Drone_Survey_Easton_Glacier_Mount_Baker_3.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*Mapping Temperature in Complex Terrain*/
+#profMTICT {
+    background-image: url(../../src/Copy\ of\ Ryan_Currier_Drone_Survey_Easton_Glacier_Mount_Baker_3.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*Meadow Ecology and Snow Climate*/
+#profMEASC {
+    background-image: url(../../src/Copy\ of\ Ryan_Currier_Drone_Survey_Easton_Glacier_Mount_Baker_3.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*OLYMPEX*/
+#profOLYMPEX {
+    background-image: url(../../src/Copy\ of\ Ryan_Currier_Drone_Survey_Easton_Glacier_Mount_Baker_3.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*Orographic Precipitation*/
+#profOrographicPrecipitation {
+    background-image: url(../../src/Copy\ of\ Ryan_Currier_Drone_Survey_Easton_Glacier_Mount_Baker_3.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*Rain on Snow Module*/
+#profRainOnSnowModule {
+    background-image: url(../../src/Copy\ of\ Ryan_Currier_Drone_Survey_Easton_Glacier_Mount_Baker_3.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*Rain vs Snow*/
+#profRainVsSnow {
+    background-image: url(../../src/Copy\ of\ Ryan_Currier_Drone_Survey_Easton_Glacier_Mount_Baker_3.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*Remote Sensing of Radiation*/
+#profRemoteSensingOfRadiation {
+    background-image: url(../../src/Copy\ of\ Ryan_Currier_Drone_Survey_Easton_Glacier_Mount_Baker_3.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*Silvicliture to Maximize Snow Retention*/
+#profSTMSR {
+    background-image: url(../../src/Copy\ of\ Ryan_Currier_Drone_Survey_Easton_Glacier_Mount_Baker_3.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*Snow Information for Wildlife Systems*/
+#profSIFWS {
+    background-image: url(../../src/Copy\ of\ Ryan_Currier_Drone_Survey_Easton_Glacier_Mount_Baker_3.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*Snow Patterns*/
+#profSnowPatterns {
+    background-image: url(../../src/Copy\ of\ Ryan_Currier_Drone_Survey_Easton_Glacier_Mount_Baker_3.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*Snow Temperature in the Sierra*/
+#profSnowTemperature {
+    background-image: url(../../src/Copy\ of\ Ryan_Currier_Drone_Survey_Easton_Glacier_Mount_Baker_3.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*Spatial Patterns of Snow*/
+#profSpatialPatternsOfSnow {
+    background-image: url(../../src/Copy\ of\ Ryan_Currier_Drone_Survey_Easton_Glacier_Mount_Baker_3.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*Wildflowers and Snow*/
+#profWildflowersAndSnow {
+    background-image: url(../../src/Copy\ of\ Ryan_Currier_Drone_Survey_Easton_Glacier_Mount_Baker_3.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+

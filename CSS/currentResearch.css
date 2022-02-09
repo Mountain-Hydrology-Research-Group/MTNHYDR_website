@@ -27,11 +27,114 @@ a {
     grid-column: 2;
     align-self: center;
     justify-self: center;
-    width: 100%;
-    height: 100%;
+    width: 30vh;
+    height: 30vh;
+    border-radius: 100%;
 }
 .projImage img{
-    width: 100%;
+    padding: 1vh;
+    height: 38vh;
 }
+
+/*Here are the filepaths for the profile pictures*/
+
+/*Current Research*/
+#profRepeatingSnowPatterns{
+    background-image: url(../src/SnowPatternsGraphic.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#profSIFWD{
+    background-image: url(../src/Laura_wildlife_diagram.png);
+    background-position: center;
+    background-size: cover;
+}
+#profForestsAndSnow{
+    background-image: url(../src/Copy\ of\ IMG_7435.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+#profSASSSASITS{
+    background-image: url(../src/NASA_S6_overview_figure.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*Past Research*/
+#prof{
+    background-image: url();
+    background-position: center;
+    background-size: cover;
+}
+#prof{
+    background-image: url();
+    background-position: center;
+    background-size: cover;
+}
+#prof{
+    background-image: url();
+    background-position: center;
+    background-size: cover;
+}
+#prof{
+    background-image: url();
+    background-position: center;
+    background-size: cover;
+}
+#prof{
+    background-image: url();
+    background-position: center;
+    background-size: cover;
+}
+#prof{
+    background-image: url();
+    background-position: center;
+    background-size: cover;
+}
+
+/*Data*/
+/*Snoqualmie Pass*/
+#profSnoqualmie {
+    background-image: url(../src/070817-231902.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*Cedar River Watershed*/
+#profCedarRiver{
+    background-image: url(../src/080904-132032.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*Mt Rainier National Park*/
+#profRainier{
+    background-image: url(../src/Copy\ of\ IMG_7435.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*North Cascades National Park*/
+#profNorthCascades{
+    background-image: url(../src/banner_background1.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*Yosemite National Park*/
+#profYosemite{
+    background-image: url(../src/NASA_S6_overview_figure.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*Niwot*/
+#profNiwot{
+    background-image: url(../src/NASA_S6_overview_figure.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
 
 
