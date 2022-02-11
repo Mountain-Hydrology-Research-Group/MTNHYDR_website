@@ -39,7 +39,7 @@
 }
 
 .meetTheTeam{
-    height: 1000px;
+    height: 1300px;
     color:rgb(255, 255, 255);
     background-image: url("../src/BoundaryWatersTrip2020-0555\ -\ Copy.jpg");
     background-position: bottom;
@@ -51,7 +51,7 @@
         padding: 5%;
         width: 90%;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-gap: 5% 2%;
     }
 
@@ -163,6 +163,12 @@
     #profTwo .profilePicture{
         background-image: url(../src/Profile\ Pictures/ncristea.png);
         background-position: center;
+        background-size: cover;
+    }
+
+    #profKehan .profilePicture{
+        background-image: url(../../src/KehanYang_MHG_website.jpeg);
+        background-position: top;
         background-size: cover;
     }
 
