@@ -55,8 +55,14 @@
     }
 
     #profTwo .profilePicture{
-        background-image: url(../src/Profile\ Pictures/JustinProfile.jpg);
+        background-image: url(../src/Profile\ Pictures/ncristea.png);
         background-position: center;
+        background-size: cover;
+    }
+
+    #profKehan .profilePicture{
+        background-image: url(../../src/KehanYang_MHG_website.jpeg);
+        background-position: top;
         background-size: cover;
     }
 
@@ -85,7 +91,7 @@
     }
 
     #profSeven .profilePicture{
-        background-image: url(../src/Profile\ Pictures/JoeProfile.png);
+        background-image: url(../src/Profile\ Pictures/JoeProfile.jpg);
         background-position: center left;
         background-size: cover;
     }
@@ -97,11 +103,16 @@
     }
 
     #profNine .profilePicture{
-        background-color: grey;
+        background-image: url(../src/Profile\ Pictures/annika\ profile\ picture.PNG);
         background-position: top;
         background-size: cover;
     }
 
+    #profTen .profilePicture{
+        background-image: url(../src/Profile\ Pictures/anna\ profile\ picture.PNG);
+        background-position: top;
+        background-size: cover;
+    }
     /*Here is the media query for the Tablet/Phone sizes*/
     @media only screen and (max-width: 1200px) {
         .peopleMain{
