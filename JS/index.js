@@ -3,6 +3,7 @@ const indexMenu = document.getElementById("indexMyMenu");
 totalClicks = -1;
 
 const openNav = () => {
+    console.log('went through');
     menu.style.height = "40vh";
     menu.style.visibility = "visible";
     indexMenu.style.height = "40vh";
