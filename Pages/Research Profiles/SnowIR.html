@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MTNHYDR: Snow IR</title>
+    <link rel="stylesheet" type="text/css" href="../../CSS/index.css" /> 
+    <link rel="stylesheet" type="text/css" href="../../CSS/Profiles.css" /> 
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway" />
+</head>
+<body>
+    <div class="heading">
+        <div class="title">
+            <img src="../../src/MTNHYDLOGO.png">
+            <h1>Mountain Hydrology Research</h1>
+        </div>
+        <div class="navBar">
+            
+            <div class="mainMenuOption">
+                <a href="../../index.html">Home</a>    
+            </div>
+            <div class="mainMenuOption">
+                <a href="../CurrentPeople.html">People</a>
+                <div class="subMenu">
+                    <a href="../CurrentPeople.html">Current Team</a>
+                    <a href="../Alumni.html">Alumni</a>
+                </div>
+            </div>
+            <div class="mainMenuOption">
+                <a href="../CurrentResearch.html">Research</a>
+                <div class="subMenu">
+                    <a href="./SnowPatterns.html">Repeatable Snow Patterns</a>
+                    <a href="./snowInformationForWildlifeSystems.html">Snow Information For Wildlife Systems</a>
+                    <a href="./forestsAndSnow.html">Forests and Snow</a>
+                    <a href="./snowTemperatureSierra.html">Snow Temperature Readings in the Sierra</a>
+                </div>    
+            </div>
+            <div class="mainMenuOption">
+                <a href="../Data.html">Data</a>
+                <div class="subMenu">
+                    <a href="../Data/rainier.shtml">Mt Rainier</a>
+                    <a href="../Data/yosemite.shtml">Yosemite</a>
+                    <a href="../Data/snoqualmie.shtml">Snoqualmie</a>
+                    <a href="../Data/cedar.shtml">Cedar River</a>
+                </div>
+            </div>
+            <div class="mainMenuOption">
+                <a href="../PublicationsPRJ.html">Publications</a>
+                <div class="subMenu">
+                    <a href="../PublicationsPRJ.html">Peer Reviewed Journals</a>
+                    <a href="../PublicationsCPro.html">Conference Proceedings</a>
+                    <a href="../PublicationsCPre.html">Conference Presentations</a>
+                    <a href="../PublicationsBTR.html">Books And Technical Reports</a>
+                </div>    
+            </div>
+            <div class="mainMenuOption">
+                <a href="../News.html">News</a>
+            </div>
+            <div class="mainMenuOption">
+                <a href="../Outreach.html">Outreach</a>
+                <div class="subMenu">
+                    <a href="../Research Profiles/RainOnSnowModule.html">Rain on Snow Module</a>
+                    <a href="">Citizen Science</a>
+                    <a href="../Join Us Pages/joinUsUndergrad.html">Join Us! Undergraduates</a>
+                    <a href="../Join Us Pages/joinUsGraduate.html">Join Us! Graduates</a>
+                    <a href="../Join Us Pages/joinUsPostDoc.html">Join Us! Post-Doctorals</a>
+                </div>
+            </div>
+            <div class="navBarPhone" onclick="buttonFunction()">
+                <img src="../../src/MenuButton.png" alt="Menu Button" />
+            </div>
+        </div>
+    </div>
+    <div class="dropdownMenu" id="myMenu">
+        <ul>
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="../People">People</a></li>
+            <li><a href="../CurrentResearch.html">Research</a></li>
+            <li><a href="../Data.html">Data</a></li>
+            <li><a href="../PublicationsPRJ.html">Publications</a></li>
+            <li><a href="../News.html">News</a></li>
+            <li><a href="../Outreach.html">Outreach/Join Us</a></li>
+        </ul>
+    </div>
+    <div class="banner">
+        <div class="bannerImage">
+            <h1>Research</h1>
+        </div>
+        <div class="timeMenu">
+            <a href="../CurrentResearch.html">Back to Research</a>
+        </div>   
+    </div>
+    <div class="profileFull">
+        <div class="sideBar">
+            <div class="mainPicture" id="profSnowTemperature"></div>
+            <div class="titleFull">
+                <h1>Infrared Remote Sensing of Seasonal Snow</h1>
+                <h2></h2>
+            </div>  
+        </div>
+        <div class="mainTextArea">
+            <p>
+                Seasonal snow that falls in the mountains is a critical source of water as it melts, for humans and the natural environment we depend on. Our ability to predict when and how much snow will melt, and how those melt patterns are changing, could be improved with better remote sensing observations such as from satellites. By taking infrared (IR) images of snow-covered areas we can map snow surface temperatures for large regions, but all remote sensing observations have tradeoffs between spatial resolution (pixel size) and temporal resolution (time between repeat observations). In this project we are working towards developing an improved source of snow-surface temperature maps from IR remote sensing observations by:
+				<ol type="1">
+					<li>understanding how these tradeoffs and other remote sensing complications impact the utility of different remote sensing sources (e.g. spatial and temporal resolution, spectral bands, view angles)</li>
+					<li>testing methods for retrieving finer spatial and temporal resolution snow-surface temperature information from multiple remote sensing observations (e.g. multispectral analysis, sensor fusion, downscaling)</li>
+				</ol>
+			</p>
+            <img src="../../src/NASA_S6_overview_figure.jpg" />
+            <p>
+                To create maps of snow-surface temperature at the finest spatial resolutions (cm-scale), such as for understanding forest-snow interactions with sunlight, shading, warming of snow by trees, forest litter and albedo, small thermal IR cameras have been mounted on drones flown over small-scale (<< 1 km2) study areas. To cover larger areas (>> 1 km2), we have also used thermal IR cameras mounted on an aircraft which can provide meter-scale spatial resolution images. 
+            </p>
+			<p>
+				The surface temperature maps produced by these airborne IR systems are impacted by their spatial resolution and view angles, especially for an area with a complex land surface of snow and trees where mixed pixels are prevalent. These lower cost, uncooled, single-band, IR cameras are also subject to several sources of error including sensor nonuniformity, temperature changes from the ambient air, direct sunlight, or self-heating from the electronics.
+			</p>
+			<p>
+				In <a href="https://doi.org/10.1029/2019WR025699">Pestana et al. (2019)</a> we used coincident observations of snow, water, and tree canopy temperatures taken in Sagehen Creek, California USA, and Davos, Switzerland to assess how all these factors influenced very fine resolution IR imagery from a drone, and meter-scale resolution IR imagery from an aircraft. The known temperature of melting snow was used to calibrate the IR imagery to correct for the rapidly changing temperature biases of the cameras, and the observed temperatures of mixed pixels were found to depend not only on spatial resolution but also forest density and the view angle of observations.
+			</p>
+            <img src="../../src/pestana2019.jpg" />
+            <p>
+                In satellite imagery with spatial resolutions of about 1 km, any IR pixel in a snowy mountain forest scene will be mixed. A spectral unmixing method to resolve the individual bulk snow-surface and forest canopy temperatures that contribute to that mixture was demonstrated in <a href="https://doi.org/10.1016/j.rse.2018.03.001">Lundquist et al. (2018)</a> for a study area in the upper Tuolumne River Basin in the Sierra Nevada of California. Multispectral imagery from MODIS IR bands were used to retrieve separate snow and forest temperatures for each pixel which were evaluated against ground-based and meter-scale airborne IR observations.
+            </p>   
+			<img src="../../src/lundquist2018.jpg" />
+			<p>
+                The MODIS instruments on NASA Terra and Aqua satellites can provide four observations per day for mid-latitude mountain ranges. For distributed models that try to predict snowmelt running at hourly timesteps, finer temporal resolution (more frequent) satellite observations would be needed to evaluate or assimilate into those models. Geostationary weather satellite imagery, such as from NOAA’s Geostationary Operational Environmental Satellite (GOES) Advanced Baseline Imagers (ABI), take images at 5 minute intervals with similar multispectral bands as MODIS. Ongoing work is evaluating:
+				<ol type="1">
+					<li>How do the coarser spatial resolution (2+ km) and off-nadir view angles impact the surface temperatures seen by GOES ABI, especially in comparison with other satellite imagers such as MODIS and ASTER?</li>
+					<li>Can separate snow and forest temperatures be retrieved from GOES ABI multispectral imagery at sub-hourly temporal resolutions?</li>
+					<li>Can finer spatial resolution surface temperature information be retrieved from GOES ABI imagery through downscaling or sensor fusion (with other satellite imagers) methods?</li>
+				</ol>
+            </p>   
+			<img src="../../src/pestana2022.jpg" />
+        </div>
+    </div>
+    <div class="footer">
+        <div class="joinUs">
+            <h3>Join us!</h3>
+            <h4><a href="../Join Us Pages/joinUsUndergrad.html">Undergraduate Students</a></h4>
+            <h4><a href="../Join Us Pages/joinUsGraduate.html">Graduate/Masters Students</a></h4>
+            <h4><a href="../Join Us Pages/joinUsPostDoc.html">PostDocs</a></h4>   
+        </div>
+        <div class="copyRights">
+            <p>
+                Univeristy of Washington<br>
+                College of Civil and Environmental Engineering<br>
+                Copyright 2021
+            </p>
+        </div>
+        <div class="UWLogo">
+            <img src="../../src/UWLogo.png" />
+        </div>
+    </div>
+    <script src="../../JS/index.js"></script>
+</body>
+</html>
