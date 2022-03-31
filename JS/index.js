@@ -1,3 +1,5 @@
+import './jquery-3.6.0.min.js';
+
 const menu = document.getElementById("myMenu");
 const indexMenu = document.getElementById("indexMyMenu");
 totalClicks = -1;
