@@ -116,16 +116,15 @@ a {
 
 /*Drop Down Menu Component --> NOTICE: This component is only visible when using the media query*/
 .dropdownMenu{
+    visibility: hidden;
     position: fixed;
     color: white;
     background-color: #252525;
-    margin-top: 0;
+    margin-top: 10vh;
     display: flex;
     justify-content: center;
     padding: 2%;
     width: 100vw;
-    height: 0;
-    visibility: hidden;
     z-index: 1;
 }
     .dropdownMenu li {
@@ -220,6 +219,9 @@ a:hover {
     }
     .navBar {
         grid-column: 2;
+    }
+    .dropdownMenu{
+        visibility: visible;
     }
         .mainMenuOption {
             visibility: hidden;
