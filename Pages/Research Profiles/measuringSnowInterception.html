@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MTNHYDR: Forests and Snow</title>
+    <link rel="stylesheet" type="text/css" href="../../CSS/index.css" /> 
+    <link rel="stylesheet" type="text/css" href="../../CSS/Profiles.css" /> 
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway" />
+</head>
+<body>
+    <div class="heading">
+        <!--JQuery-->
+    </div>
+    <div class="dropdownMenu" id="myMenu">
+        <!--JQuery-->
+    </div>
+    <div class="banner">
+        <div class="bannerImage">
+            <h1>Research</h1>
+        </div>
+        <div class="timeMenu">
+            <a href="../CurrentResearch.html">Back to Research</a>
+        </div>   
+    </div>
+    <div class="profileFull">
+        <div class="sideBar">
+            <div class="mainPicture" id="profForestsAndSnow"></div>
+            <div class="titleFull">
+                <h1>Forests and Snow</h1>
+                <ul>
+                    <li>Project Background</li>
+                    <li><a href="./forestAndSnowConModel.html">Conceptual Model and Related Maps</a></li>
+                    <li><a href="../../src/UW_Forest_Snow_1-page_summary.pdf">Printable 1-Page Project Summary</a></li>
+                    <li><a href="./forestAndSnowPubs.html">Related Publications & Presentations</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="mainTextArea">       
+            <h1>Forests and Snow Storage in the PNW</h1>
+
+        <h2>Measuring Snow Interception with FFT-Based Video Processing</h2>
+        
+        <p>
+            Snow intercepted by forest canopies dictates, among other properties, 
+            how much snow accumulates on the surface below the canopy. Given that
+            nearly half of the snow covered zone in the Northern Hemisphere is forested 
+            and up to two thirds of falling snow is intercepted by the canopy, understanding 
+            the magnitude and timing of interception events is important for accurately 
+            quantifying snow accumulation over the course of a season. Despite its importance 
+            to hydrologic modeling, measuring canopy snow interception is challenging. As a result, 
+            most models depend upon previous interception parameterizations representative of 
+            specific regions and climates, leading to a significant amount of uncertainty in
+            model output.
+        </p>
+
+        <p>
+            Building upon a growing body of work relating the sway frequency of a tree to other
+            physical properties, we are evaluating whether FFT-based video processing of tree sway 
+            can be used to infer changes in tree mass due to snow interception. Existing studies have
+            demonstrated the potential of using accelerometers to measure tree sway frequency and 
+            quantify various tree properties (including snow interception). However, accelerometers 
+            only provide point measurements of frequency and can be cumbersome to install, which limits 
+            the spatial and temporal resolution over which measurements can be collected. Video cameras 
+            represent an inexpensive alternative that most notably improve the spatial resolution of 
+            frequency measurements. Hence, we propose spectral analysis of pixel brightness time series
+            can be used to map sway frequency across a domain an measure snow interception. In particular, 
+            we are:
+            <ol>
+                <li>Investigating the degree to which tree sway frequency measurements 
+                    obtained from fft-based video processing agree with accelerometer measurements 
+                    of the same region
+                </li>
+                <li> Assessing what factors (e.g. resolution, angle, meteorologic conditions) are 
+                    important to consider when extending video processing techniques to trees
+                </li>    
+                <li> 
+                    Concluding as to whether video processing offers a robust alternative to 
+                    accelerometers for measuring tree sway frequency across time and space
+                </li>
+            </ol>
+        </p>
+
+        
+        <img src="../../src/vidProcConcept.png"/>
+        
+         
+        </div>    
+    </div>
+    <div class="footer">
+        <!--JQuery-->
+    </div>
+    <script src="../../JS/jquery-3.6.0.min.js"></script>
+    <script src="../../JS/index.js"></script>
+</body>
+</html>
