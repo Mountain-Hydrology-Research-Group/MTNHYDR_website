@@ -9,7 +9,7 @@ const find_path_origin = () => {
     if(location.port === '') {
         //Here the paths are going to split into a list, and the 2nd list item will be taken
         location_init_path = location.pathname.split('/')[1]
-        return_path = `${location.origin}/${location_init_path}/`
+        return_path = `${location.origin}/${location_init_path}`
     }
     return return_path
 }
