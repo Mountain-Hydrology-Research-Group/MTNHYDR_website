@@ -1,76 +1,91 @@
 //JQuery used here. See last lines for the actual implementation into the DOM
 
+/*First, the location and path variables must be found. This is because depending on the servers, the paths are different.
+Since the paths vary, this may need to be modified if new servers/filepath systems are added*/
+
+const find_path_origin = () => {
+    const return_path = ''
+    //If this is not run locally, the port will be defined as an empty string
+    if(location.port === '') {
+        //Here the paths are going to split into a list, and the 2nd list item will be taken
+        location_init_path = location.pathname.split('/')[1]
+        return_path = `${location.origin}/${location_init_path}/`
+    }
+    return return_path
+}
+
+path_origin = find_path_origin()
 //HTML for header and footer. Ignore the \ characters, they are just to format the string in a more HTML-friendly way.
-const headerHTML = ' \
+const headerHTML = ` \
     <div class="title"> \
-        <img src="/src/MTNHYDLOGO.png"> \
+        <img class = "logoMain" src="${path_origin}/src/MTNHYDLOGO.png"> \
         <h1>Mountain Hydrology Research</h1> \
     </div> \
     <div class="navBar"> \
         <div class="mainMenuOption"> \
-            <a href="/index.html">Home</a>    \
+            <a href="${path_origin}/index.html">Home</a>    \
         </div> \
         <div class="mainMenuOption"> \
-            <a href="/Pages/CurrentPeople.html">People</a> \
+            <a href="${path_origin}/Pages/CurrentPeople.html">People</a> \
             <div class="subMenu"> \
-                <a href="/Pages/CurrentPeople.html">Current Team</a> \
-                <a href="/Pages/Alumni.html">Alumni</a> \
+                <a href="${path_origin}/Pages/CurrentPeople.html">Current Team</a> \
+                <a href="${path_origin}/Pages/Alumni.html">Alumni</a> \
             </div> \
         </div> \
         <div class="mainMenuOption"> \
-            <a href="/Pages/CurrentResearch.html">Research</a> \
+            <a href="${path_origin}/Pages/CurrentResearch.html">Research</a> \
             <div class="subMenu"> \
-                <a href="/Pages/Research Profiles/SnowPatterns.html">Repeatable Snow Patterns</a> \
-                <a href="/Pages/Research Profiles/snowInformationForWildlifeSystems.html">Snow Information For Wildlife Systems</a> \
-                <a href="/Pages/Research Profiles/forestsAndSnow.html">Forests and Snow</a> \
-                <a href="/Pages/Research Profiles/snowTemperatureSierra.html">Snow Temperature Readings in the Sierra</a> \
+                <a href="${path_origin}/Pages/Research Profiles/SnowPatterns.html">Repeatable Snow Patterns</a> \
+                <a href="${path_origin}/Pages/Research Profiles/snowInformationForWildlifeSystems.html">Snow Information For Wildlife Systems</a> \
+                <a href="${path_origin}/Pages/Research Profiles/forestsAndSnow.html">Forests and Snow</a> \
+                <a href="${path_origin}/Pages/Research Profiles/snowTemperatureSierra.html">Snow Temperature Readings in the Sierra</a> \
             </div>    \
         </div> \
         <div class="mainMenuOption"> \
-            <a href="/Pages/PastResearch.html">Past Research</a> \
+            <a href="${path_origin}/Pages/PastResearch.html">Past Research</a> \
         </div> \
         <div class="mainMenuOption"> \
-            <a href="/Pages/Data.html">Data</a> \
+            <a href="${path_origin}/Pages/Data.html">Data</a> \
             <div class="subMenu"> \
-                <a href="/Pages/Data/rainier.shtml">Mt Rainier</a> \
-                <a href="/Pages/Data/yosemite.shtml">Yosemite</a> \
-                <a href="/Pages/Data/snoqualmie.shtml">Snoqualmie</a> \
-                <a href="/Pages/Data/cedar.shtml">Cedar River</a> \
+                <a href="${path_origin}/Pages/Data/rainier.shtml">Mt Rainier</a> \
+                <a href="${path_origin}/Pages/Data/yosemite.shtml">Yosemite</a> \
+                <a href="${path_origin}/Pages/Data/snoqualmie.shtml">Snoqualmie</a> \
+                <a href="${path_origin}/Pages/Data/cedar.shtml">Cedar River</a> \
             </div> \
         </div> \
         <div class="mainMenuOption"> \
-            <a href="/Pages/PublicationsPRJ.html">Publications</a> \
+            <a href="${path_origin}/Pages/PublicationsPRJ.html">Publications</a> \
             <div class="subMenu"> \
-                <a href="/Pages/PublicationsPRJ.html">Peer Reviewed Journals</a> \
-                <a href="/Pages/PublicationsCPro.html">Conference Proceedings</a> \
-                <a href="/Pages/PublicationsCPre.html">Conference Presentations</a> \
-                <a href="/Pages/PublicationsBTR.html">Books And Technical Reports</a> \
+                <a href="${path_origin}/Pages/PublicationsPRJ.html">Peer Reviewed Journals</a> \
+                <a href="${path_origin}/Pages/PublicationsCPro.html">Conference Proceedings</a> \
+                <a href="${path_origin}/Pages/PublicationsCPre.html">Conference Presentations</a> \
+                <a href="${path_origin}/Pages/PublicationsBTR.html">Books And Technical Reports</a> \
             </div> \
             </div> \
         <div class="mainMenuOption"> \
-            <a href="/Pages/News.html">News</a> \
+            <a href="${path_origin}/Pages/News.html">News</a> \
         </div> \
         <div class="mainMenuOption"> \
-            <a href="/Pages/Outreach.html">Outreach</a> \
+            <a href="${path_origin}/Pages/Outreach.html">Outreach</a> \
             <div class="subMenu"> \
-                <a href="/Pages/Research Profiles/RainOnSnowModule.html">Rain on Snow Module</a> \
+                <a href="${path_origin}/Pages/Research Profiles/RainOnSnowModule.html">Rain on Snow Module</a> \
                 <a href="">Citizen Science</a> \
-                <a href="/Pages/Join Us Pages/joinUsUndergrad.html">Join Us! Undergraduates</a> \
-                <a href="/Pages/Join Us Pages/joinUsGraduate.html">Join Us! Graduates</a> \
-                <a href="/Pages/Join Us Pages/joinUsPostDoc.html">Join Us! Post-Doctorals</a> \
+                <a href="${path_origin}/Pages/Join Us Pages/joinUsUndergrad.html">Join Us! Undergraduates</a> \
+                <a href="${path_origin}/Pages/Join Us Pages/joinUsGraduate.html">Join Us! Graduates</a> \
+                <a href="${path_origin}/Pages/Join Us Pages/joinUsPostDoc.html">Join Us! Post-Doctorals</a> \
             </div> \
         </div> \
     <div class="navBarPhone"> \
-        <img src="/src/MenuButton.png" alt="Menu Button" /> \
+        <img src="${path_origin}/src/MenuButton.png" alt="Menu Button" /> \
     </div> \
-    '; 
+    `; 
 
-    const footerHTML = ' \
+    const footerHTML = ` \
         <div class="joinUs"> \
             <h3>Join us!</h3> \
-            <h4><a href="/Pages/Join Us Pages/joinUsUndergrad.html">Undergraduate Students</a></h4> \
-            <h4><a href="/Pages/Join Us Pages/joinUsGraduate.html">Graduate/Masters Students</a></h4> \
-            <h4><a href="/Pages/Join Us Pages/joinUsPostDoc.html">PostDocs</a></h4>  \
+            <h4><a href="${path_origin}/Pages/Join Us Pages/joinUsUndergrad.html">Undergraduate Students</a></h4> \
+            <h4><a href="${path_origin}/Pages/Join Us Pages/joinUsGraduate.html">Graduate/Masters Students</a></h4> \
+            <h4><a href="${path_origin}/Pages/Join Us Pages/joinUsPostDoc.html">PostDocs</a></h4>  \
         </div> \
         <div class="copyRights"> \
             <h3>Our Home</h3> \
@@ -81,23 +96,21 @@ const headerHTML = ' \
             </p> \
         </div> \
         <div class="UWLogo"> \
-            <img src="/src/UWLogo.png" /> \
+            <img src="${path_origin}/src/UWLogo.png" /> \
         </div> \
-    ';
+    `;
 
-    const dropdownMenuHTML = '\
+    const dropdownMenuHTML = `\
     <ul> \
-        <li><a href="/index.html">Home</a></li> \
-        <li><a href="/Pages/CurrentPeople.html">People</a></li> \
-        <li><a href="/Pages/CurrentResearch.html">Research</a></li> \
-        <li><a href="/Pages/Data.html">Data</a></li> \
-        <li><a href="/Pages/PublicationsPRJ.html">Publications</a></li> \
-        <li><a href="/Pages/News.html">News</a></li> \
-        <li><a href="/Pages/Outreach.html">Outreach/Join Us</a></li> \
+        <li><a href="${path_origin}/index.html">Home</a></li> \
+        <li><a href="${path_origin}/Pages/CurrentPeople.html">People</a></li> \
+        <li><a href="${path_origin}/Pages/CurrentResearch.html">Research</a></li> \
+        <li><a href="${path_origin}/Pages/Data.html">Data</a></li> \
+        <li><a href="${path_origin}/Pages/PublicationsPRJ.html">Publications</a></li> \
+        <li><a href="${path_origin}/Pages/News.html">News</a></li> \
+        <li><a href="${path_origin}/Pages/Outreach.html">Outreach/Join Us</a></li> \
     </ul> \
-    ';
-
-
+    `;
 
 //Here is the actual JQuery portion    
 $(document).ready(() => {
