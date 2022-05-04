@@ -314,3 +314,17 @@
             }
         
     }
+    @media only screen and (max-width: 600px) {
+        .meetTheTeam{
+            height: 2600px;
+            width: 100vw;
+            
+        }
+            .profileSpace {
+                padding: 5%;
+                width: 90%;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-gap: 5% 2%;
+            }
+    }

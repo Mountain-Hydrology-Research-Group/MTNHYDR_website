@@ -4,12 +4,14 @@
 Since the paths vary, this may need to be modified if new servers/filepath systems are added*/
 
 const find_path_origin = () => {
-    const return_path = ''
+    let return_path = ''
     //If this is not run locally, the port will be defined as an empty string
     if(location.port === '') {
         //Here the paths are going to split into a list, and the 2nd list item will be taken
         location_init_path = location.pathname.split('/')[1]
         return_path = `${location.origin}/${location_init_path}`
+        console.log(location_init_path)
+        console.log(location.origin)
     }
     return return_path
 }
