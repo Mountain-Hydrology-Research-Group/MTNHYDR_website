@@ -300,3 +300,10 @@ a {
     background-position: center;
     background-size: cover;
 }
+
+/*Past Pages*/
+#camerasInTrees {
+    background-image: url(../src/camerasintrees/camfig1.jpg);
+    background-position: center;
+    background-size: cover;
+}
