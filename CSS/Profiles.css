@@ -112,7 +112,7 @@ a {
 
 /*Kehan Yang*/
 #profKehan{
-    background-image: url(../../src/KehanYang_MHG_website.jpeg);
+    background-image: url(../src/KehanYang_MHG_website.jpeg);
     background-position: top;
     background-size: cover;
 }
@@ -177,6 +177,13 @@ a {
 #profCalista {
     background-image: url(../src/Profile\ Pictures/CalistaProfile.jpg);
     background-position: center;
+    background-size: cover;
+}
+
+/*Ross Mower*/
+#profRoss {
+    background-image: url(../src/Profile\ Pictures/RossProfile.jpg);
+    background-position: bottom;
     background-size: cover;
 }
 
