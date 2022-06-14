@@ -17,6 +17,8 @@ const find_path_origin = () => {
 }
 
 path_origin = find_path_origin()
+
+
 //HTML for header and footer. Ignore the \ characters, they are just to format the string in a more HTML-friendly way.
 const headerHTML = ` \
     <div class="title"> \
