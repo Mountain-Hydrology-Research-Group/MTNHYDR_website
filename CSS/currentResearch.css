@@ -44,6 +44,11 @@ a {
     background-position: center;
     background-size: cover;
 }
+#profSublimationofSnow{
+    background-image: url(../src/sublimation_install_photo.png);
+    background-position: center;
+    background-size: cover;
+}
 #profSIFWD{
     background-image: url(../src/Laura_wildlife_diagram.png);
     background-position: center;
