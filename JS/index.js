@@ -39,6 +39,7 @@ const headerHTML = ` \
         <div class="mainMenuOption"> \
             <a href="${path_origin}/Pages/CurrentResearch.html">Research</a> \
             <div class="subMenu"> \
+                <a href="${path_origin}/Pages/Research Profiles/SublimationOfSnow.html">Sublimation of Snow</a> \
                 <a href="${path_origin}/Pages/Research Profiles/SnowPatterns.html">Repeatable Snow Patterns</a> \
                 <a href="${path_origin}/Pages/Research Profiles/snowInformationForWildlifeSystems.html">Snow Information For Wildlife Systems</a> \
                 <a href="${path_origin}/Pages/Research Profiles/forestsAndSnow.html">Forests and Snow</a> \
