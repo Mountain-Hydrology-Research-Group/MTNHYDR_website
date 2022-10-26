@@ -207,7 +207,7 @@
         background-position: center;
         background-size: cover;
     }
-
+    /*
     #profNine .profilePicture{
         background-image: url(../src/Profile\ Pictures/Annika\ profile\ picture.png);
         background-position: center;
@@ -219,8 +219,19 @@
         background-position: center;
         background-size: cover;
     }
+    */
 
+    #profRoss .profilePicture{
+        background-image: url(../src/Profile\ Pictures/RossProfile.jpg);
+        background-position: bottom;
+        background-size: cover;
+    }
 
+    #profEli .profilePicture{
+        background-image: url(../src/Profile\ Pictures/EliProfile.jpeg);
+        background-position: bottom;
+        background-size: cover;
+    }
     /*Tablet and Phone screens*/
     @media only screen and (max-width: 1200px) {
         .page{

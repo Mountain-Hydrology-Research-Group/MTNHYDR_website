@@ -43,6 +43,11 @@ a {
         margin: 5vw 30%; 
     }
 
+    
+.blueLink {
+    color: royalblue
+}
+
 /*Media Queries*/
 @media only screen and (max-width: 1200px) {
     .profileFull {
@@ -187,6 +192,12 @@ a {
     background-size: cover;
 }
 
+#profEli {
+    background-image: url(../src/Profile\ Pictures/EliProfile.jpeg);
+    background-position: bottom;
+    background-size: cover;
+}
+
 
 /*Research*/
 /*Forests and Snow*/
@@ -297,6 +308,12 @@ a {
 /*Wildflowers and Snow*/
 #profWildflowersAndSnow {
     background-image: url(../../src/Copy\ of\ Ryan_Currier_Drone_Survey_Easton_Glacier_Mount_Baker_3.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+#profSublimationOfSnow {
+    background-image: url(../../src/sublimation_of_snow.png);
     background-position: center;
     background-size: cover;
 }
