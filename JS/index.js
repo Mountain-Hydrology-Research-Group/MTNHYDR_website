@@ -44,7 +44,7 @@ const headerHTML = ` \
                 <a href="${path_origin}/Pages/Research Profiles/snowInformationForWildlifeSystems.html">Snow Information For Wildlife Systems</a> \
                 <a href="${path_origin}/Pages/Research Profiles/forestsAndSnow.html">Forests and Snow</a> \
                 <a href="${path_origin}/Pages/Research Profiles/snowTemperatureSierra.html">Snow Temperature Readings in the Sierra</a> \
-                <a href="${path_origin}/Pages/Research Profiles/SnowIR.html">Snow Temperature Readings in the Sierra</a> \
+                <a href="${path_origin}/Pages/Research Profiles/SnowIR.html">Snow IR</a> \
             </div>    \
         </div> \
         <div class="mainMenuOption"> \
