@@ -1,21 +1,4 @@
-/*Animations*/
-@keyframes buttonFlash {
-    0% {opacity: 100%}
-    50% {opacity: 0%;}
-    100% {opacity: 100%;}
-}
-
-@keyframes introFade {
-    0% {
-        Opacity: 0%;
-    }
-    50% {
-        opacity: 0;
-    }
-    100% {
-        Opacity: 100%;
-    }
-}
+/*Index page content*/
 
 /*Main Content*/
 .page{
@@ -67,9 +50,6 @@
 }
 
 .scrollButton img{
-    animation-name: buttonFlash;
-    animation-duration: 1.5s;
-    animation-iteration-count: infinite;
     justify-self: center;
     height: 75%;
 }
@@ -154,6 +134,7 @@
     color: black
 }
 
+    /*Profile pictures*/
     #profOne .profilePicture{
         background-image: url(../src/Profile\ Pictures/JessicaProfile.jpg);
         background-position: top;
@@ -202,36 +183,24 @@
         background-size: cover;
     }
 
-    #profEight .profilePicture{
-        background-image: url(../src/Profile\ Pictures/JoriProfile.jpg);
+    #profMatthew .profilePicture{
+        background-image: url();
         background-position: center;
         background-size: cover;
     }
-    /*
-    #profNine .profilePicture{
-        background-image: url(../src/Profile\ Pictures/Annika\ profile\ picture.png);
-        background-position: center;
-        background-size: cover;
-    }
-
-    #profTen .profilePicture{
-        background-image: url(../src/Profile\ Pictures/Anna\ profile\ picture.png);
-        background-position: center;
-        background-size: cover;
-    }
-    */
 
     #profRoss .profilePicture{
         background-image: url(../src/Profile\ Pictures/RossProfile.jpg);
         background-position: bottom;
         background-size: cover;
     }
-
+    
     #profEli .profilePicture{
         background-image: url(../src/Profile\ Pictures/EliProfile.jpeg);
         background-position: bottom;
         background-size: cover;
     }
+
     /*Tablet and Phone screens*/
     @media only screen and (max-width: 1200px) {
         .page{
