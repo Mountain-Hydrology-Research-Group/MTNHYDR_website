@@ -184,7 +184,7 @@
     }
 
     #profMatthew .profilePicture{
-        background-image: url();
+        background-image: url(../src/Profile\ Pictures/MatthewProfile.jpg);
         background-position: center;
         background-size: cover;
     }
