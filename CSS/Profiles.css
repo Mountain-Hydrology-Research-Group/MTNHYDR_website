@@ -136,6 +136,20 @@ a {
     background-size: cover;
 }
 
+/*Matthew Bonner*/
+#profMatthew{
+    background-image: url(../src/Profile\ Pictures/MatthewProfile.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*John Cramblitt*/
+#profJohn{
+    background-image: url(../src/Profile\ Pictures/JohnProfile.jpg);
+    background-position: top;
+    background-size: cover;
+}
+
 /*Joe Ammatelli*/
 #profJoe{
     background-image: url(../src/Profile\ Pictures/JoeProfile.jpg);
