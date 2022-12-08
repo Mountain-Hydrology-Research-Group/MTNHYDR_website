@@ -96,20 +96,14 @@
         background-size: cover;
     }
 
-    #profEight .profilePicture{
-        background-image: url(../src/Profile\ Pictures/JoriProfile.jpg);
+    #profMatthew .profilePicture{
+        background-image: url(../src/Profile\ Pictures/MatthewProfile.jpg);
         background-position: center;
         background-size: cover;
     }
 
-    #profNine .profilePicture{
-        background-image: url(../src/Profile\ Pictures/annika\ profile\ picture.PNG);
-        background-position: top;
-        background-size: cover;
-    }
-
-    #profTen .profilePicture{
-        background-image: url(../src/Profile\ Pictures/anna\ profile\ picture.PNG);
+    #profJohn .profilePicture{
+        background-image: url(../src/Profile\ Pictures/JohnProfile.jpg);
         background-position: top;
         background-size: cover;
     }
