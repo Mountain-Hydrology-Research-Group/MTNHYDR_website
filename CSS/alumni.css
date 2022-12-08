@@ -167,6 +167,12 @@
 
 /*Masters*/
 
+#masterJoe .profilePic {
+    background-image: url(../src/Profile\ Pictures/JoeProfile.jpg);
+    background-position: center left;
+    background-size: cover;
+}
+
 #mastersOne .profilePic {
     background-image: url(../src/Profile\ Pictures/AnnieProfilePic.jpg);
     background-position: center;
@@ -228,6 +234,24 @@
 }
 
 /*Undergraduate*/
+
+#undergradJori .profilePic {
+    background-image: url(../src/Profile\ Pictures/JoriProfile.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#undergradAnnalise .profilePic {
+    background-image: url(../src/Profile\ Pictures/Anna\ Profile\ Picture.PNG);
+    background-position: top;
+    background-size: cover;
+}
+
+#undergradAnnika .profilePic {
+    background-image: url(../src/Profile\ Pictures/Annika\ profile\ picture.PNG);
+    background-position: top;
+    background-size: cover;
+}
 
 #undergradOne .profilePic {
     background-image: url(../src/Profile\ Pictures/hhampson.jpg);
