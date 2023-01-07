@@ -27,6 +27,11 @@
         background-color: rgb(236, 235, 235);
         margin: 2% 0;
     }
+        .news img {
+            max-width: 100%;
+            height: auto;
+        }
+
         .news h1 {
             font-size: 2vw;
             margin: 0;
