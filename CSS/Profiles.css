@@ -49,11 +49,11 @@ a {
 }
 .videocontent {
     grid-column: 2;
-    padding: 10%;
 }
     .videocontent iframe {
         width: 70%;
-       
+        display: block;
+        margin: auto;
     }
 
 /*Media Queries*/
