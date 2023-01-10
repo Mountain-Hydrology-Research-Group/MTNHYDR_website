@@ -47,6 +47,14 @@ a {
 .blueLink {
     color: royalblue
 }
+.videocontent {
+    grid-column: 2;
+    padding: 10%;
+}
+    .videocontent iframe {
+        width: 70%;
+        margin: 5vw 30%;
+    }
 
 /*Media Queries*/
 @media only screen and (max-width: 1200px) {
