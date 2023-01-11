@@ -53,11 +53,10 @@ a {
     padding: 10%;
 }
     .videocontent iframe {
-        width: 50%;
-        display: block;
+        width: 70%;
         margin: auto;
     }
-    
+
 /*Media Queries*/
 @media only screen and (max-width: 1200px) {
     .profileFull {
