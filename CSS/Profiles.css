@@ -55,8 +55,13 @@ a {
     .videocontent iframe {
         width: 70%;
         display: block;
+        margin: auto;
     }
 
+    .videocontent img {
+        width: 40%;
+        margin: 5vw 30%;
+    }
 /*Media Queries*/
 @media only screen and (max-width: 1200px) {
     .profileFull {
