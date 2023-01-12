@@ -22,7 +22,9 @@
     height: 42vh;
     color: white;
 }
-
+    .peoplearea:hover {
+        background-color: rgba(157, 169, 223, 0.548);
+    }
     .profilePic{
         grid-row: 1 / span 2;
         justify-self: center;
