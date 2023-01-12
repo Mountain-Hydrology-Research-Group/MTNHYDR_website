@@ -43,6 +43,9 @@
             align-self: center;
             color: white;
         }
+        .name a {
+            color: white;
+        }
 
     .currentPlace{
         grid-row: 5;  
