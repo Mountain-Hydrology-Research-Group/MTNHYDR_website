@@ -177,12 +177,6 @@
         background-size: cover;
     }
 
-    #profSeven .profilePicture{
-        background-image: url(../src/Profile\ Pictures/JoeProfile.jpg);
-        background-position: center left;
-        background-size: cover;
-    }
-
     #profMatthew .profilePicture{
         background-image: url(../src/Profile\ Pictures/MatthewProfile.jpg);
         background-position: center;
