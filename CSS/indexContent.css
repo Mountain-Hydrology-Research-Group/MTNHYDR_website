@@ -196,8 +196,8 @@
     }
     
     #profEli .profilePicture{
-        background-image: url(../src/Profile\ Pictures/EliProfile.jpeg);
-        background-position: bottom;
+        background-image: url(../src/Profile\ Pictures/EliProfile.jpg);
+        background-position: right;
         background-size: cover;
     }
 
