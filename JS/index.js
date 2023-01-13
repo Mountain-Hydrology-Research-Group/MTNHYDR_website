@@ -98,7 +98,7 @@ const headerHTML = ` \
             <p> \
                 University of Washington<br> \
                 Department of Civil and Environmental Engineering<br> \
-                Copyright 2022 \
+                Copyright 2023 \
             </p> \
         </div> \
         <div class="UWLogo"> \
