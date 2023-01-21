@@ -1,0 +1,74 @@
+.bannerImage{
+    grid-row: 1;
+    background-image: url(../src/Copy\ of\ IMG_9727.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.dataFull {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+a {
+    color: black;
+}
+    a:hover {
+        color: grey
+    }
+
+.sideBar {
+    grid-column: 1;
+    padding: 15%; 
+}
+
+    .dataPicture {
+        border-radius: 100%;
+        height: 300px;
+        width: 300px;
+    }
+
+    .titleFull {
+        text-align: center;
+        
+    }
+
+.mainTextArea {
+    grid-column: 2;
+    padding: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+    .weekofdata a:hover {
+        background-color: rgba(239, 235, 235);
+    }
+
+    .weekofdata a {
+        width: 90%;
+        padding: 2%;
+        background-color: rgb(220, 217, 217);
+        margin: 2% 0;
+        border-radius: 2%;
+    }
+        .weekofdata img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .weekofdata h1 {
+            font-size: 2vw;
+            margin: 0;
+        }
+        .weekofdata h2 {
+            font-size: 1.5vw;
+            padding-bottom: 5px;
+        }
+
+
+#SublimationOfSnowDataPhoto {
+    background-image: url(../src/DannyAndEliSnowPit.jpg);
+    background-position: left;
+    background-size: cover;
+}

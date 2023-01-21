@@ -39,7 +39,7 @@ a {
     grid-template-columns: 40% 10% 1fr;
     top: 0;
     position: fixed;
-    height: 10vh;
+    height: 12vh;
     width: 100vw; 
     text-decoration: none; 
     background-color: #333333;
