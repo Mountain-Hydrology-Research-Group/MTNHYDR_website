@@ -6,9 +6,10 @@
 }
 
 .dataFull {
-    width: 100vw;
+    width: 90%;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 3fr;
+    margin: auto;
 }
 
 a {
@@ -20,7 +21,9 @@ a {
 
 .sideBar {
     grid-column: 1;
-    padding: 15%; 
+    padding-right: 5%;
+    padding-top: 10%;
+    width: 100%;
 }
 
     .dataPicture {
@@ -36,31 +39,42 @@ a {
 
 .mainTextArea {
     grid-column: 2;
-    padding: 10%;
+    /* is known to cause trouble*/
+    width: 100%;
+    padding-top: 4%;
+    padding-left: 5%;
+    height: 40vw; 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr; change number of rows here*/
+    column-gap: 3%; 
+    /*row-gap: 5%; */
 }
 
     .weekofdata a:hover {
-        background-color: rgba(239, 235, 235);
+        color: rgb(117, 112, 112);
     }
 
-    .weekofdata a {
+    .weekofdata {
         width: 90%;
-        padding: 2%;
-        background-color: rgb(220, 217, 217);
+        height: 90%;
+        background-color: rgba(236, 235, 235);
         margin: 2% 0;
         border-radius: 2%;
+        padding: 5%;
+        
     }
-        .weekofdata img {
-            max-width: 100%;
-            height: auto;
-        }
-
         .weekofdata h1 {
             font-size: 2vw;
             margin: 0;
         }
+
+        .weekofdata img {
+            max-width: 100%;
+            height: auto;
+
+        }
+
         .weekofdata h2 {
             font-size: 1.5vw;
             padding-bottom: 5px;
@@ -72,3 +86,4 @@ a {
     background-position: left;
     background-size: cover;
 }
+

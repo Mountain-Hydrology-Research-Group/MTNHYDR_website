@@ -142,6 +142,11 @@ a {
     background-size: cover;
 }
 
-
+/*Sublimation of Snow Weather Blog*/
+#profSOSData{
+    background-image: url(../src/DannyAndEliSnowPit.jpg);
+    background-position: left;
+    background-size: cover;
+}
 
 
