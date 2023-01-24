@@ -13,7 +13,7 @@
 }
 
 a {
-    color: black;
+    color: rgb(7, 5, 22);
 }
     a:hover {
         color: grey
@@ -28,57 +28,90 @@ a {
 
     .dataPicture {
         border-radius: 100%;
-        height: 300px;
-        width: 300px;
+        height: 12%;
+        width: 100%;
     }
 
     .titleFull {
         text-align: center;
+        font-size:1.5vw;
         
     }
 
-.mainTextArea {
+    .titleFull p {
+        text-align: center;
+        font-size: 1.5vw;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+
+    .titleFull a {
+        color:blueviolet;
+    }
+.weatherblog {
     grid-column: 2;
-    /* is known to cause trouble*/
-    width: 100%;
-    padding-top: 4%;
-    padding-left: 5%;
-    height: 40vw; 
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    /* grid-template-rows: 1fr; change number of rows here*/
-    column-gap: 3%; 
-    /*row-gap: 5%; */
+    grid-template-rows: 2% 98%;
 }
 
-    .weekofdata a:hover {
-        color: rgb(117, 112, 112);
+    .maintexttitle h2 {
+        grid-row: 1;
+        width: 100%;
+        font-size: 2.5vw;
+        color: black;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        text-align: center;
+        margin-left: 5%;
+        }
+
+    .mainTextArea {
+        grid-row: 2;
+        /* is known to cause trouble*/
+        width: 100%;
+        padding-top: 1%; 
+        padding-left: 5%;
+    /* height: 40vw; */ 
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        /* grid-template-rows: 1fr; change number of rows here*/
+        column-gap: 3%; 
+        row-gap: 0.3%; 
     }
 
-    .weekofdata {
-        width: 90%;
-        height: 90%;
-        background-color: rgba(236, 235, 235);
-        margin: 2% 0;
-        border-radius: 2%;
-        padding: 5%;
-        
-    }
-        .weekofdata h1 {
-            font-size: 2vw;
-            margin: 0;
+
+        .weekofdata a:hover {
+            color: rgb(117, 112, 112);
         }
 
-        .weekofdata img {
-            max-width: 100%;
-            height: auto;
-
+        .weekofdata {
+            width: 90%;
+            height: 90%;
+            background-color: rgba(236, 235, 235);
+            margin: 2% 0;
+            border-radius: 2%;
+            padding: 2% 5% 3% 5%;
+            
         }
+            .weekofdata h1 {
+                font-size: 1.8vw;
+                padding-bottom: 1%;
+            }
 
-        .weekofdata h2 {
-            font-size: 1.5vw;
-            padding-bottom: 5px;
-        }
+            .weekofdata img {
+                max-width: 100%;
+                height: auto;
+
+            }
+
+            .weekofdata p {
+                font-size: 1.5vw;
+                padding-bottom: 5%;
+            }
 
 
 #SublimationOfSnowDataPhoto {
