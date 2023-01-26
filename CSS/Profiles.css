@@ -83,6 +83,7 @@ a {
         }
         .titleFull {
             text-align: center;
+            vertical-align: top;
         }
             .titleFull h1{
                 font-size: 3vw;
@@ -230,133 +231,133 @@ a {
 /*Research*/
 /*Forests and Snow*/
 #profForestAndSnow {
-    background-image: url(../../src/Copy\ of\ Ryan_Currier_Drone_Survey_Easton_Glacier_Mount_Baker_3.jpeg);
+    background-image: url(../src/Copy\ of\ Ryan_Currier_Drone_Survey_Easton_Glacier_Mount_Baker_3.jpeg);
     background-position: center;
     background-size: cover;
 }
 
 /*Intercomparison of Meteorological Forcing Data from Empirical and Mesoscale Model Sources*/
 #profIMFDEMMS {
-    background-image: url(../../src/Copy\ of\ Ryan_Currier_Drone_Survey_Easton_Glacier_Mount_Baker_3.jpeg);
+    background-image: url(../src/Copy\ of\ Ryan_Currier_Drone_Survey_Easton_Glacier_Mount_Baker_3.jpeg);
     background-position: center;
     background-size: cover;
 }
 
 /*Intermittent Snow and Process Dynamics*/
 #profIntermittentSnowProcessDynamics {
-    background-image: url(../../src/Copy\ of\ Ryan_Currier_Drone_Survey_Easton_Glacier_Mount_Baker_3.jpeg);
+    background-image: url(../src/Copy\ of\ Ryan_Currier_Drone_Survey_Easton_Glacier_Mount_Baker_3.jpeg);
     background-position: center;
     background-size: cover;
 }
 
 /*Mapping Temperature in Complex Terrain*/
 #profMTICT {
-    background-image: url(../../src/Copy\ of\ Ryan_Currier_Drone_Survey_Easton_Glacier_Mount_Baker_3.jpeg);
+    background-image: url(../src/Copy\ of\ Ryan_Currier_Drone_Survey_Easton_Glacier_Mount_Baker_3.jpeg);
     background-position: center;
     background-size: cover;
 }
 
 /*Meadow Ecology and Snow Climate*/
 #profMEASC {
-    background-image: url(../../src/Copy\ of\ Ryan_Currier_Drone_Survey_Easton_Glacier_Mount_Baker_3.jpeg);
+    background-image: url(../src/Copy\ of\ Ryan_Currier_Drone_Survey_Easton_Glacier_Mount_Baker_3.jpeg);
     background-position: center;
     background-size: cover;
 }
 
 /*OLYMPEX*/
 #profOLYMPEX {
-    background-image: url(../../src/Copy\ of\ Ryan_Currier_Drone_Survey_Easton_Glacier_Mount_Baker_3.jpeg);
+    background-image: url(../src/Copy\ of\ Ryan_Currier_Drone_Survey_Easton_Glacier_Mount_Baker_3.jpeg);
     background-position: center;
     background-size: cover;
 }
 
 /*Orographic Precipitation*/
 #profOrographicPrecipitation {
-    background-image: url(../../src/Copy\ of\ Ryan_Currier_Drone_Survey_Easton_Glacier_Mount_Baker_3.jpeg);
+    background-image: url(../src/Copy\ of\ Ryan_Currier_Drone_Survey_Easton_Glacier_Mount_Baker_3.jpeg);
     background-position: center;
     background-size: cover;
 }
 
 /*Rain on Snow Module*/
 #profRainOnSnowModule {
-    background-image: url(../../src/Copy\ of\ Ryan_Currier_Drone_Survey_Easton_Glacier_Mount_Baker_3.jpeg);
+    background-image: url(../src/Copy\ of\ Ryan_Currier_Drone_Survey_Easton_Glacier_Mount_Baker_3.jpeg);
     background-position: center;
     background-size: cover;
 }
 
 /*Rain vs Snow*/
 #profRainVsSnow {
-    background-image: url(../../src/Copy\ of\ Ryan_Currier_Drone_Survey_Easton_Glacier_Mount_Baker_3.jpeg);
+    background-image: url(../src/Copy\ of\ Ryan_Currier_Drone_Survey_Easton_Glacier_Mount_Baker_3.jpeg);
     background-position: center;
     background-size: cover;
 }
 
 /*Remote Sensing of Radiation*/
 #profRemoteSensingOfRadiation {
-    background-image: url(../../src/Copy\ of\ Ryan_Currier_Drone_Survey_Easton_Glacier_Mount_Baker_3.jpeg);
+    background-image: url(../src/Copy\ of\ Ryan_Currier_Drone_Survey_Easton_Glacier_Mount_Baker_3.jpeg);
     background-position: center;
     background-size: cover;
 }
 
 /*Silvicliture to Maximize Snow Retention*/
 #profSTMSR {
-    background-image: url(../../src/Copy\ of\ Ryan_Currier_Drone_Survey_Easton_Glacier_Mount_Baker_3.jpeg);
+    background-image: url(../src/Copy\ of\ Ryan_Currier_Drone_Survey_Easton_Glacier_Mount_Baker_3.jpeg);
     background-position: center;
     background-size: cover;
 }
 
 /*Snow Information for Wildlife Systems*/
 #profSIFWS {
-    background-image: url(../../src/Copy\ of\ Ryan_Currier_Drone_Survey_Easton_Glacier_Mount_Baker_3.jpeg);
+    background-image: url(../src/Copy\ of\ Ryan_Currier_Drone_Survey_Easton_Glacier_Mount_Baker_3.jpeg);
     background-position: center;
     background-size: cover;
 }
 
 /*Snow Patterns*/
 #profSnowPatterns {
-    background-image: url(../../src/Copy\ of\ Ryan_Currier_Drone_Survey_Easton_Glacier_Mount_Baker_3.jpeg);
+    background-image: url(../src/Copy\ of\ Ryan_Currier_Drone_Survey_Easton_Glacier_Mount_Baker_3.jpeg);
     background-position: center;
     background-size: cover;
 }
 
 /*Snow Temperature in the Sierra*/
 #profSnowTemperature {
-    background-image: url(../../src/Copy\ of\ Ryan_Currier_Drone_Survey_Easton_Glacier_Mount_Baker_3.jpeg);
+    background-image: url(../src/Copy\ of\ Ryan_Currier_Drone_Survey_Easton_Glacier_Mount_Baker_3.jpeg);
     background-position: center;
     background-size: cover;
 }
 
 /*Spatial Patterns of Snow Fed Streamflow*/
 #profSPOSFS {
-    background-image: url(../../src/Copy\ of\ Ryan_Currier_Drone_Survey_Easton_Glacier_Mount_Baker_3.jpeg);
+    background-image: url(../src/Copy\ of\ Ryan_Currier_Drone_Survey_Easton_Glacier_Mount_Baker_3.jpeg);
     background-position: center;
     background-size: cover;
 }
 
 /*Wildflowers and Snow*/
 #profWildflowersAndSnow {
-    background-image: url(../../src/Copy\ of\ Ryan_Currier_Drone_Survey_Easton_Glacier_Mount_Baker_3.jpeg);
+    background-image: url(../src/Copy\ of\ Ryan_Currier_Drone_Survey_Easton_Glacier_Mount_Baker_3.jpeg);
     background-position: center;
     background-size: cover;
 }
 
 /*Sublimation of Snow*/
 #profSublimationOfSnow {
-    background-image: url(../../src/sublimation_of_snow.png);
+    background-image: url(../src/sublimation_of_snow.png);
     background-position: center;
     background-size: cover;
 }
 /*Outreach*/
 /*General*/
 #profOutreach {
-    background-image: url(../../src/OlympexFieldCrew2.jpeg);
+    background-image: url(../src/OlympexFieldCrew2.jpeg);
     background-position: center;
     background-size: cover;
 }
 
 /*Past Pages*/
 #camerasInTrees {
-    background-image: url(../src/camerasintrees/camfig1.jpg);
+    background-image: url(../src/camerasintrees/camfig2.jpg);
     background-position: center;
     background-size: cover;
 }
