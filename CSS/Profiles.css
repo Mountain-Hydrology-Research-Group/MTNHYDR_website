@@ -6,9 +6,10 @@
 }
 
 .profileFull {
-    width: 100vw;
+    width: 90%;
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr 3fr;
+    margin: auto;
 }
 
 a {
@@ -20,7 +21,9 @@ a {
 
 .sideBar {
     grid-column: 1;
-    padding: 20%;
+    padding-right: 5%;
+    padding-top: 10%;
+    width: 100%;
 }
 
     .mainPicture {
@@ -99,13 +102,6 @@ a {
         padding: 5vw;
         width: 90vw;
     }
-
-        .mainTextArea h1 {
-            font-size: 3vw;
-        }
-        .mainTextArea p, li{
-            font-size: 1.5vw;
-        }
         
 
 }

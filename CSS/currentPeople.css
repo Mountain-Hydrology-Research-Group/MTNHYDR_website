@@ -7,6 +7,7 @@
 
 .peopleMain {
     margin-top: 20px;
+    margin-bottom: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -130,6 +131,14 @@
 
         .profile a{
             width: 30vw;
-            height: 20vh;       
+            height: 30vw;       
+        }
+        .profilePicture {
+            width: 15vw;
+            height: 15vw;
+        }
+        
+        .labelProfile {
+            font-size: 2vw
         }
     }
