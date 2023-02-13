@@ -74,11 +74,9 @@ a {
         width: 100%;
         padding-top: 1%; 
         padding-left: 5%;
-    /* height: 40vw; */ 
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-        /* grid-template-rows: 1fr; change number of rows here*/
         column-gap: 3%; 
         row-gap: 0.3%; 
     }
