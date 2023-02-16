@@ -21,6 +21,15 @@
     background-color: white;
 }
 
+    /*Code for the photo collage*/
+.photocollage{
+    height: 33vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr
+
+}
+    
+
+    /*end code for photo collage*/
 .meetTheTeam{
     height: 1300px;
     color:rgb(255, 255, 255);
@@ -200,6 +209,8 @@
         background-position: center;
         background-size: cover;
     }
+
+
 
     /*Tablet and Phone screens*/
     @media only screen and (max-width: 1200px) {
