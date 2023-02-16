@@ -3,7 +3,7 @@
     grid-template-columns: 1fr 5fr 1fr;
 }
 .publishedContent a {
-    color: black;
+    color: blueviolet;
 }
 
 .publishedContent a:hover {
