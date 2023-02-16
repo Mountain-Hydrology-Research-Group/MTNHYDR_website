@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mountain Hydrology Research</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/index.css" /> 
+    <link rel="stylesheet" type="text/css" href="../CSS/currentResearch.css" /> 
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway" />
+</head>
+<body>
+    <div class="heading">
+        <!--JQuery-->
+    </div>
+    <div class="dropdownMenu">
+        <!--JQuery-->
+    </div>
+    <div class="banner">
+        <div class="bannerImage">
+            <h1>Research</h1>
+        </div>
+        <div class="timeMenu">
+            <a href="./CurrentResearch.html">Current Projects</a>
+            <a href="./Data.html">Data</a>
+            <a id="current">Past Projects</a>
+            <a href="./PastPages.html">Past Pages</a>
+        </div>   
+    </div>
+    
+    <div class="researchContent">
+        <div class="indivProj" id="proj1">
+            <div class="projInfo">
+                <a href="./Research Profiles/IntermittentSnowAndProcessDynamics.html"><h1>Intermittent Snow and Process Dynamics</h1></a>
+            </div>
+            <div class="projImage">
+                <!--img src="../src/SnowPatternsGraphic.jpg"/-->
+            </div>
+        </div>
+        <div class="indivProj" id="proj2">
+            <div class="projInfo">
+                <a href="./Research Profiles/OLYMPEX.html"><h1>OLYMPEX</h1></a>
+            </div>
+            <div class="projImage">
+                <!--img src="../src/Laura_wildlife_diagram.png"/-->
+            </div>
+        </div>
+        <div class="indivProj" id="proj3">
+            <div class="projInfo">
+                <a href="Research Profiles/OrographicPrecipitation.html"><h1>Orographic Precipitation</h1></a>
+            </div>
+            <div class="projImage">
+                <!--img src="../src/Copy of IMG_7435.jpeg"/-->
+            </div>
+        </div>
+        <div class="indivProj" id="proj4">
+            <div class="projInfo">
+                <a href="./Research Profiles/mappingTemperatureInComplexTerrain.html"><h1>Mapping Temperature in Complex Terrain</h1></a>
+            </div>
+            <div class="projImage">
+                <!--img src="../src/NASA_S6_overview_figure.jpg"/-->
+            </div>
+        </div>
+        <div class="indivProj" id="proj5">
+            <div class="projInfo">
+                <a href="./Research Profiles/SpatialPatternsofSnowFedStreamflow.html"><h1>Spatial Patterns of Snow-fed Streamflow</h1></a>
+            </div>
+            <div class="projImage">
+                <!--img src="../src/Copy of IMG_7435.jpeg"/-->
+            </div>
+        </div>
+        <div class="indivProj" id="proj6">
+            <div class="projInfo">
+                <a href="./Research Profiles/RainVsSnow.html"><h1>Rain vs. Snow</h1></a>
+            </div>
+            <div class="projImage">
+                <!--img src="../src/Copy of IMG_7435.jpeg"/-->
+            </div>
+        </div>
+        <div class="indivProj" id="proj7">
+            <div class="projInfo">
+                <a href="./Research Profiles/MeadowEcologySnowClimate.html"><h1>How Meadow Ecology Relates to Snow and Climate</h1></a>
+            </div>
+            <div class="projImage">
+                <!--img src="../src/Copy of IMG_7435.jpeg"/-->
+            </div>
+        </div>
+        <div class="indivProj" id="proj8">
+            <div class="projInfo">
+                <a href="./Research Profiles/IntercomparisonMeteorological.html"><h1>Intercomparison of Meteorological Forcing Data</h1></a>
+            </div>
+            <div class="projImage">
+                <!--img src="../src/Copy of IMG_7435.jpeg"/-->
+            </div>
+        </div>
+        <div class="indivProj" id="proj9">
+            <div class="projInfo">
+                <a href="./Research Profiles/SilviclitureToMaximizeSnowRetention.html"><h1>Silvicliture to Maximize Snow Retention</h1></a>
+            </div>
+            <div class="projImage">
+                <!--img src="../src/Copy of IMG_7435.jpeg"/-->
+            </div>
+        </div>
+        <div class="indivProj" id="proj10">
+            <div class="projInfo">
+                <a href="./Research Profiles/RemoteSensingOfRadiation.html"><h1>Remote Sensing of Radiation to Improve Snow Modeling</h1></a>
+            </div>
+            <div class="projImage">
+                <!--img src="../src/Copy of IMG_7435.jpeg"/-->
+            </div>
+        </div>
+        <div class="indivProj" id="proj11">
+            <div class="projInfo">
+                <a href="./Research Profiles/WildflowersAndSnow.html"><h1>Wildflowers and Snow</h1></a>
+            </div>
+            <div class="projImage">
+                <!--img src="../src/Copy of IMG_7435.jpeg"/-->
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <!--JQuery-->
+    </div>
+    <script src="../JS/jquery-3.6.0.min.js"></script>
+    <script src="../JS/index.js"></script>
+</body>
+</html>
