@@ -47,9 +47,7 @@ const headerHTML = ` \
                 <a href="${path_origin}/Pages/Research Profiles/SnowIR.html">Snow IR</a> \
             </div>    \
         </div> \
-        <div class="mainMenuOption"> \
-            <a href="${path_origin}/Pages/PastResearch.html">Past Research</a> \
-        </div> \
+
         <div class="mainMenuOption"> \
             <a href="${path_origin}/Pages/Data.html">Data</a> \
             <div class="subMenu"> \
