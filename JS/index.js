@@ -66,7 +66,10 @@ const headerHTML = ` \
                 <a href="${path_origin}/Pages/PublicationsCPre.html">Conference Presentations</a> \
                 <a href="${path_origin}/Pages/PublicationsBTR.html">Books And Technical Reports</a> \
             </div> \
-            </div> \
+        </div> \
+        <div class="mainMenuOption"> \
+            <a href="${path_origin}/Pages/Classes.html">Classes</a> \
+        </div> \
         <div class="mainMenuOption"> \
             <a href="${path_origin}/Pages/News.html">News</a> \
         </div> \
