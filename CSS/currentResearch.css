@@ -45,7 +45,7 @@ a {
 
 .classheader {
     width: 100%;
-    font-size: 1.7em;
+    font-size: 2.5vw;
     color: black;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -54,16 +54,13 @@ a {
 }
 
 .classbox{
-    /*display: grid;
-    grid-template-columns: 1fr 1fr;*/
     background-color: rgba(236, 235, 235);
     border-radius: 10%;
     border-style: solid;
     border-width: 1px;
     border-color: gray;
-    height: 10%;
+    height: 17vw;
     width: 100%;
-    max-height: 200px;
     justify-self: center;
     align-self: center;
     margin-bottom: 50px;
@@ -78,7 +75,7 @@ a {
 }
 
 .projInfo p {
-    font-size: 3vh;
+    font-size: 1.25vw;
 }
 
 
