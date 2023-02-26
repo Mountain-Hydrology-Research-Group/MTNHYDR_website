@@ -23,13 +23,21 @@
 
     /*Code for the photo collage*/
 .photocollage{
-    height: 33vh;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr
+    width: 100%;
+    height: 700px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 
 }
-    
-
+ 
+.collageitem{
+    width: 100%;
+    height: 100%; 
+}
     /*end code for photo collage*/
+
+
 .meetTheTeam{
     height: 1300px;
     color:rgb(255, 255, 255);
@@ -62,6 +70,14 @@
     justify-self: center;
     height: 75%;
 }
+
+.blackdivider{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(39, 38, 38);
+}
+
+
 
 /*Info boxes and Drawings */
 .webTitle{
@@ -210,7 +226,93 @@
         background-size: cover;
     }
 
+ /*start code for collage images*/
+ #tileone {
+    background-image: url("../src/cassie_fieldworklandscape.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+#tiletwo {
+    background-image: url("../src/sublimation_install_photo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#tilethree {
+    background-image: url("../src/NewsPhotos/EliDannyGothic.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#tilefour {
+    background-image: url("../src/steven_agu2018.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#tilefive {
+    background-image: url("../src/OlympexFieldCrew2.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#tilesix {
+    background-image: url("../src/Copy\ of\ IMG_9247.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#tileseven {
+    background-image: url("../src/joe_LosAlamosNM.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#tileeight {
+    background-image: url("../src/IMG_7004.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#tilenine {
+    background-image: url("../src/DannyAndEliSnowPit.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#tileten {
+    background-image: url("../src/Copy\ of\ Ryan_Currier_Drone_Survey_Easton_Glacier_Mount_Baker_3.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#tileeleven {
+    background-image: url("../src/MtClimConference.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#tiletwelve {
+    background-image: url("../src/Copy\ of\ IMG_7435.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*End code for collage images*/
 
     /*Tablet and Phone screens*/
     @media only screen and (max-width: 1200px) {
