@@ -78,6 +78,7 @@ const headerHTML = ` \
             <div class="subMenu"> \
                 <a href="${path_origin}/Pages/Research Profiles/RainOnSnowModule.html">Rain on Snow Module</a> \
                 <a href="https://www.zooniverse.org/projects/mozerm/snow-spotter">Citizen Science</a> \
+                <a href="${path_origin}/Pages/FreeUsePhotos.html">Free Use Snow Photos</a> \
                 <a href="${path_origin}/Pages/Join Us Pages/joinUsUndergrad.html">Join Us! Undergraduates</a> \
                 <a href="${path_origin}/Pages/Join Us Pages/joinUsGraduate.html">Join Us! Graduates</a> \
                 <a href="${path_origin}/Pages/Join Us Pages/joinUsPostDoc.html">Join Us! Post-Doctorals</a> \
