@@ -23,27 +23,30 @@
     margin-left: 5%;
     }
 
-.photoarea{
+.photoheading h1{
+    font-size: 1.5vw;
+    margin-left: 10%;
+}
+
+   .photoarea{
     margin-top: 3%;
     margin-bottom: 3%;
     margin-left:7%;
     width: 90%;
     height: auto;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-gap: 3vw;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 2vw;
     display: grid;
-    /*background-color: rgb(241, 238, 238);*/
 
 }
-
 .photounit{
     grid-template-rows: 90% 10%;
 }
 
 .photoitem{
     width: 90%;
-    height: 27vw;
+    height: 18vw;
     grid-row: 1;
 }
 
@@ -63,14 +66,14 @@
 }
 
 #crystaltwo {
-    background-image: url("../src/FreeUseSnowPhotos/snowphoto/Sturm23.jpg");
+    background-image: url("../src/FreeUseSnowPhotos/snowphoto/Sturm23-1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #crystalthree {
-    background-image: url("../src/FreeUseSnowPhotos/snowphoto/Sectored\ plate.jpg");
+    background-image: url("../src/FreeUseSnowPhotos/snowphoto/Sectored\ plate-1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -98,7 +101,7 @@
 }
 
 #crystalseven {
-    background-image: url("../src/FreeUseSnowPhotos/crystals.JPG");
+    background-image: url("../src/FreeUseSnowPhotos/snowphoto/crystals.JPG");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -107,42 +110,42 @@
 /* Snow Formation Photos */
 
 #formationone {
-    background-image: url("../src/FreeUseSnowPhotos/snowphoto/IMG_4760-24.jpg");
+    background-image: url("../src/FreeUseSnowPhotos/snowphoto/IMG_4760-24-1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #formationtwo {
-    background-image: url("../src/FreeUseSnowPhotos/snowphoto/IMG_8251.jpg");
+    background-image: url("../src/FreeUseSnowPhotos/snowphoto/IMG_8251-1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #formationthree {
-    background-image: url("../src/FreeUseSnowPhotos/snowphoto/IMG_9160.jpg");
+    background-image: url("../src/FreeUseSnowPhotos/snowphoto/IMG_9160-1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #formationfour {
-    background-image: url("../src/FreeUseSnowPhotos/snowphoto/IMG_9988.jpg");
+    background-image: url("../src/FreeUseSnowPhotos/snowphoto/IMG_9988-1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #formationfive {
-    background-image: url("../src/FreeUseSnowPhotos/snowphoto/IMG_9994.jpg");
+    background-image: url("../src/FreeUseSnowPhotos/snowphoto/IMG_9994-1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #formationsix {
-    background-image: url("../src/FreeUseSnowPhotos/100_0493.JPG");
+    background-image: url("../src/FreeUseSnowPhotos/snowphoto/100_0493.JPG");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -170,7 +173,7 @@
 }
 
 #formationten {
-    background-image: url("../src/FreeUseSnowPhotos/snowphoto/Sturm17.jpg");
+    background-image: url("../src/FreeUseSnowPhotos/snowphoto/Sturm17-1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -184,14 +187,14 @@
 }
 
 #formationtwelve {
-    background-image: url("../src/FreeUseSnowPhotos/snowphoto/Sturm24.jpg");
+    background-image: url("../src/FreeUseSnowPhotos/snowphoto/Sturm24-1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #formationthirteen {
-    background-image: url("../src/FreeUseSnowPhotos/snowphoto/Sturm26.jpg");
+    background-image: url("../src/FreeUseSnowPhotos/snowphoto/Sturm30-1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -205,42 +208,42 @@
 }
 
 #formationfifteen {
-    background-image: url("../src/FreeUseSnowPhotos/snowphoto/Sturm30.jpg");
+    background-image: url("../src/FreeUseSnowPhotos/snowphoto/Sturm26.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #formationsixteen {
-    background-image: url("../src/FreeUseSnowPhotos/wind.JPG");
+    background-image: url("../src/FreeUseSnowPhotos/snowphoto/wind-1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #formationseventeen {
-    background-image: url("../src/FreeUseSnowPhotos/100_0472.JPG");
+    background-image: url("../src/FreeUseSnowPhotos/snowphoto/100_0472.JPG");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #formationeightteen {
-    background-image: url("../src/FreeUseSnowPhotos/DSC_0416-1.jpg");
+    background-image: url("../src/FreeUseSnowPhotos/snowphoto/101122-131826.JPG");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #formationnineteen {
-    background-image: url("../src/FreeUseSnowPhotos/DSCN4284.JPG");
+    background-image: url("../src/FreeUseSnowPhotos/snowphoto/DSCN4284-1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #formationtwenty {
-    background-image: url("../src/FreeUseSnowPhotos/image00.jpg");
+    background-image: url("../src/FreeUseSnowPhotos/snowphoto/image00.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
