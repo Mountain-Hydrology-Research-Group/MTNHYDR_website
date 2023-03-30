@@ -55,22 +55,21 @@
     font-size: 1.5vw;
     opacity: 0.01;
     background:rgba(245, 244, 244, 0.8);
+    
 }
 
 .photoinsidecaption:hover{
     width: 100%;
     height: 100%;
-    margin-top: -1.5vw;
     font-size: 1.5vw;
     background:rgb(245, 244, 244, 0.8); 
     opacity: 1;
-    transition: .3s;
+    transition: .3s
 } 
 /*old caption code*/
 .photoitemcaption{
     font-size: 1.5vw;
-    text-align: left;
-    grid-row: 2;
+    padding: 5%;
 }
 
 /*Start photo tile ids*/
