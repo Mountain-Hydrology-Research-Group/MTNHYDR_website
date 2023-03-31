@@ -1,3 +1,9 @@
+.bannerImage{
+    background-image: url(../src/Copy\ of\ IMG_9727.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
 .disclaimer{
     width: 90%;
     margin-top: 5%;
