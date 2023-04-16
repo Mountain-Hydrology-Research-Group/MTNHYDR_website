@@ -33,36 +33,130 @@
         </div>
         <div class="mainTextArea">
             <p>
-                Seasonal snow that falls in the mountains is a critical source of water as it melts, for humans and the natural environment we depend on. Our ability to predict when and how much snow will melt, and how those melt patterns are changing, could be improved with better remote sensing observations such as from satellites. By taking infrared (IR) images of snow-covered areas we can map snow surface temperatures for large regions, but all remote sensing observations have tradeoffs between spatial resolution (pixel size) and temporal resolution (time between repeat observations). In this project we are working towards developing an improved source of snow-surface temperature maps from IR remote sensing observations by:
+                As seasonal snow that falls in the mountains melts, it becomes a critical source of water for 
+                humans and the natural environment humans depend on. Our ability to predict when snow will melt, 
+                how much  will melt, and how those melt patterns are changing could be improved with better remote 
+                sensing observations such as satellite measurements. By taking infrared (IR) images of snow-covered 
+                areas, we can map snow surface temperatures for large regions. However, all remote sensing 
+                observations have tradeoffs between spatial resolution (spatial resolution is the size of the land 
+                surface captured within an individual image pixel ) and temporal resolution (temporal resolution is 
+                the time between repeat observations). In this project we are working towards developing improved 
+                snow-surface temperature maps derived from IR remote sensing observations by:
+
 				<ol type="1">
-					<li>understanding how these tradeoffs and other remote sensing complications impact the utility of different remote sensing sources (e.g. spatial and temporal resolution, spectral bands, view angles)</li>
-					<li>testing methods for retrieving finer spatial and temporal resolution snow-surface temperature information from multiple remote sensing observations (e.g. multispectral analysis, sensor fusion, downscaling)</li>
+					<li>Understanding how these tradeoffs (e.g. spatial vs. temporal resolution) and other 
+                        properties of remote sensing (such as the electromagnetic wavelengths of observations and 
+                        the geometry with which those electromagnetic waves hit the earth) impact the utility of 
+                        different remote sensing sources </li>
+					<li>Testing methods (e.g. spectral mixture analysis, sensor fusion, downscaling) of retrieving 
+                        finer spatial and temporal resolution snow-surface temperature information by combining 
+                        multiple remote sensing observations 
+                    </li>
 				</ol>
 			</p>
             <img src="../../src/NASA_S6_overview_figure.jpg" />
+            
+            <h2>Challenges Facing IR Observation of Surface Snow Temperatures</h2>
             <p>
-                To create maps of snow-surface temperature at the finest spatial resolutions (cm-scale), such as for understanding forest-snow interactions with sunlight, shading, warming of snow by trees, forest litter and albedo, small thermal IR cameras have been mounted on drones flown over small-scale (<< 1 km2) study areas. To cover larger areas (>> 1 km2), we have also used thermal IR cameras mounted on an aircraft which can provide meter-scale spatial resolution images. 
+                Maps of snow-surface temperature at the finest spatial resolutions (cm-scale) can reveal in detail 
+                the interactions between forests and snowpack that involve sunlight, shading, warming of snow by 
+                trees, forest litter, and <a href="https://glossary.ametsoc.org/wiki/Albedo">albedo</a>. 
+                To create these maps, small thermal IR cameras have been mounted 
+                on drones flown over small-scale study areas that are much smaller than one square kilometer in 
+                size. To cover larger areas much greater than one square kilometer, we have also used thermal IR 
+                cameras mounted on an aircraft which can provide meter-scale spatial resolution images. 
             </p>
 			<p>
-				The surface temperature maps produced by these airborne IR systems are impacted by their spatial resolution and view angles, especially for an area with a complex land surface of snow and trees where mixed pixels are prevalent. These lower cost, uncooled, single-band, IR cameras are also subject to several sources of error including sensor nonuniformity, temperature changes from the ambient air, direct sunlight, or self-heating from the electronics.
+				The accuracy of surface temperature maps produced by these airborne IR systems are impacted by their
+                spatial resolution and <a href="https://www.intelligence-airbusds.com/en/8719-angle-conversion#:~:text=The%20viewing%20angle%20is%20the,the%20pitch%20and%20roll%20angles.">view angles</a>. 
+                In forested mountain watersheds, some pixels will overlap with 
+                both snow and trees, recording a temperature signal that is a mixture of the cold snow and warmer 
+                trees. The low cost, uncooled, broadband IR cameras used for airborne surface temperature mapping 
+                are also subject to other sources of error, and biases which uniformly shift the recorded 
+                temperatures up or down. Sensor nonuniformity and vignetting (see figure S1a of 
+                <a href="https://agupubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1029%2F2019WR025699&file=wrcr24335-sup-0001-Figure_SI-S01.pdf">this paper</a> 
+                for an example of sensor nonuniformity) can cause errors in the reported temperature that vary across the 
+                IR image, even  when observing a uniform temperature surface such as a melting snow surface. 
+                Temperature changes to the camera itself from the ambient air, direct sunlight, or self-heating 
+                from the electronics can also introduce biases to these airborne IR images.
 			</p>
 			<p>
-				In <a href="https://doi.org/10.1029/2019WR025699">Pestana et al. (2019)</a> we used coincident observations of snow, water, and tree canopy temperatures taken in Sagehen Creek, California USA, and Davos, Switzerland to assess how all these factors influenced very fine resolution IR imagery from a drone, and meter-scale resolution IR imagery from an aircraft. The known temperature of melting snow was used to calibrate the IR imagery to correct for the rapidly changing temperature biases of the cameras, and the observed temperatures of mixed pixels were found to depend not only on spatial resolution but also forest density and the view angle of observations.
+				In <a href="https://doi.org/10.1029/2019WR025699">Pestana et al. (2019)</a> we used coincident 
+                observations of snow, water, and tree canopy temperatures taken in Sagehen Creek, California USA, 
+                and Davos, Switzerland to assess how all of these factors influenced very fine spatial resolution 
+                (cm-scale) IR imagery from a drone and meter-scale resolution IR imagery from an aircraft. The known
+                temperature of melting snow was used to calibrate the IR imagery to correct for the rapidly 
+                changing temperature biases of the cameras. Additionally, the observed temperatures of mixed 
+                pixels were found to depend not only on the spatial resolution of the measurement but also on the 
+                forest density, distribution, and the view angle of observations.
+<!--Here-->
 			</p>
             <img src="../../src/pestana2019.jpg" />
+            <div class="caption">
+                <p> a) IR image of a tree against a snow surface background taken by a drone flying overhead at 
+                    Sagehen Creek, California. (b) Histogram of temperatures from the image, before 
+                    (dashed black line) and after (solid black line) bias correction was applied using the melting 
+                    snow as a 0 °C temperature reference, with pixels classified by temperature 
+                    (blue, grey, green shaded regions). Figure and caption adapted from Pestana et al. (2019).
+                </p>
+            </div>
+            
             <p>
-                In satellite imagery with spatial resolutions of about 1 km, any IR pixel in a snowy mountain forest scene will be mixed. A spectral unmixing method to resolve the individual bulk snow-surface and forest canopy temperatures that contribute to that mixture was demonstrated in <a href="https://doi.org/10.1016/j.rse.2018.03.001">Lundquist et al. (2018)</a> for a study area in the upper Tuolumne River Basin in the Sierra Nevada of California. Multispectral imagery from MODIS IR bands were used to retrieve separate snow and forest temperatures for each pixel which were evaluated against ground-based and meter-scale airborne IR observations.
+                In satellite imagery with spatial resolutions of about 1 km, any IR pixel in a snowy, forested 
+                mountain scene will be a mix of snow and trees. <a href="./snowTemperatureSierra.html">A spectral 
+                unmixing method</a> that can resolve the snow-surface and forest canopy temperatures that contribute
+                to a mixed-pixel temperature reading was demonstrated in 
+                <a href="https://doi.org/10.1016/j.rse.2018.03.001">Lundquist et al. (2018)</a> for a study area 
+                in the upper Tuolumne River Basin in the Sierra Nevada of California. Multispectral imagery from 
+                the IR bands of MODIS (<a href="https://modis.gsfc.nasa.gov/about/">the Moderate Resolution 
+                Imaging Spectroradiometer</a> onboard NASA’s Terra and 
+                Aqua satellites) were used to retrieve separate snow and forest temperatures for each mixed-pixel. 
+                The accuracy of these computed temperatures were then evaluated against ground-based and 
+                meter-scale airborne IR observations.
             </p>   
 			<img src="../../src/lundquist2018.jpg" />
+            <div class="caption">
+                <p> Comparison of ground-based and airborne temperature measurements against spectrally-unmixed 
+                    MODIS observations at Dana Meadows, Yosemite National Park, California in 2016: time-series of 
+                    snow surface temperature (Tss) from the ground-based Apogee IR radiometer (solid blue line), 
+                    and air temperature from a tree-mounted sensor; mean snow and forest temperatures from airborne 
+                    IR imagery (blue and red triangles respectively); MODIS LST and unmixed temperature 
+                    observations (squares, circles, diamonds). Figure and caption adapted from Lundquist et al. (2018)
+                </p>
+            </div>
 			<p>
-                The MODIS instruments on NASA Terra and Aqua satellites can provide four observations per day for mid-latitude mountain ranges. For distributed models that try to predict snowmelt running at hourly timesteps, finer temporal resolution (more frequent) satellite observations would be needed to evaluate or assimilate into those models. Geostationary weather satellite imagery, such as from NOAA’s Geostationary Operational Environmental Satellite (GOES) Advanced Baseline Imagers (ABI), take images at 5 minute intervals with similar multispectral bands as MODIS. Ongoing work is evaluating:
+                The MODIS instruments on NASA Terra and Aqua satellites together provide four observations 
+                per day for mid-latitude mountain ranges. For distributed models that try to predict snowmelt 
+                hourly, finer temporal resolution (more frequent) satellite observations would be needed to 
+                evaluate or <a href="https://glossary.ametsoc.org/wiki/Data_assimilation">assimilate into those 
+                models</a>. Geostationary weather satellite imagery, such as from NOAA’s Geostationary Operational 
+                Environmental Satellite (GOES) Advanced Baseline Imagers (ABI), take images at 5 minute intervals 
+                with similar multispectral bands as MODIS. Ongoing work is evaluating:
+
 				<ol type="1">
-					<li>How do the coarser spatial resolution (2+ km) and off-nadir view angles impact the surface temperatures seen by GOES ABI, especially in comparison with other satellite imagers such as MODIS and ASTER?</li>
-					<li>Can separate snow and forest temperatures be retrieved from GOES ABI multispectral imagery at sub-hourly temporal resolutions?</li>
-					<li>Can finer spatial resolution surface temperature information be retrieved from GOES ABI imagery through downscaling or sensor fusion (with other satellite imagers) methods?</li>
+					<li>How do the coarser spatial resolution (2+ km scales) and 
+                        <a href="https://glossary.ametsoc.org/wiki/Nadir">off-nadir view angles</a> impact the 
+                        surface temperatures seen by GOES ABI, especially in comparison with other satellite 
+                        imagers such as MODIS and ASTER?
+                    </li>
+					<li>Can separate snow and forest temperatures be retrieved from GOES ABI multispectral imagery 
+                        at sub-hourly temporal resolutions?
+                    </li>
+					<li>Can finer spatial resolution surface temperature information be retrieved from GOES ABI 
+                        imagery through downscaling or sensor fusion (with other satellite imagers) methods?
+                    </li>
 				</ol>
             </p>   
 			<img src="../../src/pestana2022.jpg" />
+            <div class="caption">
+                <p> Time-series of ground-based snow surface temperature observations (solid black line), and 
+                    GOES-16 (solid blue line), GOES-17 (solid green line) band 14 (11.2 μm wavelength) brightness 
+                    temperatures at Grand Mesa, Colorado during the February 2020 NASA SnowEx field campaign. 
+                    Coincident IR images from (top row) NASA Terra ASTER, International Space Station (ISS) 
+                    ECOSTRESS, and (bottom row) the UW Applied Physics Labratory’s (APL) Compact Airborne System 
+                    for Imaging the Environment.
+                </p>
+            </div>
         </div>
     </div>
     <div class="footer">
