@@ -52,7 +52,7 @@ a {
     }
 .weatherblog {
     grid-column: 2;
-    grid-template-rows: 2% 98%;
+    grid-template-rows: 2% 30% 68%;
 }
 
     .maintexttitle h2 {
@@ -79,6 +79,15 @@ a {
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
         column-gap: 3%; 
         row-gap: 0.3%; 
+    }
+
+    .lowermaintextarea {
+        grid-row: 2;
+        /* is known to cause trouble*/
+        width: 100%;
+        padding-top: 1%; 
+        padding-left: 5%;
+        
     }
 
 
