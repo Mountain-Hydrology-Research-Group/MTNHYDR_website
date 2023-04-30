@@ -127,6 +127,12 @@ a {
     background-size: cover;
 }
 
+#Snoqualmie {
+    background-image: url(../src/SnoqualmieSnowPit.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
 /*Media Queries*/
 @media only screen and (max-width: 1200px) {
     .dataFull {
