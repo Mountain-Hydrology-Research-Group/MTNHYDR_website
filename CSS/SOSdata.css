@@ -90,6 +90,10 @@ a {
         
     }
 
+    .lowermaintextarea a {
+        color:blueviolet;
+    }
+
 
         .weekofdata a:hover {
             color: rgb(117, 112, 112);
