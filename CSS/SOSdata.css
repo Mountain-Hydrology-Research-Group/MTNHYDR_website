@@ -94,6 +94,11 @@ a {
         color:blueviolet;
     }
 
+    .lowermaintextarea img {
+        width: 70%;
+        display: block;
+        margin: auto;
+    }
 
         .weekofdata a:hover {
             color: rgb(117, 112, 112);
