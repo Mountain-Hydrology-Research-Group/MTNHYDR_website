@@ -50,6 +50,7 @@ a {
     .titleFull a {
         color:blueviolet;
     }
+
 .weatherblog {
     grid-column: 2;
     grid-template-rows: 2% 30% 68%;
@@ -80,7 +81,7 @@ a {
         column-gap: 3%; 
         row-gap: 0.3%; 
     }
-
+/*This section is used in the new data pages*/
     .lowermaintextarea {
         grid-row: 2;
         /* is known to cause trouble*/
@@ -100,6 +101,25 @@ a {
         margin: auto;
     }
 
+    .lowermaintextarea h3 {
+        font-size: 16px;
+        text-decoration: underline;
+    }
+
+    .datasection {
+        grid-row: 2;
+        /* is known to cause trouble*/
+        width: 100%;
+        padding-top: 1%; 
+        padding-left: 5%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        column-gap: 3%; 
+        row-gap: 0.3%; 
+    }
+
+    /*We are back to the SOS data content*/
         .weekofdata a:hover {
             color: rgb(117, 112, 112);
         }

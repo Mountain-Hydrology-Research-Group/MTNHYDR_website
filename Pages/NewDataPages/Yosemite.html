@@ -6,6 +6,7 @@
     <title>Sublimation of Snow Research Data</title>
     <link rel="stylesheet" type="text/css" href="../../CSS/index.css" /> 
     <link rel="stylesheet" type="text/css" href="../../CSS/SOSdata.css"/> 
+    <link rel="stylesheet" type="text/css" href="../../CSS/DataPage.css"/> 
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway" />
 </head>
 
@@ -85,8 +86,293 @@
                 </p>
                 
                 <img src="./yosemite/Tuolumne_datamap.jpg"/>
-                
+            </div>
 
+            <div class="datasection">
+<!--Need to establish more CSS content to Group the Data-->
+                <h2>Processed Data for Forcing and Evaluating a Hydrologic Model</h2>
+
+                <li>
+                    Dana Meadows forcing dataset used in SUMMA modeling tests (Cristea et al., 2020, submitted)
+                </li>
+
+                <h3>Streamflow:</h3>
+                <li>
+                    Best estimate of half-hourly 
+                    <a href="./yosemite/Tuolumne_combined_timeseries_Q_2002_2015.csv.zip">discharge for 6 streams</a> 
+                    in the Upper Tuolumne Watershed for water years 2002 to 2015. In zipped ascii format (separated 
+                    by commas).
+                </li><br>
+
+                <li>
+                    <a href="./yosemite/Tuolumne_combined_timeseries_Q_2002_2015_README.txt">README</a> file 
+                    describing the locations and processing of the above data.
+                </li>
+
+                <h3>Unimpaired Inflow:</h3>
+
+                <li>
+                    Estimated daily <a href="./yosemite/HetchHetchy_unimpaired_timeseries_Q_1970_2015.csv">
+                    unimpaired flow data for Hetch Hetchy reservoir</a> for water years 1970 to 2015. In ascii 
+                    format (separated by commas).
+                </li><br>
+
+                    <li>
+                        <a href="./yosemite/HetchHetchy_timeseries_README.txt">README</a> file describing the location, 
+                        accuracy, and processing of the above data.
+                    </li>
+
+                <h3>Snow Water Equivalent:</h3>
+
+                <li>
+                    <a href="./yosemite/TUM_Course_SWE.csv">Tuolumne</a> and 
+                    <a href="./yosemite/DAN_Course_SWE.csv">Dana</a> manual snow course measurements of snow water 
+                    equivalent for water years 1970 to 2015, as well as 
+                    <a href="./yosemite/TUM-DAN_Pillow_SWE.csv">daily snow pillow measurements</a> of SWE for both 
+                    locations for water years 1980 to 2015. In ascii format (separated by commas).
+                </li><br>
+
+                <li>
+                    <a href="./yosemite/TUM_DAN_snow_README.txt">README</a> file describing the location, accuracy, and processing of the above data.
+                </li>
+
+                <h3>Atmospheric Data for forcing a Hydrologic or Snow Model:</h3>
+
+                <li>
+                    Hourly values of <a href="./yosemite/Dana_Meadows_model_forcing_dataset.csv.zip">air 
+                    temperature, wind speed, relative humidity, shortwave irradiance, longwave irradiance, and 
+                    precipitation</a> for water years 2003 to 2015 in zipped ascii format (separated by commas). 
+                    Time stamps are provided in both UTC and PST.
+                </li><br>
+
+                <li>
+                    <a href="./yosemite/Dana_Meadows_model_forcing_dataset_README.txt">README</a> file describing 
+                    the locations, gap-filling methods, and processing of the data above.
+                </li><br><br>
+
+                <h2>Distributed Air Temperature Data for 2002 to 2005</h2>
+
+                <li>
+                    Daily temperature data for 62 stations detailed in 
+                    <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2006JD007561">Lundquist and 
+                    Cayan, 2007</a>, see Fig. 1 and Table 1.
+                </li><br>
+
+                <li>
+                    <a href="./yosemite/Yosemite_temperature_matrix_site_information.csv">Site information</a> 
+                    including latitude, longitude, and elevation for the 62 stations.
+                </li><br>
+
+                <li>
+                    <a href="./yosemite/Yosemite_Tmean_matrix.csv">Matrix of daily mean temperatures</a> 
+                    (calculated from 0 to 23 local time) for 62 sites detailed above.
+                </li><br>
+
+                <li>
+                    <a href="./yosemite/Yosemite_Tmin_matrix.csv">Matrix of daily minimum temperatures</a> 
+                    (calculated from 0 to 23 local time) for 62 sites detailed above.
+                </li><br>
+
+                <li>
+                    <a href="./yosemite/Yosemite_Tmax_matrix.csv">Matrix of daily maximum temperatures</a> 
+                    (calculated from 0 to 23 local time) for 62 sites detailed above.
+                </li><br>
+
+                <li>
+                    <a href="./yosemite/Yosemite_Tmean_matrix_README.txt">README</a> file describing the accuracy 
+                    and processing of the above data.
+                </li><br><br>
+
+                <h2>Detailed Stream Data with 95% Confidence Intervals and Raw Data Files</h2>
+                
+                <h3>Q01:</h3>
+
+                <li>
+                    Raw and corrected stage data, raw stream temperature data, and estimated discharge data for 
+                    <a href="./yosemite/Lyell_blw_Maclure_timeseries_stage_Q_T_2005_2015.csv.zip">Lyell Fork of the 
+                    Tuolumne River below Maclure Creek</a> for water years 2005 to 2015. In zipped ascii format 
+                    (separated by commas).
+                </li><br>
+
+                <li>
+                    <a href="./yosemite/Lyell_blw_Maclure_timeseries_README.txt">README</a> file describing the 
+                    location, accuracy, and processing of the above data.
+                </li><br>
+
+                <li>
+                    <a href="./yosemite/Lyell_blw_Maclure_manual_measurements.csv">Manual field measurements</a> at 
+                    Lyell Fork below Maclure of stage (or tapedown), water temperature, conductivity, and 
+                    discharge, used to create the rating curves in the above files.
+                </li><br>
+
+                <h3>Q02:</h3>
+
+                <li>
+                    Raw and corrected stage data, raw stream temperature data, and estimated discharge data for 
+                    <a href="./yosemite/Lyell_Twin_Bridges_timeseries_stage_Q_T_2002_2015.csv.zip">Lyell Fork 
+                    of the Tuolumne River above and below Twin Bridges</a> for water years 2002 to 2015.  In 
+                    zipped ascii format (separated by commas).
+                </li><br>
+
+                <li>
+                    <a href="./yosemite/Lyell_Twin_Bridges_timeseries_README.txt">README</a> file describing the 
+                    location, accuracy, and processing of the above data.
+                </li><br>
+
+                <li>
+                    <a href="./yosemite/Lyell_Twin_Bridges_manual_measurements.csv">Manual field measurements</a> at 
+                    Lyell Fork Twin Bridges of stage, water temperature, and discharge, used to create the rating 
+                    curves in the above files. 
+                </li><br>
+
+                <li>
+                    <a href="./yosemite/LyellForkDSTwinBridges_CS.csv">Manual survey</a> of the cross-section near the 
+                    instrument located downstream of the Lyell Fork at Twin Bridges. 
+                </li><br>
+
+                <li>
+                    <a href="./yosemite/LyellForkUSTwinBridges_CS.csv">Manual survey</a> of the cross-section near the 
+                    instrument located upstream of the Lyell Fork at Twin Bridges. 
+                </li><br>
+
+                <h3>Q03:</h3> 
+
+                <li>
+                    Raw and corrected stage data, raw stream temperature data, and estimated discharge data for 
+                    <a href="./yosemite/Dana_Tuolumne_Lodge_timeseries_stage_Q_T_2001_2006.csv.zip">Dana Fork of the 
+                    Tuolumne River near the Tuolumne Lodge</a> for water years 2002 to 2006.  In zipped ascii 
+                    format (separated by commas).
+                </li><br>
+
+                <li>
+                    <a href="./yosemite/Dana_Tuolumne_Lodge_timeseries_README.txt">README</a> file describing the 
+                    location, accuracy, and processing of the above data.
+                </li><br>
+
+                <li>
+                    <a href="./yosemite/Dana_Lodge_manual_measurements.csv">Manual field measurements</a> at Dana Fork 
+                    near the Tuolumne Lodge of stage, water temperature, and discharge, used to create the rating 
+                    curves in the above files. 
+                </li><br>
+
+                <li>
+                    <a href="./yosemite/DanaForkTML_CS.csv">Manual survey</a> of the cross-section near the 
+                    instrument located near the lodge on the Dana Fork. 
+                </li><br>
+
+                <h3>Q04:</h3>
+
+                <li> 
+                    Raw and corrected stage data, raw stream temperature data, and estimated discharge data for 
+                    <a href="./yosemite/Dana_Bug_Camp_timeseries_stage_Q_T_2005_2015.csv.zip">Dana Fork of the 
+                    Tuolumne River near Bug Camp</a> for water years 2006 to 2015.  In zipped ascii format 
+                    (separated by commas).
+                </li><br>
+
+                <li>
+                    <a href="./yosemite/Dana_Bug_Camp_timeseries_README.txt">README</a> file describing the 
+                    location, accuracy, and processing of the above data.
+                </li><br>
+
+                <li>
+                    <a href="./yosemite/Dana_Bug_Camp_manual_measurements.csv">Manual field measurements</a> at Dana 
+                    Fork near Bug Camp of stage, water temperature, and discharge, used to create the rating 
+                    curves in the above files. 
+                </li><br>
+                
+                <li>
+                    <a href="./yosemite/DanaForkBugCamp_CS.csv">Manual survey</a> of the cross-section near the 
+                    instrument located near Bug Camp on the Dana Fork. 
+                </li><br>
+                
+                <h3>Q05:</h3>
+
+                <li>
+                    Raw and corrected stage data, raw stream temperature data, and estimated discharge data for 
+                    <a href="./yosemite/Tuolumne120_timeseries_stage_Q_T_2002_2015.csv.zip">Tuolumne River 
+                    at Highway 120</a> for water years 2002 to 2015, combining instruments from both above and 
+                    below the culvert.  In zipped ascii format (separated by commas).
+                </li><br>
+
+                <li>
+                    <a href="./yosemite/Tuolumne120_timeseries_README.txt">README</a> file describing the location, 
+                    accuracy, and processing of the above data.
+                </li><br>
+
+                <li>
+                    <a href="./yosemite/Tuolumne120_manual_measurements.csv">Manual field measurements</a> of 
+                    Tuolumne River at Highway 120 stage and discharge, used to create the rating curves in the 
+                    above files. 
+                </li><br>
+
+                <li>
+                    <a href="./yosemite/Tuolumne120_CS.csv">Manual survey</a> of the cross-section near the 
+                    instrument located in the Tuolumne River at Highway 120. 
+                </li><br>
+
+                <h3>Q06:</h3>
+
+                <li>
+                    Raw and corrected stage data, raw stream temperature data, and estimated discharge data for 
+                    <a href="./yosemite/Delaney_meadow_timeseries_stage_Q_T_2008_2015.csv.zip">Delaney Creek</a> 
+                    where it enters Tuolumne Meadows for water years 2008 to 2015.  In zipped ascii format 
+                    (separated by commas).
+                </li><br>
+
+                <li>
+                    <a href="./yosemite/Delaney_meadow_timeseries_README.txt">README</a> file describing the 
+                    location, accuracy, and processing of the above data.
+                </li><br>
+
+                <li>
+                    <a href="./yosemite/Delaney_meadow_manual_measurements.csv">Manual field measurements</a> of 
+                    Delaney Creek stage and discharge, used to create the rating curves in the above files. 
+                </li><br>
+
+                <li>
+                    <a href="yosemite/Delaney_CS.csv">Manual survey</a> of the cross-section near the instrument 
+                    located in Delaney Creek in Tuolumne Meadows. 
+                </li><br>
+
+                <h3>Q07:</h3>
+
+                <li>
+                    Raw and corrected stage data, raw stream temperature data, and estimated discharge data for 
+                    <a href="./yosemite/Budd_Ck_timeseries_stage_Q_T_2002_2015.csv.zip">Budd Creek</a> where it 
+                    enters Tuolumne Meadows for water years 2002 to 2015. In zipped ascii format (separated by 
+                    commas).
+                </li><br>
+
+                <li>
+                    <a href="./yosemite/Budd_timeseries_README.txt">README</a> file describing the location, 
+                    accuracy, and processing of the above data.
+                </li><br>
+
+                <li>
+                    <a href="./yosemite/Budd_manual_measurements.csv">Manual field measurements</a> of Budd Creek 
+                    stage and discharge, used to create the rating curves in the above files.
+                </li><br><br>
+
+                <h2>Barometric Pressure Data (Used to Process Stream Data)</h2>
+                
+                <li>
+                    Values of relative <a href="./yosemite/Tuolumne_baro_2002_2015.txt.zip">barometric pressure</a> 
+                    in cm of water for water years 2002 to 2015 in zipped ascii format (separated by commas).
+                </li><br>
+
+                <li>
+                    Same as above but in <a href="./yosemite/Tuolumne_baro_02_15.mat">.mat format</a>
+                </li><br>
+
+                <li>
+                    <a href="./yosemite/Tuolumne_baro_README.txt">README</a> file describing the location, 
+                    accuracy, and processing of the data above.
+                </li><br>
+
+                <li>
+                    Note that the time stamp for these is in UTC, which is 7 hours ahead of summer daylight savings 
+                    time in Tuolumne. The time step varies, depending on the instrument used.
+                </li><br><br>
             </div>    
         </div>
     </div>
