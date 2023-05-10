@@ -54,7 +54,7 @@ const headerHTML = ` \
                 <a href="${path_origin}/Pages/SOSdata.html">East River Basin, CO</a> \
                 <a href="${path_origin}/Pages/Data/rainier.shtml">Mt Rainier</a> \
                 <a href="${path_origin}/Pages/Data/yosemite.shtml">Yosemite</a> \
-                <a href="${path_origin}/Pages/Research Profiles/Snoqualmie.html">Snoqualmie</a> \
+                <a href="${path_origin}/Pages/NewDataPages/Snoqualmie.html">Snoqualmie</a> \
                 <a href="${path_origin}/Pages/Data/cedar.shtml">Cedar River</a> \
             </div> \
         </div> \

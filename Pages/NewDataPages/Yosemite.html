@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sublimation of Snow Research Data</title>
     <link rel="stylesheet" type="text/css" href="../../CSS/index.css" /> 
-    <link rel="stylesheet" type="text/css" href="../../CSS/SOSdata.css"/> 
+    <link rel="stylesheet" type="text/css" href="../../CSS/YosemiteData.css"/> 
     <link rel="stylesheet" type="text/css" href="../../CSS/DataPage.css"/> 
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway" />
 </head>
@@ -38,7 +38,7 @@
             </div>  
         </div>
         <!--Data Page Title-->
-        <div class="weatherblog">
+        <div class="ContentArea">
             <div class="maintexttitle">
                 <h2>Distributed Stream and Atmospheric Data for the Tuolumne River Watershed and Surroundings</h2>
             </div>
@@ -87,69 +87,81 @@
                 
                 <img src="./yosemite/Tuolumne_datamap.jpg"/>
             </div>
+        
 
-            <div class="datasection">
 <!--Need to establish more CSS content to Group the Data-->
+            <div class="fullpagecontent">
                 <h2>Processed Data for Forcing and Evaluating a Hydrologic Model</h2>
 
-                <li>
+                <p>
                     Dana Meadows forcing dataset used in SUMMA modeling tests (Cristea et al., 2020, submitted)
-                </li>
+                </p>
+                <div class="datasection">
+                    
+                    <div class="datatile">
+                        <h3>Streamflow:</h3>
+                        <li>
+                            Best estimate of half-hourly 
+                            <a href="./yosemite/Tuolumne_combined_timeseries_Q_2002_2015.csv.zip">discharge for 6 streams</a> 
+                            in the Upper Tuolumne Watershed for water years 2002 to 2015. In zipped ascii format (separated 
+                            by commas).
+                        </li><br>
 
-                <h3>Streamflow:</h3>
-                <li>
-                    Best estimate of half-hourly 
-                    <a href="./yosemite/Tuolumne_combined_timeseries_Q_2002_2015.csv.zip">discharge for 6 streams</a> 
-                    in the Upper Tuolumne Watershed for water years 2002 to 2015. In zipped ascii format (separated 
-                    by commas).
-                </li><br>
+                        <li>
+                            <a href="./yosemite/Tuolumne_combined_timeseries_Q_2002_2015_README.txt">README</a> file 
+                            describing the locations and processing of the above data.
+                        </li>
+                    </div>
+                    
 
-                <li>
-                    <a href="./yosemite/Tuolumne_combined_timeseries_Q_2002_2015_README.txt">README</a> file 
-                    describing the locations and processing of the above data.
-                </li>
+                    <div class="datatile">
+                        <h3>Unimpaired Inflow:</h3>
 
-                <h3>Unimpaired Inflow:</h3>
+                        <li>
+                            Estimated daily <a href="./yosemite/HetchHetchy_unimpaired_timeseries_Q_1970_2015.csv">
+                            unimpaired flow data for Hetch Hetchy reservoir</a> for water years 1970 to 2015. In ascii 
+                            format (separated by commas).
+                        </li><br>
 
-                <li>
-                    Estimated daily <a href="./yosemite/HetchHetchy_unimpaired_timeseries_Q_1970_2015.csv">
-                    unimpaired flow data for Hetch Hetchy reservoir</a> for water years 1970 to 2015. In ascii 
-                    format (separated by commas).
-                </li><br>
+                            <li>
+                                <a href="./yosemite/HetchHetchy_timeseries_README.txt">README</a> file describing the location, 
+                                accuracy, and processing of the above data.
+                            </li>
+                    </div> 
+                
+                    <div class="datatile">
+                        <h3>Snow Water Equivalent:</h3>
 
-                    <li>
-                        <a href="./yosemite/HetchHetchy_timeseries_README.txt">README</a> file describing the location, 
-                        accuracy, and processing of the above data.
-                    </li>
+                        <li>
+                            <a href="./yosemite/TUM_Course_SWE.csv">Tuolumne</a> and 
+                            <a href="./yosemite/DAN_Course_SWE.csv">Dana</a> manual snow course measurements of snow water 
+                            equivalent for water years 1970 to 2015, as well as 
+                            <a href="./yosemite/TUM-DAN_Pillow_SWE.csv">daily snow pillow measurements</a> of SWE for both 
+                            locations for water years 1980 to 2015. In ascii format (separated by commas).
+                        </li><br>
 
-                <h3>Snow Water Equivalent:</h3>
+                        <li>
+                            <a href="./yosemite/TUM_DAN_snow_README.txt">README</a> file describing the location, accuracy, and processing of the above data.
+                        </li>
+                    </div>
 
-                <li>
-                    <a href="./yosemite/TUM_Course_SWE.csv">Tuolumne</a> and 
-                    <a href="./yosemite/DAN_Course_SWE.csv">Dana</a> manual snow course measurements of snow water 
-                    equivalent for water years 1970 to 2015, as well as 
-                    <a href="./yosemite/TUM-DAN_Pillow_SWE.csv">daily snow pillow measurements</a> of SWE for both 
-                    locations for water years 1980 to 2015. In ascii format (separated by commas).
-                </li><br>
+                    <div class="datatile">
+                        <h3>Atmospheric Data for forcing a Hydrologic or Snow Model:</h3>
 
-                <li>
-                    <a href="./yosemite/TUM_DAN_snow_README.txt">README</a> file describing the location, accuracy, and processing of the above data.
-                </li>
+                        <li>
+                            Hourly values of <a href="./yosemite/Dana_Meadows_model_forcing_dataset.csv.zip">air 
+                            temperature, wind speed, relative humidity, shortwave irradiance, longwave irradiance, and 
+                            precipitation</a> for water years 2003 to 2015 in zipped ascii format (separated by commas). 
+                            Time stamps are provided in both UTC and PST.
+                        </li><br>
 
-                <h3>Atmospheric Data for forcing a Hydrologic or Snow Model:</h3>
-
-                <li>
-                    Hourly values of <a href="./yosemite/Dana_Meadows_model_forcing_dataset.csv.zip">air 
-                    temperature, wind speed, relative humidity, shortwave irradiance, longwave irradiance, and 
-                    precipitation</a> for water years 2003 to 2015 in zipped ascii format (separated by commas). 
-                    Time stamps are provided in both UTC and PST.
-                </li><br>
-
-                <li>
-                    <a href="./yosemite/Dana_Meadows_model_forcing_dataset_README.txt">README</a> file describing 
-                    the locations, gap-filling methods, and processing of the data above.
-                </li><br><br>
-
+                        <li>
+                            <a href="./yosemite/Dana_Meadows_model_forcing_dataset_README.txt">README</a> file describing 
+                            the locations, gap-filling methods, and processing of the data above.
+                        </li><br><br>
+                    </div>  
+                </div>
+                
                 <h2>Distributed Air Temperature Data for 2002 to 2005</h2>
 
                 <li>
@@ -373,9 +385,9 @@
                     Note that the time stamp for these is in UTC, which is 7 hours ahead of summer daylight savings 
                     time in Tuolumne. The time step varies, depending on the instrument used.
                 </li><br><br>
-            </div>    
+            </div>
         </div>
-    </div>
+    </div>        
     <!--Footer Content-->
     <div class="footer">
         <!--JQuery-->
