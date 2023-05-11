@@ -32,7 +32,7 @@
     <div class="dataFull">
         <!--Sidebar content-->
         <div class="sideBar">
-            <div class="dataPicture" id="Snoqualmie"></div>
+            <div class="dataPicture" id="Yosemite"></div>
             <div class="titleFull">
                 <h1>Yosemite Hydroclimate Network</h1>
             </div>  
@@ -161,39 +161,6 @@
                         </li><br><br>
                     </div>  
                 </div>
-
-                <h2>Distributed Air Temperature Data for 2002 to 2005</h2>
-
-                <li>
-                    Daily temperature data for 62 stations detailed in 
-                    <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2006JD007561">Lundquist and 
-                    Cayan, 2007</a>, see Fig. 1 and Table 1.
-                </li><br>
-
-                <li>
-                    <a href="./yosemite/Yosemite_temperature_matrix_site_information.csv">Site information</a> 
-                    including latitude, longitude, and elevation for the 62 stations.
-                </li><br>
-
-                <li>
-                    <a href="./yosemite/Yosemite_Tmean_matrix.csv">Matrix of daily mean temperatures</a> 
-                    (calculated from 0 to 23 local time) for 62 sites detailed above.
-                </li><br>
-
-                <li>
-                    <a href="./yosemite/Yosemite_Tmin_matrix.csv">Matrix of daily minimum temperatures</a> 
-                    (calculated from 0 to 23 local time) for 62 sites detailed above.
-                </li><br>
-
-                <li>
-                    <a href="./yosemite/Yosemite_Tmax_matrix.csv">Matrix of daily maximum temperatures</a> 
-                    (calculated from 0 to 23 local time) for 62 sites detailed above.
-                </li><br>
-
-                <li>
-                    <a href="./yosemite/Yosemite_Tmean_matrix_README.txt">README</a> file describing the accuracy 
-                    and processing of the above data.
-                </li><br><br>
 
                 <h2>Detailed Stream Data with 95% Confidence Intervals and Raw Data Files</h2>
                 <div class="datasection">
@@ -379,26 +346,79 @@
                         </li><br><br>
                     </div>
                 </div>    
+
+                <h2>Distributed Air Temperature Data for 2002 to 2005</h2>
+
+                <div class="datasection">
+                    <div class="datatile">   
+                        <h3>Site Background and Analysis</h3> 
+                        <li>
+                            Daily temperature data for 62 stations detailed in 
+                            <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2006JD007561">Lundquist and 
+                            Cayan, 2007</a>, see Fig. 1 and Table 1.
+                        </li><br>
+
+                        <li>
+                            <a href="./yosemite/Yosemite_Tmean_matrix_README.txt">README</a> file describing the accuracy 
+                            and processing of the above data.
+                        </li><br>
+
+                        <li>
+                            <a href="./yosemite/Yosemite_temperature_matrix_site_information.csv">Site information</a> 
+                            including latitude, longitude, and elevation for the 62 stations.
+                        </li><br>
+                    </div>
+                    <div class="datatile">
+                        <h3>Temperature Data</h3>
+                        <li>
+                            <a href="./yosemite/Yosemite_temperature_matrix_site_information.csv">Site information</a> 
+                            including latitude, longitude, and elevation for the 62 stations.
+                        </li><br>
+
+                        <li>
+                            <a href="./yosemite/Yosemite_Tmean_matrix.csv">Matrix of daily mean temperatures</a> 
+                            (calculated from 0 to 23 local time) for 62 sites detailed above.
+                        </li><br>
+
+                        <li>
+                            <a href="./yosemite/Yosemite_Tmin_matrix.csv">Matrix of daily minimum temperatures</a> 
+                            (calculated from 0 to 23 local time) for 62 sites detailed above.
+                        </li><br>
+
+                        <li>
+                            <a href="./yosemite/Yosemite_Tmax_matrix.csv">Matrix of daily maximum temperatures</a> 
+                            (calculated from 0 to 23 local time) for 62 sites detailed above.
+                        </li><br><br>
+                    </div>
+                </div>
+
                 <h2>Barometric Pressure Data (Used to Process Stream Data)</h2>
-                
-                <li>
-                    Values of relative <a href="./yosemite/Tuolumne_baro_2002_2015.txt.zip">barometric pressure</a> 
-                    in cm of water for water years 2002 to 2015 in zipped ascii format (separated by commas).
-                </li><br>
+                <div class="datasection">
+                    <div class="datatile">
+                        <h3>Data</h3>
+                        <li>
+                            Values of relative <a href="./yosemite/Tuolumne_baro_2002_2015.txt.zip">barometric pressure</a> 
+                            in cm of water for water years 2002 to 2015 in zipped ascii format (separated by commas).
+                        </li><br>
 
-                <li>
-                    Same as above but in <a href="./yosemite/Tuolumne_baro_02_15.mat">.mat format</a>
-                </li><br>
+                        <li>
+                            Same as above but in <a href="./yosemite/Tuolumne_baro_02_15.mat">.mat format</a>
+                        </li><br>
+                    </div>
 
-                <li>
-                    <a href="./yosemite/Tuolumne_baro_README.txt">README</a> file describing the location, 
-                    accuracy, and processing of the data above.
-                </li><br>
+                    <div class="datatile">
+                        <h3>Data Notes</h3>
+                        <li>
+                            <a href="./yosemite/Tuolumne_baro_README.txt">README</a> file describing the location, 
+                            accuracy, and processing of the data above.
+                        </li><br>
 
-                <li>
-                    Note that the time stamp for these is in UTC, which is 7 hours ahead of summer daylight savings 
-                    time in Tuolumne. The time step varies, depending on the instrument used.
-                </li><br><br>
+                        <li>
+                            Note that the time stamp for these is in UTC, which is 7 hours ahead of summer daylight savings 
+                            time in Tuolumne. The time step varies, depending on the instrument used.
+                        </li><br><br>
+                    </div>
+                </div>
             </div>
         </div>
     </div>        

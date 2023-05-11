@@ -28,7 +28,7 @@ a {
 
     .dataPicture {
         border-radius: 100%;
-        height: 300px;
+        height: 330px;
         width: 100%;
     }
 
@@ -116,18 +116,19 @@ a {
             padding-top: 1%; 
             display: grid;
             grid-template-columns: 1fr 1fr;
-            grid-template-rows: 1fr 1fr;
+            grid-template-rows: 1fr;
             column-gap: 3%;
         }
 
 
     .datatile {
         width: 90%;
-        height: 80%;
+        height: 85%;
         background-color: rgba(236, 235, 235);
         margin: 2% 0;
         border-radius: 2%;
         padding: 2% 5% 3% 5%;
+        border-style: solid;
         
     
     }
@@ -153,6 +154,7 @@ a {
         margin: 2% 0;
         border-radius: 2%;
         padding: 2% 5% 3% 5%;
+        border-style: solid;
     }
         .datatile2 h1 {
             font-size: 1.65vw;
@@ -170,14 +172,8 @@ a {
         }
 
 /*Photo ids*/
-#SublimationOfSnowDataPhoto {
-    background-image: url(../src/DannyAndEliSnowPit.jpg);
-    background-position: left;
-    background-size: cover;
-}
-
-#Snoqualmie {
-    background-image: url(../src/SnoqualmieSnowPit.jpg);
+#Yosemite {
+    background-image: url(../src/DataImages/HannahXS.JPG);
     background-position: center;
     background-size: cover;
 }
@@ -209,7 +205,7 @@ a {
                 font-size: 2.5vw;
             }
             .titleFull p{
-                font-size: 2vw;
+                font-size: 1.25vw;
             }
 
     
@@ -219,16 +215,16 @@ a {
 
     }
         
-    .datatile p {
-        font-size: 2vw;
+    .datatile li {
+        font-size: 1.25vw;
     }
 
     .datatile h1 {
         font-size: 2.6vw;
     } 
 
-    .datatile2 p {
-        font-size: 2vw;
+    .datatile2 li {
+        font-size: 1.25vw;
     }
 
     .datatile2 h1 {
