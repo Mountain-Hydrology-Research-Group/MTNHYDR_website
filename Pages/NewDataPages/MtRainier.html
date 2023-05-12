@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sublimation of Snow Research Data</title>
+    <link rel="stylesheet" type="text/css" href="../../CSS/index.css" /> 
+    <link rel="stylesheet" type="text/css" href="../../CSS/YosemiteData.css"/> 
+    <link rel="stylesheet" type="text/css" href="../../CSS/DataPage.css"/> 
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway" />
+</head>
+
+<!--Nav Bar Content-->
+<body>
+    <div class="heading">
+        <!--JQuery-->
+    </div>
+    <div class="dropdownMenu">
+        <!--JQuery-->
+    </div>
+    <!--Title Banner Content-->
+    <div class="banner">
+        <div class="bannerImage">
+            <h1>Data</h1>
+        </div> 
+        <!--Internal navigation page content-->
+        <div class="timeMenu">
+            <a href="../Data.html">Back to Data</a>
+        </div> 
+    </div>
+    <!--Main body content-->
+    <div class="dataFull">
+        <!--Sidebar content-->
+        <div class="sideBar">
+            <div class="dataPicture" id="MtRainier"></div>
+            <div class="titleFull">
+                <h1>Mt. Rainier National Park</h1>
+            </div>  
+        </div>
+        <!--Data Page Title-->
+        <div class="ContentArea">
+            <div class="maintexttitle">
+                <h2>Air Temperature Measurements at Mount Rainier National Park</h2>
+            </div>
+            <!--Blog Content-->
+            <!--<div class="lowermaintextarea">  
+            </div>-->
+
+            <div class="fullpagecontent">
+                <h2>Raw Temperature Data</h2>
+                <div class="datasection">
+                    <div class="datatileshort">
+                        <p>Rainier Air Temp Read-me <a href="./rainier/Rainier_AT_README.txt">(txt)</a></p>
+                    </div>
+
+                    
+                    <div class="datatileshort">
+                        <p>Rainier Air Temp Matlab File <a href="./rainier/Rainier_AT.mat">(mat)</a></p>
+                    </div>
+
+                    <div class="datatileshort">
+                        <p>Rainier Zipped iButton Data <a href="./rainier/Rainier_iButton_Data.zip">(zip)</a></p>
+                    </div>
+                </div>
+                <!--Next Heading-->
+                <h2>Natalie's Processed Data</h2>
+                <div class="datasection">
+                    <div class="datatile">
+                        <b>Rainier iButton Data <a href="./rainier/Rainier_iButtons.dat">(dat)</a></b><br><br>
+
+                        <li>This data has NOT been trimmed, as date of deployment was missing for 1/4 sensors. 
+                        This file was constructed to include only days when data was recorded on all ibuttons 
+                        in the data set.</li><br>
+
+                        <li>Formatting: [year;month;day(in PST);hour(PST); interpolated temperature for sensors 
+                        1:4]</li><br>
+
+                        <li>NaNs may be present on the first and last day of each file, when there was not data 
+                        for those hours.</li><br>
+                    </div>
+
+                    <div class="datatile">
+                        <b>Rainier Sensor Coordinates <a href="./rainier/Rainier_IDfile.dat">(dat)</a></b><br><br>
+                        <li>Formatting: [sensor number, latitude, longitude, elevation]</li>
+                    </div>
+
+                    <div class="datatileshort">
+                        <p>Natalie's Rainier Data Read-me <a href="./rainier/Natalie_Rainier_README.txt">(txt)</a></p>
+                    </div>
+
+                    <div class="datatileshort">
+                        <p>Excel File with Rainier Sites <a href="./rainier/Rainier_Phil_Josiah.xls">(xls)</a></p>
+                    </div>
+
+                    <div class="datatileshort">
+                        <p>Rainier iButton Zipped Raw Data <a href="./rainier/iButton_Raw_Data.zip">(zip)</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>        
+    <!--Footer Content-->
+    <div class="footer">
+        <!--JQuery-->
+    </div>
+    <script src="../../JS/jquery-3.6.0.min.js"></script>
+    <script src="../../JS/index.js"></script> 
+</body>        
+</html>
