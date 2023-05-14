@@ -55,7 +55,7 @@ const headerHTML = ` \
                 <a href="${path_origin}/Pages/NewDataPages/MtRainier.html">Mt Rainier, WA</a> \
                 <a href="${path_origin}/Pages/NewDataPages/Yosemite.html">Yosemite, CA</a> \
                 <a href="${path_origin}/Pages/NewDataPages/Snoqualmie.html">Snoqualmie Pass, WA</a> \
-                <a href="${path_origin}/Pages/Data/cedar.shtml">Cedar River, WA</a> \
+                <a href="${path_origin}/Pages/NewDataPages/CedarRiver.html">Cedar River, WA</a> \
             </div> \
         </div> \
         <div class="mainMenuOption"> \

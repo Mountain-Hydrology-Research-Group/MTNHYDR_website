@@ -148,8 +148,8 @@ a {
             padding-bottom: 5%;
         }
 
-        .datatile a:hover {
-            color: rgb(117, 112, 112);
+        .datatile a {
+            color: blueviolet;
         }
 
     .datatile2 {
@@ -209,7 +209,36 @@ a {
             color: rgb(117, 112, 112);
         }
 
-
+    .datatilecedar {
+        width: 90%;
+        height: 85%;
+        background-color: rgba(236, 235, 235);
+        margin: 2% 0;
+        border-radius: 2%;
+        padding: 2% 5% 3% 5%;
+        margin-left: 22%;
+        border-style: solid;    
+        
+    }
+        
+        .datatilecedar h1 {
+            font-size: 1.65vw;
+            padding-bottom: 1%;
+        }
+    
+        .datatilecedar img {
+            width: 100%;
+            height: 47%;
+        }
+    
+        .datatilecedar p {
+            font-size: 1.25vw;
+            padding-bottom: 5%;
+        }
+    
+        .datatile a {
+            color: blueviolet;
+        }
 
 /*Photo ids*/
 #Yosemite {
@@ -220,7 +249,13 @@ a {
 
 #MtRainier {
     background-image: url(../src/Copy\ of\ IMG_7435.jpeg);
-    background-position: right;
+    background-position: center;
+    background-size: cover;
+}
+
+#CedarRiver{
+    background-image: url(../src/080904-132032.jpg);
+    background-position: center;
     background-size: cover;
 }
 
