@@ -205,8 +205,8 @@ a {
             font-weight:bold;
         }
 
-        .datatileshort a:hover {
-            color: rgb(117, 112, 112);
+        .datatileshort a {
+            color: blueviolet;
         }
 
     .datatilecedar {
@@ -236,7 +236,7 @@ a {
             padding-bottom: 5%;
         }
     
-        .datatile a {
+        .datatilecedar a {
             color: blueviolet;
         }
 
