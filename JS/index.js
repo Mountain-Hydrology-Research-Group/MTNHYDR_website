@@ -32,58 +32,67 @@ const headerHTML = ` \
         <div class="mainMenuOption"> \
             <a href="${path_origin}/Pages/CurrentPeople.html">People</a> \
             <div class="subMenu"> \
-                <a href="${path_origin}/Pages/CurrentPeople.html">Current Team</a> \
-                <a href="${path_origin}/Pages/Alumni.html">Alumni</a> \
+                <div class="submenublock"> \
+                    <a href="${path_origin}/Pages/CurrentPeople.html">Current Team</a> \
+                </div> \
+
+                <div class="submenublock"> \
+                    <a href="${path_origin}/Pages/Alumni.html">Alumni</a> \
+                </div> \
             </div> \
         </div> \
         <div class="mainMenuOption"> \
             <a href="${path_origin}/Pages/CurrentResearch.html">Research</a> \
             <div class="subMenu"> \
-                <a href="${path_origin}/Pages/Research Profiles/SublimationOfSnow.html">Sublimation of Snow</a> \
-                <a href="${path_origin}/Pages/Research Profiles/SnowPatterns.html">Repeatable Snow Patterns</a> \
-                <a href="${path_origin}/Pages/Research Profiles/snowInformationForWildlifeSystems.html">Snow Information For Wildlife Systems</a> \
-                <a href="${path_origin}/Pages/Research Profiles/forestsAndSnow.html">Forests and Snow</a> \
-                <a href="${path_origin}/Pages/Research Profiles/snowTemperatureSierra.html">Snow Temperature Readings in the Sierra</a> \
-                <a href="${path_origin}/Pages/Research Profiles/SnowIR.html">Snow IR</a> \
-            </div>    \
-        </div> \
+                <div class="submenublock"><a href="${path_origin}/Pages/Research Profiles/SublimationOfSnow.html">Sublimation of Snow</a></div> \
+                <div class="submenublock"><a href="${path_origin}/Pages/Research Profiles/SnowPatterns.html">Repeatable Snow Patterns</a></div> \
+                <div class="submenublock"><a href="${path_origin}/Pages/Research Profiles/snowInformationForWildlifeSystems.html">Snow Information For Wildlife Systems</a></div> \
+                <div class="submenublock"><a href="${path_origin}/Pages/Research Profiles/forestsAndSnow.html">Forests and Snow</a></div> \
+                <div class="submenublock"><a href="${path_origin}/Pages/Research Profiles/snowTemperatureSierra.html">Snow Temperature Readings in the Sierra</a></div> \
+                <div class="submenublock"><a href="${path_origin}/Pages/Research Profiles/SnowIR.html">Snow IR</a></div> \
+            </div> \
+        </div> \ 
 
         <div class="mainMenuOption"> \
             <a href="${path_origin}/Pages/Data.html">Data</a> \
             <div class="subMenu"> \
-                <a href="${path_origin}/Pages/NewDataPages/SOSdata.html">East River Basin, CO</a> \
-                <a href="${path_origin}/Pages/NewDataPages/MtRainier.html">Mt Rainier, WA</a> \
-                <a href="${path_origin}/Pages/NewDataPages/Yosemite.html">Yosemite, CA</a> \
-                <a href="${path_origin}/Pages/NewDataPages/Snoqualmie.html">Snoqualmie Pass, WA</a> \
-                <a href="${path_origin}/Pages/NewDataPages/CedarRiver.html">Cedar River, WA</a> \
+                <div class="submenublock"><a href="${path_origin}/Pages/NewDataPages/SOSdata.html">East River Basin, CO</a></div> \
+                <div class="submenublock"><a href="${path_origin}/Pages/NewDataPages/MtRainier.html">Mt Rainier, WA</a></div> \
+                <div class="submenublock"><a href="${path_origin}/Pages/NewDataPages/Yosemite.html">Yosemite, CA</a></div> \
+                <div class="submenublock"><a href="${path_origin}/Pages/NewDataPages/Snoqualmie.html">Snoqualmie Pass, WA</a></div> \
+                <div class="submenublock"><a href="${path_origin}/Pages/NewDataPages/CedarRiver.html">Cedar River, WA</a></div> \
             </div> \
         </div> \
         <div class="mainMenuOption"> \
             <a href="${path_origin}/Pages/PublicationsPRJ.html">Publications</a> \
             <div class="subMenu"> \
-                <a href="${path_origin}/Pages/PublicationsPRJ.html">Peer Reviewed Journals</a> \
-                <a href="${path_origin}/Pages/PublicationsCPro.html">Conference Proceedings</a> \
-                <a href="${path_origin}/Pages/PublicationsCPre.html">Conference Presentations</a> \
-                <a href="${path_origin}/Pages/PublicationsBTR.html">Books And Technical Reports</a> \
+                <div class="submenublock"><a href="${path_origin}/Pages/PublicationsPRJ.html">Peer Reviewed Journals</a></div> \
+                <div class="submenublock"><a href="${path_origin}/Pages/PublicationsCPro.html">Conference Proceedings</a></div> \
+                <div class="submenublock"><a href="${path_origin}/Pages/PublicationsCPre.html">Conference Presentations</a></div> \
+                <div class="submenublock"><a href="${path_origin}/Pages/PublicationsBTR.html">Books And Technical Reports</a></div> \
             </div> \
         </div> \
-        <div class="mainMenuOption"> \
-            <a href="${path_origin}/Pages/Classes.html">Classes</a> \
-        </div> \
+
         <div class="mainMenuOption"> \
             <a href="${path_origin}/Pages/News.html">News</a> \
         </div> \
+
         <div class="mainMenuOption"> \
             <a href="${path_origin}/Pages/Outreach.html">Outreach</a> \
             <div class="subMenu"> \
-                <a href="${path_origin}/Pages/Research Profiles/RainOnSnowModule.html">Rain on Snow Module</a> \
-                <a href="https://www.zooniverse.org/projects/mozerm/snow-spotter">Citizen Science</a> \
-                <a href="${path_origin}/Pages/FreeUsePhotos.html">Free Use Snow Photos</a> \
-                <a href="${path_origin}/Pages/Join Us Pages/joinUsUndergrad.html">Join Us! Undergraduates</a> \
-                <a href="${path_origin}/Pages/Join Us Pages/joinUsGraduate.html">Join Us! Graduates</a> \
-                <a href="${path_origin}/Pages/Join Us Pages/joinUsPostDoc.html">Join Us! Post-Doctorals</a> \
+                <div class="submenublock"><a href="${path_origin}/Pages/Research Profiles/RainOnSnowModule.html">Rain on Snow Module</a></div> \
+                <div class="submenublock"><a href="https://www.zooniverse.org/projects/mozerm/snow-spotter">Citizen Science</a></div> \
+                <div class="submenublock"><a href="${path_origin}/Pages/FreeUsePhotos.html">Free Use Snow Photos</a></div> \
+                <div class="submenublock"><a href="${path_origin}/Pages/Join Us Pages/joinUsUndergrad.html">Join Us! Undergraduates</a></div> \
+                <div class="submenublock"><a href="${path_origin}/Pages/Join Us Pages/joinUsGraduate.html">Join Us! Graduates</a></div> \
+                <div class="submenublock"><a href="${path_origin}/Pages/Join Us Pages/joinUsPostDoc.html">Join Us! Post-Doctorals</a></div> \
             </div> \
         </div> \
+
+        <div class="mainMenuOption"> \
+        <a href="${path_origin}/Pages/Classes.html">Classes</a> \
+        </div> \
+
     <div class="navBarPhone"> \
         <img src="${path_origin}/src/MenuButton.png" alt="Menu Button" /> \
     </div> \

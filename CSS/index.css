@@ -92,14 +92,26 @@ a {
     padding: 2%;
     padding-left: 0.5%;
     display: none;
+    /*display: grid;*/
     position: absolute;
     z-index: 1;
     background-color: #333333;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
 }
+
+.submenublock {
+    width: 100%;
+    padding: 8px 2px 8px 2px;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color:#5a5959;
+}
+
 .subMenu a{
     display: block;
     padding: 1% 0;
-    
+    /*color: green;*/
 }
 
 .mainMenuOption:hover .subMenu, .subMenu:hover{
