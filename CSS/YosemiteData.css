@@ -58,7 +58,7 @@ a {
 
     .maintexttitle h2 {
         grid-row: 1;
-        width: 100%;
+        width: 95%;
         font-size: 2.5vw;
         color: black;
         padding-top: 10px;
@@ -74,7 +74,7 @@ a {
 .lowermaintextarea {
     grid-row: 2;
     /* is known to cause trouble*/
-    width: 100%;
+    width: 95%;
     padding-top: 1%; 
     padding-left: 5%;
     
@@ -83,7 +83,7 @@ a {
 .fullpagecontent {
     grid-row: 3;
     /* is known to cause trouble*/
-    width: 100%;
+    width: 95%;
     padding-top: 1%; 
     padding-left: 5%;
 }
@@ -111,6 +111,10 @@ a {
             text-decoration: underline;
         }
 
+        .lowermaintextarea p {
+            font-size: 1vw;
+        }
+
         .datasection {
             width: 85%;
             padding-top: 1%; 
@@ -118,15 +122,15 @@ a {
             grid-template-columns: 1fr 1fr;
             grid-template-rows: 1fr;
             column-gap: 3%;
-            /*row-gap:5%;*/
+            row-gap: 1%;
         }
 
 
     .datatile {
         width: 90%;
-        height: 85%;
+        height: 78%;
         background-color: rgba(236, 235, 235);
-        margin: 2% 0;
+        margin: 2% 0 5% 0;
         border-radius: 2%;
         padding: 2% 5% 3% 5%;
         border-style: solid;
@@ -144,7 +148,7 @@ a {
         }
 
         .datatile p {
-            font-size: 1.25vw;
+            font-size: 1vw;
             padding-bottom: 5%;
         }
 
@@ -152,11 +156,15 @@ a {
             color: blueviolet;
         }
 
+        .datatile b {
+            font-size: 1vw;
+        }
+
     .datatile2 {
         width: 90%;
         height: 90%;
         background-color: rgba(236, 235, 235);
-        margin: 2% 0;
+        margin: 2% 0 2% 0;
         border-radius: 2%;
         padding: 2% 5% 3% 5%;
         border-style: solid;
@@ -172,7 +180,7 @@ a {
         }
 
         .datatile2 p {
-            font-size: 1.25vw;
+            font-size: 1vw;
             padding-bottom: 5%;
         }
 
@@ -200,13 +208,17 @@ a {
         }
     
         .datatileshort p {
-            font-size: 1.25vw;
+            font-size: 1vw;
             padding-bottom: 5%;
             font-weight:bold;
         }
 
         .datatileshort a {
             color: blueviolet;
+        }
+
+        .datatileshort li {
+            font-size: 1vw;
         }
 
     .datatilecedar {
@@ -232,7 +244,7 @@ a {
         }
     
         .datatilecedar p {
-            font-size: 1.25vw;
+            font-size: 1vw;
             padding-bottom: 5%;
         }
     
@@ -288,25 +300,36 @@ a {
             .titleFull p{
                 font-size: 1.25vw;
             }
-
+    
+    .maintexttitle {
+        width: 90vw;
+    }
     
     .mainTextArea {
         padding: 5vw;
         width: 90vw;
 
     }
-        
-    .datatile li {
-        font-size: 1.25vw;
+     
+    .lowermaintextarea p {
+        font-size: 2vw;
     }
-
-    .datatile h1 {
-        font-size: 2.6vw;
-    } 
-
-    .datatile2 li {
-        font-size: 1.25vw;
+  
+    .datatile {
+        height: 85%;
     }
+  
+        .datatile li {
+            font-size: 2vw;
+        }
+
+        .datatile h1 {
+            font-size: 2.6vw;
+        } 
+
+        .datatile2 li {
+            font-size: 2vw;
+        }
 
     .datatile2 h1 {
         font-size: 2.6vw;

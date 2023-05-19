@@ -113,7 +113,7 @@ a {
     padding: 1% 0;
     /*color: green;*/
 }
-
+/*This controls drop down menus*/
 .mainMenuOption:hover .subMenu, .subMenu:hover{
     display: block;
 }
@@ -130,13 +130,14 @@ a {
 .dropdownMenu{
     visibility: hidden;
     position: fixed;
+    right: 0px;
     color: white;
     background-color: #252525;
-    margin-top: 1vh;
+    margin-top: 2vh;
     display: flex;
     justify-content: center;
     padding: 2%;
-    width: 100vw;
+    width: 20vw;
     z-index: 1;
 }
     .dropdownMenu li {
@@ -238,12 +239,21 @@ a:hover {
     .heading {
         grid-template-columns: 85% 15%;
     }
+
+    
     .navBar {
         grid-column: 2;
+        margin-right: 20%;
     }
-    .dropdownMenu{
+/*Dropdown menu itself*/
+    .dropdownMenu {
         visibility: visible;
     }
+
+    /*.navBar:hover .dropdownMenu, .dropdownMenu:hover {
+        Display: block;
+    }*/ 
+
         .mainMenuOption {
             visibility: hidden;
         }
