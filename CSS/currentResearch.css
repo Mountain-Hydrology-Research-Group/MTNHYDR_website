@@ -41,7 +41,13 @@ a {
     margin-right: 40%;
 }
 
+    .projInfo h1 {
+        font-size: 2vw;
+    }
 
+    .projInfo p {
+        font-size: 1.25vw;
+    }
 
 .classheader {
     width: 100%;
@@ -70,15 +76,22 @@ a {
     color: rgb(86, 83, 83);
 }
 
-.projInfo h1 {
-    font-size: 2vw;
-}
+    .classinfo {
+        margin-left: 5%;
+        margin-right: 40%;
+    }
 
-.projInfo p {
-    font-size: 1.25vw;
-}
+    .classinfo h1 {
+        font-size: 2vw;
+    } 
 
+    .classinfo p {
+        font-size: 1.25vw;
+    }
 
+    .classinfo a {
+        color: blueviolet
+    }
 /*Here are the filepaths for the profile pictures*/
 
 /*Current Research*/
