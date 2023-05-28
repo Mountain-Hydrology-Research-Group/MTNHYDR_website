@@ -112,7 +112,7 @@ a {
         }
 
         .lowermaintextarea p {
-            font-size: 1vw;
+            font-size: 1.25vw;
         }
 
         .datasection {
@@ -244,7 +244,7 @@ a {
         }
     
         .datatilecedar p {
-            font-size: 1vw;
+            font-size: 1.25vw;
             padding-bottom: 5%;
         }
     
@@ -312,7 +312,7 @@ a {
     }
      
     .lowermaintextarea p {
-        font-size: 2vw;
+        font-size: 1.75vw;
     }
   
     .datatile {
