@@ -37,7 +37,11 @@
 
 .publicationYear li{
     font-size: 1.3em;
-    list-style: circle;
-    padding: 5px;
+    list-style: circle; 
+    padding-bottom: 20px;
+    margin-top: 20px;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color:#c9c6c6;
     
 }
