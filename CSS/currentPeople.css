@@ -120,6 +120,19 @@
         background-position: right;
         background-size: cover;
     }
+
+    #profClinton .profilePicture{
+        background-image: url(../src/Profile\ Pictures/ClintonClimbing.jpeg);
+        background-position: left;
+        background-size: cover;
+    }
+    
+    #profEmma .profilePicture{
+        background-image: url(../src/Profile\ Pictures/SmallEmmaWaider.jpg);
+        background-position: right;
+        background-size: cover;
+    }
+
     /*Here is the media query for the Tablet/Phone sizes*/
     @media only screen and (max-width: 1200px) {
         .peopleMain{

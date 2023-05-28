@@ -166,6 +166,17 @@
     background-size: cover;
 }
 
+#profClinton {
+    background-image: url(../src/Profile\ Pictures/ClintonClimbing.jpeg);
+    background-position: left;
+    background-size: cover;
+}
+
+#profEmma {
+    background-image: url(../src/Profile\ Pictures/EmmaWaders.jpg);
+    background-position: right;
+    background-size: cover;
+}
 
 /*Research*/
 /*Forests and Snow*/
