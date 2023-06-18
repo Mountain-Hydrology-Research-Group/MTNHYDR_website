@@ -12,7 +12,7 @@
 
 .gridStructureOutreach {
     width: 85%;
-    margin: 7.5%;
+    margin: 7.5% 7.5% 15% 7.5%;
     display: grid;
     column-gap: 5%;
     grid-template-columns: 1fr 1fr;
@@ -43,12 +43,13 @@
 @media only screen and (max-width: 1200px) {
     .gridStructureOutreach {
         width: 85%;
-        margin: 7.5%;
+        height: 2000px;
+        margin: 7.5% 7.5% 15% 7.5%;
         display: grid;
         column-gap: 5%;
         row-gap: 5%; 
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     }
     
 }
