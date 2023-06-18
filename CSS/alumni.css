@@ -15,6 +15,7 @@
 
 .peopleArea{
     display: grid;
+    padding-top: 5%;
     grid-template-rows: repeat(5, 1fr);
     border-radius: 5%;
     background-color: rgba(95, 113, 192, 0.548);
@@ -172,6 +173,14 @@
 /*Here are the profile images*/
 
 /*PHD*/
+
+/*Steven Pestana*/
+#PhdSteven .profilePic {
+    background-image: url(../src/Profile\ Pictures/StevenProfile.jpg);
+    background-position: center;
+    background-size: contain;
+}
+
 #PhdOne .profilePic {
     background-image: url(../src/Profile\ Pictures/JustinProfile.jpg);
     background-position: center;

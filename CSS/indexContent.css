@@ -39,7 +39,7 @@
 
 
 .meetTheTeam{
-    height: 1700px;
+    height: 1300px;
     color:rgb(255, 255, 255);
     background-image: url("../src/BoundaryWatersTrip2020-0555\ -\ Copy.jpg");
     background-position: bottom;
@@ -180,12 +180,6 @@
 
     #profThree .profilePicture{
         background-image: url(../src/Profile\ Pictures/DannyProfile.jpg);
-        background-position: center;
-        background-size: cover;
-    }
-
-    #profFour .profilePicture{
-        background-image: url(../src/Profile\ Pictures/StevenProfile.jpg);
         background-position: center;
         background-size: cover;
     }
