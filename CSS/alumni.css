@@ -299,6 +299,12 @@
 
 /*Undergraduate*/
 
+#undergradAutumn .profilePic {
+    background-image: url(../src/Profile\ Pictures/AutumnProfile.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
 #undergradJori .profilePic {
     background-image: url(../src/Profile\ Pictures/JoriProfile.jpg);
     background-position: center;

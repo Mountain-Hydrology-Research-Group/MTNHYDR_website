@@ -121,6 +121,13 @@ a {
     background-size: cover;
 }
 
+/*Autumn Nguyen*/
+#profAutumn{
+    background-image: url(../src/Profile\ Pictures/AutumnProfile.jpg);
+    background-position: top;
+    background-size: cover;
+}
+
 /*Annalise Pree*/
 #profAnnalise{
     background-image: url(../src/Profile\ Pictures/anna\ profile\ picture.PNG);
@@ -236,7 +243,6 @@ a {
     background-position: right;
     background-size: cover;
 }
-
 
 
 /*Research*/
