@@ -49,6 +49,13 @@
     padding: 5%;
 }
 
+.twitterfollow {
+    padding: 3%;
+    margin: 2%;
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+
 /*Media Queries*/
 @media only screen and (max-width: 1200px) {
 
