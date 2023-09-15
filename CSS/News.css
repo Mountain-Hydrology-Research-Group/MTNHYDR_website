@@ -5,10 +5,13 @@
 }
 
 .mainNewsContent {
-    margin: 0 5vw;
-    width: 90vw;
+    margin: 20px 14vw 20px;
+    width: 78vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    column-gap: 3vw;
+    grid-gap: 2vh;
+    grid-template-rows: 1fr 1fr;
 }
 
 .newsPanel{
