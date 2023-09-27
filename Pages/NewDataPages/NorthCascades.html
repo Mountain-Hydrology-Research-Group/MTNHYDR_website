@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>North Cascades Temp Data</title>
+    <link rel="stylesheet" type="text/css" href="../../CSS/index.css" /> 
+    <link rel="stylesheet" type="text/css" href="../../CSS/YosemiteData.css"/> 
+    <link rel="stylesheet" type="text/css" href="../../CSS/DataPage.css"/> 
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway" />
+</head>
+
+<!--Nav Bar Content-->
+<body>
+    <div class="heading">
+        <!--JQuery-->
+    </div>
+    <div class="dropdownMenu">
+        <!--JQuery-->
+    </div>
+    <!--Title Banner Content-->
+    <div class="banner">
+        <div class="bannerImage">
+            <h1>Data</h1>
+        </div> 
+        <!--Internal navigation page content-->
+        <div class="timeMenu">
+            <a href="../Data.html">Back to Data</a>
+        </div> 
+    </div>
+    <!--Main body content-->
+    <div class="dataFull">
+        <!--Sidebar content-->
+        <div class="sideBar">
+            <div class="dataPicture" id="NorthCascades"></div>
+            <div class="titleFull">
+                <h1>North Cascades National Park</h1>
+            </div>  
+        </div>
+        <!--Data Page Title-->
+        <div class="ContentArea">
+            <div class="maintexttitle">
+                <h2>Air Temperature Measurements at North Cascades National Park</h2>
+            </div>
+            <!--Blog Content-->
+            <!--<div class="lowermaintextarea">  
+            </div>-->
+
+            <div class="fullpagecontent">
+                <h2>Raw Temperature Data</h2>
+                <div class="datasection">
+                    <div class="datatileshort">
+                        <p>Overview of North Cascades Air Temperature Study <a href="./cascades/NCascades_Temp.doc">(doc)</a></p>
+                    </div>
+                    
+                    <div class="datatileshort">
+                        <p>North Cascades Zipped Data <a href="./cascades/NCascades_matlab.zip">(zip)</a></p>
+                    </div>
+
+                    <div class="datatileshort">
+                        <p>North Cascades Air Temperature Read-me <a href="./cascades/NCascades_README.txt">(txt)</a></p>
+                    </div>
+
+                    <div class="datatileshort">
+                        <p>North Cascades Air Temperature Matlab File <a href="./cascades/NCascades_AT.mat">(mat)</a></p>
+                    </div>
+
+                </div>
+                <!--Next Heading-->
+                <h2>Natalie's Processed North Cascades Data</h2>
+                <div class="datasection">
+                    <div class="datatileshort">
+                        <p>Natalie's North Cascades Data Read-me <a href="./cascades/Natalie_NC_README.txt">(txt)</a></p>
+                    </div>
+
+                    <div class="datatileshort">
+                        <p>Excel File with North Cascades Sites <a href="./cascades/Cascades_New_iButtons.xls">(xls)</a></p>
+                    </div>
+
+                    <div class="datatile2">
+                        <b>North Cascades Trimmed Data <a href="./cascades/NC_iButtons.dat">(dat)</a></b><br><br>
+                        <li>This data has been trimmed so that it does not include times recorded by ibuttons when 
+                            not deployed. This file was constructed to include only days when data was recorded on 
+                            all ibuttons in the data set.</li><br>
+
+                        <li>Formatting: [year;month;day(in PST);hour(PST); interpolated temperature for sensors 
+                            1:30, 33:45]</li><br>
+
+                        <li>-999 was used for bad data in sensors 1, 11, and 35</li><br>
+
+                        <li>NaNs may be present on the first and last day of each file, when there was not data 
+                            for those hours.</li><br>
+                    </div>
+
+                    <div class="datatile2">
+                        <b>North Cascades Sensor Coordinates <a href="./cascades/NC_IDfile.dat">(dat)</a></b><br><br>
+                        <li>Formatting: [sensor number, latitude N, longitude W, elevation]</li>
+                    </div>
+                </div><br>
+            </div>
+        </div>
+    </div>        
+    <!--Footer Content-->
+    <div class="footer">
+        <!--JQuery-->
+    </div>
+    <script src="../../JS/jquery-3.6.0.min.js"></script>
+    <script src="../../JS/index.js"></script> 
+</body>        
+</html>
