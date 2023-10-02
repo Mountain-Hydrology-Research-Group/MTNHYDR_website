@@ -59,6 +59,13 @@ a {
     border-bottom: 1px solid black;
 }
 
+.classgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 40px;
+}
+
 .classbox {
     display: grid;
     background-color: rgba(236, 235, 235);
@@ -70,7 +77,7 @@ a {
     width: 100%;
     justify-self: center;
     align-self: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .classbox a:hover {
@@ -80,7 +87,7 @@ a {
 
     .classinfo {
         margin-left: 5%;
-        margin-right: 40%;
+        margin-right: 5%;
     }
 
     .classinfo h1 {
