@@ -75,6 +75,7 @@ a {
         width: 100%;
         padding-top: 1%; 
         padding-left: 5%;
+        padding-bottom: 12%;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
