@@ -101,7 +101,11 @@ a {
     }
 
     .classinfo a {
-        color: blueviolet
+        color: blueviolet;
+    }
+
+    .classinfo li {
+        font-size: 1.25vw;
     }
 
 /*Here are the filepaths for the profile pictures*/
