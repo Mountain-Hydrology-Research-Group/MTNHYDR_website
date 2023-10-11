@@ -248,10 +248,12 @@ a {
 /*Research*/
 /*Forests and Snow*/
 #profForestAndSnow {
-    background-image: url(../src/Copy\ of\ Ryan_Currier_Drone_Survey_Easton_Glacier_Mount_Baker_3.jpeg);
-    background-position: center;
+    background-image: url(../src/CassieAndStevenFieldWork.jpg);
+    background-position: right;
     background-size: cover;
 }
+
+
 
 /*Intercomparison of Meteorological Forcing Data from Empirical and Mesoscale Model Sources*/
 #profIMFDEMMS {
@@ -374,7 +376,7 @@ a {
 
 /*Past Pages*/
 #camerasInTrees {
-    background-image: url(../src/camerasintrees/camfig1.jpg);
+    background-image: url(../src/camerasintrees/camfig5.jpg);
     background-position: center;
     background-size: cover;
 }

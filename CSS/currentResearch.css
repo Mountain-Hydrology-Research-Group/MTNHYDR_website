@@ -127,8 +127,8 @@ a {
     background-size: cover;
 }
 #profForestsAndSnow{
-    background-image: url(../src/Copy\ of\ IMG_7435.jpeg);
-    background-position: center;
+    background-image: url(../src/CassieAndStevenFieldWork.jpg);
+    background-position: right;
     background-size: cover;
 }
 #profSASSSASITS{
@@ -137,6 +137,11 @@ a {
     background-size: cover;
 }
 
+#profSnowIR {
+    background-image: url(../src/Copy\ of\ IMG_7435.jpeg);
+    background-position: center;
+    background-size: cover;
+}
 /*Past Research*/
 
 /*Currently Blank as there is not enough content, if time allows simply fill in the URL*/
