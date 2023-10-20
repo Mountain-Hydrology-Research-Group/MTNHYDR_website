@@ -44,6 +44,7 @@ const headerHTML = ` \
         <div class="mainMenuOption"> \
             <a href="${path_origin}/Pages/CurrentResearch.html">Research</a> \
             <div class="subMenu"> \
+                <div class="submenublock"><a href="${path_origin}/Pages/Research Profiles/MissingWater.html">Missing Mountain Water</a></div> \
                 <div class="submenublock"><a href="${path_origin}/Pages/Research Profiles/SublimationOfSnow.html">Sublimation of Snow</a></div> \
                 <div class="submenublock"><a href="${path_origin}/Pages/Research Profiles/SnowPatterns.html">Repeatable Snow Patterns</a></div> \
                 <div class="submenublock"><a href="${path_origin}/Pages/Research Profiles/snowInformationForWildlifeSystems.html">Snow Information For Wildlife Systems</a></div> \

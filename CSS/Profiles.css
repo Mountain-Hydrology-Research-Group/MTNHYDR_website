@@ -5,6 +5,20 @@
     background-position: center;
 }
 
+.MissingSnowbannerImage{
+    grid-row: 1;
+    background-image: url(../src/GothicPano.jpg);
+    background-size: cover;
+    background-position: 0px -60px;
+}
+    .MissingSnowbannerImage h1{
+        width: 100%;
+        height: 100%;
+        align-self: center;
+        text-align: center;
+        font-size: 5vw;
+    }
+
 .profileFull {
     width: 90%;
     display: grid;
@@ -23,19 +37,28 @@ a {
     grid-column: 1;
     padding-right: 5%;
     padding-top: 10%;
-    width: 100%;
+    width: 315px;
 }
 
     .mainPicture {
         border-radius: 100%;
         height: 300px;
         width: 300px;
+        /*padding-left: 5vw*/
     }
 
     .titleFull {
         text-align: center;
     }
 
+        .titleFull h1 {
+            font-size: 2vw;
+        }
+
+        .titleFull li, p {
+            font-size: 1.25vw;
+            text-align: left;
+        }
 .mainTextArea {
     grid-column: 2;
     padding: 10%;
@@ -47,7 +70,14 @@ a {
         margin: auto; 
     }
 
-    
+    .mainTextArea p, li {
+        font-size: 1.25vw;
+    }
+
+    .mainTextArea h2 {
+        font-size: 1.75vw;
+    }
+
 .blueLink {
     color: royalblue
 }
@@ -246,6 +276,13 @@ a {
 
 
 /*Research*/
+/*Missing Snow*/
+#profMissingSnow{
+    background-image: url(../src/GothicMtn.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
 /*Forests and Snow*/
 #profForestAndSnow {
     background-image: url(../src/CassieAndStevenFieldWork.jpg);

@@ -111,6 +111,11 @@ a {
 /*Here are the filepaths for the profile pictures*/
 
 /*Current Research*/
+#profMissingSnow{
+    background-image: url(../src/GothicMtn.jpg);
+    background-position: center;
+    background-size: cover;
+}
 #profRepeatingSnowPatterns{
     background-image: url(../src/SnowPatternsGraphic.jpg);
     background-position: center;
