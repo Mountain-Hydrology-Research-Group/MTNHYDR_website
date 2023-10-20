@@ -172,6 +172,10 @@ a {
             text-decoration: underline;
         }
 
+        .lowermaintextarea p, i {
+            font-size: 1.25vw;
+        }
+
         .datasection {
             grid-row: 2;
             /* is known to cause trouble*/
