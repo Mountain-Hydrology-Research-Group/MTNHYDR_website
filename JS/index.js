@@ -87,6 +87,7 @@ const headerHTML = ` \
                 <div class="submenublock"><a href="${path_origin}/Pages/Archived Pages/CameraInTrees.html">Time Lapse Camera Install</a></div> \
                 <div class="submenublock"><a href="${path_origin}/Pages/Join Us Pages/joinUsUndergrad.html">Join Us! Undergraduates</a></div> \
                 <div class="submenublock"><a href="${path_origin}/Pages/Join Us Pages/joinUsGraduate.html">Join Us! Graduates</a></div> \
+                <div class="submenublock"><a href="${path_origin}/Pages/Join Us Pages/GraduateFAQ.html">Graduate FAQ</a></div> \
                 <div class="submenublock"><a href="${path_origin}/Pages/Join Us Pages/joinUsPostDoc.html">Join Us! Post-Doctorals</a></div> \
             </div> \
         </div> \
