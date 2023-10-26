@@ -104,6 +104,10 @@ a {
         color: blueviolet;
     }
 
+    .classinfo a:hover {
+        background-color: rgba(236, 235, 235);
+    }
+
     .classinfo li {
         font-size: 1.25vw;
     }
