@@ -38,7 +38,12 @@ a {
     padding-right: 5%;
     padding-top: 10%;
     width: 315px;
+    display: block;
 }
+
+    .sideBar img {
+        width: 25vw;
+    }
 
     .mainPicture {
         border-radius: 100%;
@@ -106,9 +111,15 @@ a {
     
     .sideBar{
         width: 100%;
-        padding: 0;
-        display: block;
+        padding: 3% 0 0 0;
+        display: flex;
     }
+        .sideBar img{
+            display: block;
+            width: 25%;
+            margin: auto;
+
+        }
     
         .mainPicture {
             border-radius: 100%;
@@ -399,7 +410,7 @@ a {
 
 /*Sublimation of Snow*/
 #profSublimationOfSnow {
-    background-image: url(../src/sublimation_of_snow.png);
+    background-image: url(../src/NewSOSLogo.jpg);
     background-position: center;
     background-size: cover;
 }
