@@ -92,13 +92,16 @@ a {
     padding: 10%;
 }
     .videocontent iframe {
-        width: 70%;
+        width: 90%;
+        height: 30vw;
+        /*width: 70%;*/
         display: block;
         margin: auto;
     }
 
     .videocontent img {
-        width: 70%;
+        width: 90%;
+        height: 30vw;
         display: block;
         margin: auto;
     }
@@ -325,7 +328,7 @@ a {
 }
 
 /*Meadow Ecology and Snow Climate*/
-#profMEASC {
+#profMEAC {
     background-image: url(../src/Copy\ of\ Ryan_Currier_Drone_Survey_Easton_Glacier_Mount_Baker_3.jpeg);
     background-position: center;
     background-size: cover;
