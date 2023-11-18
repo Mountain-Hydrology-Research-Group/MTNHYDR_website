@@ -226,10 +226,10 @@ a:hover {
 
 /*Basic Website text types*/
 
-.caption{
-    margin-left: 10%;
-    margin-right: 10%;
-    font-size: 15px;
+.caption {
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 1.2vw;
 
 }
 
