@@ -1,8 +1,30 @@
 /*Index page content*/
 
+/*A blank element that exists behind the banner must be made*/
+.blank {
+    height: 12vh;
+    width: 100vw;
+}
+/*Annonucement Banner*/
+.announcement {
+    min-height: 10vh;
+    max-height: 75px;
+    width: 100vw;
+    color: rgb(255, 255, 255);
+    display: grid;
+}
+
+.announcement b {
+    color: red;
+    font-size: calc(7px + 1vw);
+    margin: 1% 5% 1.5% 5%;
+    text-align: center;
+}
+
+
 /*Main Content*/
 .page{
-    height: 800px;
+    height: 80vh;
     width: 100vw;
     color: rgb(255, 255, 255);
     display: grid;
