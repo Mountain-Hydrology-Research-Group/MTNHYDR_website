@@ -45,6 +45,16 @@ a {
         width: 25vw;
     }
 
+    .sideBar li {
+        font-size: 1.3em;
+        list-style: circle; 
+        padding-bottom: 20px;
+        margin-top: 20px;
+        border-bottom: solid;
+        border-width: 1px;
+        border-color:#c9c6c6;
+    }
+
     .mainPicture {
         border-radius: 100%;
         height: 300px;
@@ -58,15 +68,26 @@ a {
 
         .titleFull h1 {
             font-size: 2vw;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
         }
 
+        .titleFull h2 {
+            font-size: 2vw;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+        }
         .titleFull li, p {
             font-size: 1.25vw;
             text-align: left;
         }
 .mainTextArea {
     grid-column: 2;
-    padding: 10%;
+    padding: 5% 10% 10% 10%;
 }
 
     .mainTextArea img, iframe {
@@ -77,24 +98,71 @@ a {
 
     .mainTextArea p, li {
         font-size: 1.25vw;
+        padding: 1%;
     }
 
     .mainTextArea h2 {
         font-size: 1.75vw;
     }
 
+    .mainTextArea h1 {
+        text-align: center;
+    }
+/*This is code specifically for the graduate page*/
+    .linkarea {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        row-gap: 5%;
+        column-gap: 5%;
+        padding-bottom: 5%;
+
+    }
+        .linkarea li {
+            border-bottom: solid;
+            border-top: solid;
+            border-width: 1px;
+            border-color:#c9c6c6;
+            padding: 30px 0 30px 0;
+            font-size: 17px;
+        }
+    /*This is code for the graduate page time menu*/
+
+.linklist {
+    width: 100%;
+}
+        .linklist h2{
+            width: 100%;
+            font-size: 1.7em;
+            color: black;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+        }
+        
+        .linklist li{
+            font-size: 1.3em;
+            list-style: circle; 
+            padding-bottom: 20px;
+            margin-top: 20px;
+            border-bottom: solid;
+            border-width: 1px;
+            border-color:#c9c6c6;
+            
+        }
 .blueLink {
     color: royalblue
 }
 
 .videocontent {
     grid-column: 2;
-    padding: 10%;
+    padding: 5% 10% 10% 10%;
 }
     .videocontent iframe {
         width: 90%;
         height: 30vw;
-        /*width: 70%;*/
         display: block;
         margin: auto;
     }
@@ -105,6 +173,13 @@ a {
         display: block;
         margin: auto;
     }
+
+    .videocontent h2 {
+        text-align: center;
+        font-size: 3vw;
+    }
+
+
 /*Media Queries*/
 @media only screen and (max-width: 1200px) {
     .profileFull {
@@ -115,13 +190,22 @@ a {
     .sideBar{
         width: 100%;
         padding: 3% 0 0 0;
-        /*display: flex;*/
     }
         .sideBar img{
             display: block;
             width: 25%;
             margin: auto;
 
+        }
+
+        .sideBar li {
+            margin-left: -3vw;
+            margin-right: -0.01vw;
+            font-size: 2vw;
+        }
+
+        .sideBar h1 {
+            font-size: 3.5vw;
         }
     
         .mainPicture {
@@ -136,7 +220,7 @@ a {
             
         }
             .titleFull h1{
-                font-size: 3vw;
+                font-size: 3.5vw;
             }
             .titleFull h2{
                 font-size: 2vw;
@@ -151,11 +235,77 @@ a {
             }
     
     .mainTextArea {
-        padding: 5vw;
-        width: 90vw;
+        /*padding: 5vw;*/
+        width: 80vw;
     }
-        
 
+        .mainTextArea h2 {
+            text-align: center;
+            font-size: 3.5vw;
+        }
+
+        .mainTextArea li {
+            margin-left: -1vw;
+            margin-right: -1vw;
+            text-align: left;
+            font-size: 2.5vw;
+        }
+
+        .mainTextArea p {
+            font-size: 2.5vw;
+        }
+    .linkarea {
+        width: 80vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        column-gap: 5%;
+       
+    }
+        .linkarea li {
+            margin-left: -1vw;
+            margin-right: -1vw;
+        }
+
+
+    .linklist {
+        text-align: center;
+        /*display: none;*/
+    }
+        .linklist h1 {
+            font-size:3vw;
+        }
+
+        .linklist h2 {
+            font-size:2.5vw;
+        }
+
+    .videocontent {
+        padding: 3% 10% 10% 10%;
+    }
+    .videocontent iframe {
+        width: 90%;
+        height: 40vw;
+    }
+
+    .videocontent img {
+        width: 90%;
+        height: 40vw;
+    }
+
+    .videocontent p {
+        font-size: 2.5vw;
+    }
+
+    .videocontent li {
+        font-size: 2.5vw;
+        margin-left: -1vw;
+        margin-right: -1vw;
+    }
+
+    .videocontent h2 {
+        font-size: 4vw;
+    }
 }
 
 
