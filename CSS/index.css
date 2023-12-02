@@ -252,7 +252,9 @@ a:hover {
         grid-template-columns: 85% 15%;
     }
 
-    
+    .timeMenu a {
+        font-size: calc(7px + 1vw);
+    }
     .navBar {
         grid-column: 2;
         margin-right: 20%;
