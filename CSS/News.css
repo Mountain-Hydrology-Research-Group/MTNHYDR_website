@@ -61,8 +61,18 @@
 }
 
 /*Media Queries*/
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 900px) {
+    .mainNewsContent {
+        display: block;
+    }
 
+    .news {
+        margin-bottom: 5%;
+    }
+
+    .news h1 {
+        font-size: 4vw;
+    }
 }
 
 

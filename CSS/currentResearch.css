@@ -57,6 +57,7 @@ a {
     padding-bottom: 20px;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
+    text-align: center;
 }
 
 .classgrid {
@@ -111,6 +112,39 @@ a {
     .classinfo li {
         font-size: 1.25vw;
     }
+
+
+/*Media Queries*/
+@media only screen and (max-width: 1200px) {
+    .classgrid {
+        display: block;
+    }
+
+    .classbox {
+        display: grid;
+        background-color: rgba(236, 235, 235);
+        border-radius: 10%;
+        border-style: solid;
+        border-width: 1px;
+        border-color: gray;
+        height: 18vw;
+        width: 60%;
+        justify-self: center;
+        align-self: center;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    
+    .researchContent{
+        margin-top: 20px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .classinfo {
+        text-align: center;
+    }
+}
 
 /*Here are the filepaths for the profile pictures*/
 

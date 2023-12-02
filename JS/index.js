@@ -129,7 +129,7 @@ const headerHTML = ` \
         <li><a href="${path_origin}/Pages/Data.html">Data</a></li> \
         <li><a href="${path_origin}/Pages/PublicationsPRJ.html">Publications</a></li> \
         <li><a href="${path_origin}/Pages/News.html">News</a></li> \
-        <li><a href="${path_origin}/Pages/Outreach.html">Outreach/Join Us</a></li> \
+        <li><a href="${path_origin}/Pages/Outreach.html">Outreach</a></li> \
     </ul> \
     `;
 
