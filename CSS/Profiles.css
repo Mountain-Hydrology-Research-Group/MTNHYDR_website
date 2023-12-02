@@ -174,11 +174,14 @@ a {
         margin: auto;
     }
 
-    .videocontent h2 {
+    .videocontent h1 {
         text-align: center;
         font-size: 3vw;
     }
 
+    .videocontent h2 {
+        font-size: 2vw;
+    }
 
 /*Media Queries*/
 @media only screen and (max-width: 1200px) {
@@ -303,8 +306,13 @@ a {
         margin-right: -1vw;
     }
 
-    .videocontent h2 {
+    .videocontent h1 {
         font-size: 4vw;
+    }
+
+    .videocontent h2 {
+        font-size: 3vw;
+        text-align: center;
     }
 }
 
