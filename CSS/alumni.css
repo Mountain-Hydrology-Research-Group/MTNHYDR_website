@@ -372,15 +372,94 @@
 }
 
     /*Here is the media query for the Tablet/Phone sizes*/
-    @media only screen and (max-width: 1200px) {
-        .peopleArea{
-            grid-template-columns: 1fr 1fr 1fr;
-            column-gap: 5px;
-            grid-gap: 5px;
-        }
+@media only screen and (max-width: 1200px) {
 
-        .profile a{
-            width: 30vw;
-            height: 20vh;       
-        }
-    }
+        /*This is the PhD student alumni section code*/
+
+    .degreeTypePhD {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 0.5fr 2fr 2fr;
+        column-gap: 10px;
+        row-gap: 40px; /*This is the problem*/
+        margin-top: 20px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 5%;
+        align-items: center;
+        justify-items: center;
+}
+
+/*This is Masters Student Alumni section*/
+
+.degreeTypeMasters {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 2fr 2fr;
+    column-gap: 10px;
+    row-gap: 40px;
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    align-items: center;
+    justify-items: center;
+}
+
+
+/*This is the Undergraduate Student Alumni section*/
+.degreeTypeUndergrad {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 2fr 2fr;
+    column-gap: 10px;
+    row-gap: 40px;
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    align-items: center;
+    justify-items: center;
+}
+
+/*This is Post Grad Alumni section*/
+
+.degreeTypePostDoc {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 2fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    align-items: center;
+    justify-items: center;
+}
+
+.degreeLabel{
+    width: 100%;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    grid-row: 1;
+    grid-column: 1 / span 3;
+}
+
+/*this is the unedited part*/
+.peopleArea a:hover {
+    background-color: rgba(157, 169, 223, 0.548);
+}
+
+.peopleArea a{
+    display: grid;
+    padding-top: 10%; 
+    grid-template-rows: repeat(5, 1fr);
+    border-radius: 5%;
+    background-color: rgba(95, 113, 192, 0.548);
+    width: 28vw;
+    height: 55vh;
+    color: white;
+}
+
+}
