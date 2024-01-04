@@ -280,3 +280,34 @@ a {
         height: 20vh;
     }
 }
+
+/*Phones*/
+@media only screen and (max-width: 500px) {
+
+    .dataPicture{
+        width: 200px;
+        height: 200px;
+        margin: 2vw 5vw 0 25vw;
+    }
+
+    .titleFull h1{
+        font-size: 7vw;
+    }
+
+    .titleFull p{
+        font-size: 4vw;
+    }
+
+    .mainTextArea{
+        display: block;
+    }
+
+    .maintexttitle h2{
+        font-size: 5vw;
+    }
+
+    .maintexttitle{
+        margin: 0 0 0 0;
+    }
+
+}

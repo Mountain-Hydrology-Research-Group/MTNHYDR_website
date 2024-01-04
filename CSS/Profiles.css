@@ -183,7 +183,7 @@ a {
         font-size: 2vw;
     }
 
-/*Media Queries*/
+/*Media Queries - tablet*/
 @media only screen and (max-width: 1200px) {
     .profileFull {
         width: 100vw;
@@ -317,6 +317,137 @@ a {
 }
 
 
+/*Phone Users*/
+@media only screen and (max-width: 500px) {
+
+    .profileFull {
+        width: 100vw;
+        display: block;
+    }
+    
+    .sideBar{
+        width: 100%;
+        padding: 3% 0 0 0;
+    }
+        .sideBar img{
+            display: block;
+            width: 100%;
+            margin: auto;
+
+        }
+
+        .sideBar li {
+            margin-left: -3vw;
+            margin-right: -0.01vw;
+            font-size: 2vw;
+        }
+
+        .sideBar h1 {
+            font-size: 3.5vw;
+        }
+    
+        .mainPicture {    /*!!*/
+            height: 50vw;
+            width: 50vw;
+            margin: 2vh 25vw;
+        }
+        .titleFull {
+            text-align: center;
+            vertical-align: top;
+            
+        }
+            .titleFull h1{ /*!!*/
+                font-size:7vw;
+            }
+            .titleFull h2{
+                font-size: 5vw; /*!!*/
+            }
+            .titleFull h3{/*!!*/
+                font-size: 3.5vw;
+            }
+
+            .titleFull p, li {
+                margin: 2vh 37.5vw;
+                text-align: center;
+            }
+
+        .mainTextArea h2 {/*!!*/
+            text-align: center;
+            font-size: 7vw;
+        }
+
+        .mainTextArea li {/*!!*/
+            margin-left: -1vw;
+            margin-right: -1vw;
+            text-align: left;
+            font-size: 5vw;
+        }
+
+        .mainTextArea p { /*!!*/
+            font-size: 5vw;
+        }
+
+        .mainTextArea img {
+            width: 100%;
+        }
+    .linkarea {
+        width: 80vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        column-gap: 5%;
+       
+    }
+        .linkarea li {
+            margin-left: -1vw;
+            margin-right: -1vw;
+        }
+
+
+    .linklist {
+        text-align: center;
+        /*display: none;*/
+    }
+        .linklist h1 {
+            font-size:3vw;
+        }
+
+        .linklist h2 {
+            font-size:2.5vw;
+        }
+
+    .videocontent {
+        padding: 3% 10% 10% 10%;
+    }
+    .videocontent iframe {
+        width: 90%;
+        height: 40vw;
+    }
+
+    .videocontent img {
+        width: 90%;
+        height: 40vw;
+    }
+
+    .videocontent p {
+        font-size: 2.5vw;
+    }
+
+    .videocontent li {
+        font-size: 2.5vw;
+        margin-left: -1vw;
+        margin-right: -1vw;
+    }
+
+    .videocontent h1 {
+        font-size: 4vw;
+    }
+
+    .videocontent h2 {
+        font-size: 3vw;
+        text-align: center;
+    }
+}
 
 
 /*Here is the code for each the profile circular images*/

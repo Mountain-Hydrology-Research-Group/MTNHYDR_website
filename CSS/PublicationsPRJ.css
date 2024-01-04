@@ -45,3 +45,19 @@
     border-color:#c9c6c6;
     
 }
+
+/*Phone Users*/
+@media only screen and (max-width: 500px) {
+
+    .publishedContent{
+        word-break: break-all;
+    }
+
+    .publicationYear li {
+        width: 80vw;
+    }
+
+    .publicationYear {
+        font-size: 4vw;
+    }
+}

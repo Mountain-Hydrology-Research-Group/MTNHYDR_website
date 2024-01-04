@@ -133,7 +133,7 @@ a {
     right: 0px;
     color: white;
     background-color: #252525;
-    margin-top: 2vh;
+    margin-top: 12vh;
     padding: 0 2% 2% 2%;
     display: flex;
     justify-content: center;
@@ -266,7 +266,7 @@ a:hover {
 
     /*.navBar:hover .dropdownMenu, .dropdownMenu:hover {
         Display: block;
-    }*/ 
+    }*/
 
         .mainMenuOption {
             visibility: hidden;
@@ -296,7 +296,7 @@ a:hover {
     }
   }
 
-  @media only screen and (max-width: 850px) {
+  @media only screen and (max-width: 500px) {
     .footer {
         display: grid;
         margin: 0;
@@ -318,5 +318,25 @@ a:hover {
         opacity: 0.8;
         justify-content: center;
         width: 25vw;
+    }
+
+    .bannerImage h1{
+        width: 100%;
+        height: 100%;
+        padding-top: 8%;
+        align-self: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .title h1{
+        font-size: 80%;
+    }
+
+    .caption{
+        font-size: 4vw;
+        margin-left: 0%;
+        margin-right: 0%;
     }
   }

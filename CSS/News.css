@@ -60,7 +60,7 @@
     border-bottom: 1px solid gray;
 }
 
-/*Media Queries*/
+/*Tablets Queries*/
 @media only screen and (max-width: 900px) {
     .mainNewsContent {
         display: block;
@@ -72,6 +72,28 @@
 
     .news h1 {
         font-size: 4vw;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .mainNewsContent {
+        display: block;
+        width: 90%;
+        margin: 0 0 0 0;
+    }
+
+    .news {
+        margin-bottom: 5%;
+        width: 100%;
+        margin-left: 4%;
+    }
+
+    .news h1 {
+        font-size: 7vw;
+    }
+
+    .news p, i, b {
+        font-size: 5vw;
     }
 }
 

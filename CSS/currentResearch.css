@@ -31,6 +31,7 @@ a {
     height: 30vh;
     border-radius: 100%;
 }
+
 .projImage img{
     padding: 1vh;
     height: 38vh;
@@ -42,7 +43,7 @@ a {
 }
 
     .projInfo h1 {
-        font-size: 2vw;
+        font-size: calc(0.5vw + 20px);
     }
 
     .projInfo p {
@@ -144,6 +145,47 @@ a {
     .classinfo {
         text-align: center;
     }
+}
+
+@media only screen and (max-width: 490px) {
+    .indivProj{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        height: 40vh;
+        justify-self: center;
+        align-self: center;
+        margin-bottom: 50px;
+    }
+
+    .projInfo {
+        justify-self: center;
+        align-self: center;
+        text-align: center;
+    }
+    
+        .projInfo h1 {
+            font-size: 5vw;
+        }
+    
+        .projInfo p {
+            font-size: 1.25vw;
+        }
+
+        .projImage{
+            grid-column: 2;
+            align-self: center;
+            justify-self: center;
+            width: 20vh;
+            height: 20vh;
+            border-radius: 100%;
+        }
+        .projImage img{
+            padding: 1vh;
+            height: 38vh;
+        }
+        
 }
 
 /*Here are the filepaths for the profile pictures*/

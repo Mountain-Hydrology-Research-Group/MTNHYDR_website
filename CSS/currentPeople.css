@@ -155,3 +155,28 @@
             font-size: 2vw
         }
     }
+
+/*This is for phones*/
+    @media only screen and (max-width: 600px) {
+        .peopleMain{
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+            column-gap: 0px;
+            grid-gap: 0px;
+            row-gap: 10px;
+        }
+
+        .profile a{
+            width: 30vw;
+            height: 50vw;       
+        }
+        .profilePicture {
+            width: 30vw;
+            height: 30vw;
+        }
+        
+        .labelProfile {
+            font-size: 3vw;
+            text-align: center;
+        }
+    }
