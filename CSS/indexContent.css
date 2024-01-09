@@ -61,7 +61,7 @@
 
 
 .meetTheTeam{
-    height: 1300px;
+    height: 1700px;
     color:rgb(255, 255, 255);
     background-image: url("../src/BoundaryWatersTrip2020-0555\ -\ Copy.jpg");
     background-position: bottom;
@@ -170,6 +170,7 @@
     grid-row: 2;
     align-self: end;
     justify-self: center;
+    text-align: center;
 }
 
 .meetTheTeam h1{
@@ -256,6 +257,11 @@
     
     #profEmma .profilePicture{
         background-image: url(../src/Profile\ Pictures/SmallEmmaWaider.jpg);
+        background-position: right;
+        background-size: cover;
+    }
+    #profWillow .profilePicture{
+        background-image: url(../src/Profile\ Pictures/whoins.jpeg);
         background-position: right;
         background-size: cover;
     }

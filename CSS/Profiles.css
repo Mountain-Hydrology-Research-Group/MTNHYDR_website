@@ -582,6 +582,11 @@ a {
     background-position: right;
     background-size: cover;
 }
+#profWillow {
+    background-image: url(../src/Profile\ Pictures/whoins.jpeg);
+    background-position: right;
+    background-size: cover;
+}
 
 
 /*Research*/
