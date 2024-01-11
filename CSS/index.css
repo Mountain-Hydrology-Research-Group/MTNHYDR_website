@@ -125,9 +125,8 @@ a {
 .navBarPhone{
     visibility: hidden;
 }
-
-/*Drop Down Menu Component --> NOTICE: This component is only visible when using the media query*/
-.dropdownMenu{
+/* Drop Down Menu Component --> NOTICE: This component is only visible when using the media query */
+.dropdownMenu {
     visibility: hidden;
     position: fixed;
     right: 0px;
@@ -140,23 +139,24 @@ a {
     width: calc(100px + 2vw);
     z-index: 1;
 }
-    .dropdownMenu li {
-        padding: 10px;
-        text-decoration: none;
-        list-style-type: none;
-        border-bottom-color:#c7c7c7;
-        border-bottom: solid;
-        border-bottom-width: 0.5px;
-        width: 60%;
-        text-align: center;
-    }
-    .dropdownMenu a {
-        color: white;
-        text-decoration: none;
-        padding-right: 20px;
-        font-size: calc(7px + 1vw);
-        text-align: center;
-    }
+
+.dropdownMenu li {
+    padding: 10px;
+    text-decoration: none;
+    list-style-type: none;
+    border-bottom: 0.5px solid #c7c7c7;
+    width: 100%; /* Set width to 100% for uniformity */
+    text-align: center;
+}
+
+.dropdownMenu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 0; /* Adjust padding for better spacing */
+    font-size: calc(7px + 1vw);
+    display: block; /* Make links block-level for full width */
+    text-align: center;
+}
 
 /* Banner and Time Menu Component */
 .banner{
