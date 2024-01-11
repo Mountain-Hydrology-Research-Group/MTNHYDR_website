@@ -113,7 +113,7 @@ const headerHTML = ` \
             <p> \
                 University of Washington<br> \
                 Department of Civil and Environmental Engineering<br> \
-                Copyright 2023 \
+                Copyright 2024 \
             </p> \
         </div> \
         <div class="UWLogo"> \
@@ -130,6 +130,7 @@ const headerHTML = ` \
         <li><a href="${path_origin}/Pages/PublicationsPRJ.html">Publications</a></li> \
         <li><a href="${path_origin}/Pages/News.html">News</a></li> \
         <li><a href="${path_origin}/Pages/Outreach.html">Outreach</a></li> \
+        <li><a href="${path_origin}/Pages/Classes.html">Classes</a></li> \
     </ul> \
     `;
 
