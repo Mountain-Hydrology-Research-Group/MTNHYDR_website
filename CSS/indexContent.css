@@ -476,6 +476,11 @@
         .page{
             grid-template-rows: 15% 30% 55%;
         }
+
+        #pageTwo {
+            background-color: white;
+            height: 95vh;
+        }
         
             #infoLeft {
                 grid-row: 2;
