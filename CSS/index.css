@@ -145,7 +145,7 @@ a {
     text-decoration: none;
     list-style-type: none;
     border-bottom: 0.5px solid #c7c7c7;
-    width: 100%; /* Set width to 100% for uniformity */
+    width: 10%; /* Set width to 100% for uniformity */
     text-align: center;
 }
 
@@ -264,9 +264,9 @@ a:hover {
         visibility: visible;
     }
 
-    /*.navBar:hover .dropdownMenu, .dropdownMenu:hover {
-        Display: block;
-    }*/
+    .navBar:hover .dropdownMenu, .dropdownMenu:hover {
+        Display: inline-block;
+    }
 
         .mainMenuOption {
             visibility: hidden;
