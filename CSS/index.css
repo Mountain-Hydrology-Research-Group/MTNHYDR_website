@@ -132,7 +132,7 @@ a {
     right: 0px;
     color: white;
     background-color: #252525;
-    margin-top: 12vh;
+    margin-top: 12vh; /*12vh for index, 2vh for classes*/
     padding: 0 2% 2% 2%;
     display: flex;
     justify-content: center;
