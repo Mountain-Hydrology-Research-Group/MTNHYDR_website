@@ -46,6 +46,11 @@
             padding-bottom: 5px;
         }
 
+        .news p, i {
+            font-size: calc(17px + 0.3vw); 
+            
+        }
+
 .twitterBoard {
     grid-column: 2;
     height: 95%;
@@ -72,6 +77,10 @@
 
     .news h1 {
         font-size: 4vw;
+    }
+
+    .news p {
+        font-size: 3vw;
     }
 }
 

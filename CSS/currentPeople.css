@@ -12,7 +12,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     column-gap: 20px;
-    grid-gap: 20px;
+    grid-gap: 30px;
     align-items: center;
     justify-items: center;
     margin-left: 5%;
@@ -144,7 +144,7 @@
             grid-template-columns: 1fr 1fr;
             grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
             column-gap: 5px;
-            grid-gap: 5px;
+            grid-gap: 20px;
         }
 
         .profile a{

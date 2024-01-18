@@ -472,7 +472,7 @@
     }
 
 /*Formatting for phones*/
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 550px) {
         .page{
             grid-template-rows: 15% 30% 55%;
         }
@@ -498,7 +498,7 @@
             }
 
         .meetTheTeam{
-            height: 2200px;
+            height: 2400px;
         }
         
             .profileSpace {
@@ -525,7 +525,7 @@
 
         .photocollage{
             display: grid;
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: 1fr;
             grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
         
         }
