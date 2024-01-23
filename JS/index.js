@@ -84,7 +84,7 @@ const headerHTML = ` \
                 <div class="submenublock"><a href="${path_origin}/Pages/Research Profiles/RainOnSnowModule.html">Rain on Snow Module</a></div> \
                 <div class="submenublock"><a href="https://www.zooniverse.org/projects/mozerm/snow-spotter">Citizen Science</a></div> \
                 <div class="submenublock"><a href="${path_origin}/Pages/FreeUsePhotos.html">Free Use Snow Photos</a></div> \
-                <div class="submenublock"><a href="https://depts.washington.edu/sinter/basinSnow/">Value of Snow Map</a></div> \
+                <div class="submenublock"><a href="${path_origin}/basinSnow/index.shtml">Value of Snow Map</a></div> \
                 <div class="submenublock"><a href="${path_origin}/Pages/Archived Pages/CameraInTrees.html">Time Lapse Camera Install</a></div> \
                 <div class="submenublock"><a href="${path_origin}/Pages/Join Us Pages/joinUsUndergrad.html">Join Us! Undergraduates</a></div> \
                 <div class="submenublock"><a href="${path_origin}/Pages/Join Us Pages/joinUsGraduate.html">Join Us! Graduates</a></div> \
