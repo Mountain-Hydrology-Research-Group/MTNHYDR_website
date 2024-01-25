@@ -189,6 +189,10 @@ a {
         font-size: 2vw;
     }
 
+    .videocontent p {
+        font-size: calc(10px + 0.75vw);
+    }
+
 /*Media Queries - tablet*/
 @media only screen and (max-width: 1200px) {
     .profileFull {
@@ -265,11 +269,11 @@ a {
             margin-left: -1vw;
             margin-right: -1vw;
             text-align: left;
-            font-size: 2.5vw;
+            font-size: calc(20px + 0.5vw);
         }
 
         .mainTextArea p {
-            font-size: 2.5vw;
+            font-size: calc(20px + 0.5vw);
         }
     .linkarea {
         width: 80vw;
@@ -294,7 +298,11 @@ a {
         }
 
         .linklist h2 {
-            font-size:2.5vw;
+            font-size: calc(20px + 0.5vw);
+        }
+
+        .linklist li {
+            font-size: calc(15px + 0.5vw);
         }
 
     .videocontent {
@@ -311,11 +319,11 @@ a {
     }
 
     .videocontent p {
-        font-size: 2.5vw;
+        font-size: calc(20px + 0.5vw);
     }
 
     .videocontent li {
-        font-size: 2.5vw;
+        font-size: calc(20px + 0.5vw);
         margin-left: -1vw;
         margin-right: -1vw;
     }
@@ -325,7 +333,7 @@ a {
     }
 
     .videocontent h2 {
-        font-size: 3vw;
+        font-size: 4vw;
         text-align: center;
     }
 }
@@ -437,6 +445,10 @@ a {
             font-size:2.5vw;
         }
 
+        .linklist li {
+            font-size: 4vw;
+        }
+
     .videocontent {
         padding: 3% 10% 10% 10%;
     }
@@ -451,11 +463,11 @@ a {
     }
 
     .videocontent p {
-        font-size: 2.5vw;
+        font-size: 5vw;
     }
 
     .videocontent li {
-        font-size: 2.5vw;
+        font-size: 5vw;
         margin-left: -1vw;
         margin-right: -1vw;
     }
@@ -465,7 +477,7 @@ a {
     }
 
     .videocontent h2 {
-        font-size: 3vw;
+        font-size: 6vw;
         text-align: center;
     }
 }
