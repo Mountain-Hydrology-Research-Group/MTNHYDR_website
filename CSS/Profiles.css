@@ -366,9 +366,15 @@ a {
                 font-size: 3.5vw;
             }
 
-            .titleFull p, li {
+            .titleFull p {
                 margin: 2vh 37.5vw;
                 text-align: center;
+                font-size: 5vw;
+            }
+
+            .titleFull li {
+                text-align: center;
+                font-size: 5vw;
             }
 
         .mainTextArea h2 {/*!!*/
