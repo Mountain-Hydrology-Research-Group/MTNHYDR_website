@@ -81,15 +81,9 @@ a {
             border-top: 1px solid black;
             border-bottom: 1px solid black;
         }
-        .titleFull li {
+        .titleFull li, p {
             font-size: 1.25vw;
             text-align: left;
-        }
-
-        .titleFull p {
-            font-size: 1.25vw;
-            text-align: left;
-            text-decoration: underline;
         }
 .mainTextArea {
     grid-column: 2;
@@ -242,17 +236,9 @@ a {
                 font-size: 1.5vw;
             }
 
-            .titleFull p {
+            .titleFull p, li {
                 margin: 2vh 37.5vw;
                 text-align: center;
-                font-size: 2.5vw;
-                text-decoration: underline;
-            }
-
-            .titleFull li {
-                margin: 2vh 37.5vw;
-                text-align: center;
-                font-size: calc(15px + 0.5vw);
             }
     
     .mainTextArea {
@@ -388,16 +374,9 @@ a {
                 font-size: 3.5vw;
             }
 
-            .titleFull p {
+            .titleFull p, li {
                 margin: 2vh 37.5vw;
                 text-align: center;
-                font-size: 5vw;
-                text-decoration: underline;
-            }
-
-            .titleFull li {
-                text-align: center;
-                font-size: 5vw;
             }
 
         .mainTextArea h2 {/*!!*/

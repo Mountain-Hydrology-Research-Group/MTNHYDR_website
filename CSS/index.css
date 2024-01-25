@@ -89,8 +89,8 @@ a {
 }
 
 .subMenu{
-    padding: 2%;
-    padding-left: 0.5%;
+    padding: 4%;
+    padding-left: 1%;
     display: none;
     /*display: grid;*/
     position: absolute;
@@ -136,7 +136,7 @@ a {
     padding: 0 2% 2% 2%;
     display: flex;
     justify-content: center;
-    width: calc(100px + 2vw);
+    width: calc(var(--variable-width) + 20px);
     z-index: 1;
 }
 
@@ -145,7 +145,7 @@ a {
     text-decoration: none;
     list-style-type: none;
     border-bottom: 0.5px solid #c7c7c7;
-    width: 10%; /* Set width to 100% for uniformity */
+    width: 100%; /* Set width to 100% for uniformity */
     text-align: center;
 }
 
@@ -264,9 +264,9 @@ a:hover {
         visibility: visible;
     }
 
-    .navBar:hover .dropdownMenu, .dropdownMenu:hover {
+    /*.navBar:hover .dropdownMenu, .dropdownMenu:hover {
         Display: inline-block;
-    }
+    }*/
 
         .mainMenuOption {
             visibility: hidden;
