@@ -321,3 +321,70 @@ a {
 
 
 }
+
+@media only screen and (max-width: 500px) {
+    
+        .dataPicture {
+            height: 80vw;
+            width: 80vw;
+            margin: 5vw 0 0 10vw;
+        }
+        .titleFull {
+            text-align: center;
+            vertical-align: top;
+        }
+            .titleFull h1{
+                font-size: 2.5vw;
+            }
+            .titleFull p{
+                font-size: 1.25vw;
+            }
+    
+    .maintexttitle {
+        width: 90vw;
+    }
+    
+    .mainTextArea {
+        padding: 5vw;
+        width: 90vw;
+
+    }
+     
+    .lowermaintextarea p {
+        font-size: 1.75vw;
+    }
+  
+    .datatile {
+        height: 90%;
+    }
+  
+        .datatile li {
+            font-size: 2vw;
+        }
+
+        .datatile h1 {
+            font-size: 2.6vw;
+        } 
+
+.datatileshort {
+    min-height: 50%;
+}       
+
+    .datatileshort li {
+        font-size: 2vw;
+        }
+
+    .datatileshort p {
+        font-size: 2vw;
+        }
+
+    .datatileshort b {
+        font-size: 2vw;
+        }
+
+    .datatileshort h1 {
+        font-size: 2.6vw;
+    } 
+
+
+}
