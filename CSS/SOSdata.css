@@ -266,6 +266,10 @@ a {
         width: 90vw;
 
     }
+
+    .weekofdata {
+        margin-bottom: 20px;
+    }
         
     .weekofdata p {
         font-size: 2vw;
@@ -295,7 +299,7 @@ a {
     }
 
     .titleFull p{
-        font-size: 4vw;
+        font-size: 4.5vw;
     }
 
     .mainTextArea{
@@ -307,7 +311,90 @@ a {
     }
 
     .maintexttitle{
-        margin: 0 0 0 0;
+        margin: 0 30px 0 0;
     }
 
+    .weekofdata p {
+        font-size: 5vw;
+    }
+
+    .weekofdata h1 {
+        font-size: 6vw;
+    }
+
+    .weekofdata img {
+        width: 100%;
+        height: 30vh;
+    }
+/*Under Construction*/
+    .lowermaintextarea {
+        grid-row: 2;
+        /* is known to cause trouble*/
+        width: 96%;
+        padding-top: 1%; 
+        padding-left: 3%;
+
+    
+}
+
+            .lowermaintextarea img {
+                width: 70%;
+                display: block;
+                margin: auto;
+            }
+    
+            .lowermaintextarea h3 {
+                font-size: 16px;
+                text-decoration: underline;
+            }
+    
+            .lowermaintextarea p, i {
+                font-size: 5vw;
+            }
+
+            .lowermaintextarea i {
+                font-size: 5vw;
+            }
+    
+            .datasection {
+                grid-row: 2;
+                /* is known to cause trouble*/
+                width: 100%;
+                padding-top: 1%; 
+                padding-left: 5%;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+                column-gap: 3%; 
+                row-gap: 0.3%; 
+            }
+    
+        .datatile a:hover {
+            color: rgb(117, 112, 112);
+        }
+    
+        .datatile {
+            width: 90%;
+            height: 90%;
+            background-color: rgba(236, 235, 235);
+            margin: 2% 0;
+            border-radius: 2%;
+            padding: 2% 5% 3% 5%;
+        
+        }
+            .datatile h1 {
+                font-size: 1.65vw;
+                padding-bottom: 1%;
+            }
+    
+            .datatile img {
+                width: 100%;
+                height: 47%;
+            }
+    
+            .datatile p {
+                font-size: 1.25vw;
+                padding-bottom: 5%;
+            }
+    
 }
