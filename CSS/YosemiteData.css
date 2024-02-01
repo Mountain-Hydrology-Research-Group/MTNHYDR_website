@@ -145,7 +145,6 @@ a {
         margin: 2% 0 5% 0;
         border-radius: 2%;
         padding: 2% 5% 3% 5%;
-        border-style: solid;
         
     
     }
@@ -193,7 +192,6 @@ a {
     background-color: rgba(236, 235, 235);
     border-radius: 10px;
     padding: 0% 5% 0% 5%;
-    border-style: solid;
     color:black;
 }
 
@@ -201,7 +199,7 @@ a {
     .datatileclick p {
         font-size: calc(15px + 0.5vw);
         padding: 2% 0% 2% 0%;
-        font-weight:bold;
+        font-weight:bolder;
     }
 
     .datatileclick h1 {

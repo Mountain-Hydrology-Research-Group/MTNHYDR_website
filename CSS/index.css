@@ -136,7 +136,7 @@ a {
     padding: 0 2% 2% 2%;
     display: flex;
     justify-content: center;
-    width: calc(var(--variable-width) + 20px);
+    width: calc(var(--variable-width) - 20px);
     z-index: 1;
 }
 
