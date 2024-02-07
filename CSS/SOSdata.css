@@ -172,8 +172,16 @@ a {
             text-decoration: underline;
         }
 
-        .lowermaintextarea p, i {
-            font-size: 1.25vw;
+        .lowermaintextarea h2 {
+            font-size: calc(20px + 0.5vw)
+        }
+
+        .lowermaintextarea p {
+            font-size: calc(15px + 0.5vw);
+        }
+
+        .lowermaintextarea i {
+            font-size: calc(15px + 0.5vw);
         }
 
         .datasection {
