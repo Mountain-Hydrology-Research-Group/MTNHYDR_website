@@ -95,8 +95,12 @@ a {
         text-decoration: underline;
     }
 
-    .lowermaintextarea p, i {
-        font-size: 1.25vw;
+    .lowermaintextarea p {
+        font-size: calc(15px + 0.5vw);
+    }
+
+    .lowermaintextarea i {
+        font-size: calc(15px + 0.5vw);
     }
 
 .fullpagecontent {
@@ -107,9 +111,14 @@ a {
     padding-left: 5%;
 }
 
-    .fullpagecontent h2 p {
+    .fullpagecontent h2 {
         text-align: center;
     }
+
+    .fullpagecontent p {
+        font-size: calc(15px + 0.5vw);
+    }
+
 
     .fullpagecontent a {
         color: blueviolet;
@@ -128,7 +137,7 @@ a {
     row-gap: 2vw;
 }
 
-
+/*This code is for the yosemite and cedar river tiles*/
     .datatile {
         width: 90%;
         height: 90%;
@@ -139,8 +148,13 @@ a {
         
     
     }
-        .datatile h1 {
-            font-size: 1.65vw;
+        .datatile h3 {
+            font-size: 1.3vw;
+            padding-bottom: 1%;
+        }
+
+        .datatile h2 {
+            font-size: calc(15px + 0.5vw);
             padding-bottom: 1%;
         }
 
@@ -150,7 +164,7 @@ a {
         }
 
         .datatile li {
-            font-size: 1.1vw;
+            font-size: calc(13px + 0.5vw);
             padding-bottom: 5%;
         }
 
@@ -163,13 +177,13 @@ a {
         }
 
         .datatile p {
-            font-size: 1.5vw;
+            font-size: calc(15px + 0.5vw);
             padding-bottom: 5%;
         }
     
 
 
-/*Proven code for link tile*/
+/*This code is for the Mount Rainier Tiles*/
 
 .datatileclick a {
     display: grid;
@@ -183,7 +197,7 @@ a {
 
 
     .datatileclick p {
-        font-size: 1.75vw;
+        font-size: calc(15px + 0.5vw);
         padding: 2% 0% 2% 0%;
         font-weight:bolder;
     }
@@ -203,7 +217,7 @@ a {
     }
 
     .datatileclick li {
-        font-size: 1.75vw;
+        font-size: calc(13px + 0.5vw);
         padding-bottom: 5%;
     }
 
@@ -242,7 +256,7 @@ a {
 }
 
 /*Media Queries*/
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1000px) {
     .dataFull {
         width: 100vw;
         display: block;
@@ -254,21 +268,22 @@ a {
         display: block;
     }
     
-        .dataPicture {
-            border-radius: 100%;
-            height: 25vw;
-            width: 25vw;
-            margin: 2vh 37.5vw;
-        }
+    .dataPicture {
+        border-radius: 100%;
+        height: 40vw;
+        width: 40vw;
+        margin: 2vh 30vw;
+    }
         .titleFull {
             text-align: center;
             vertical-align: top;
         }
             .titleFull h1{
-                font-size: 2.5vw;
+                font-size: calc(25px + 0.5vw);
             }
             .titleFull p{
-                font-size: 1.25vw;
+                font-size: calc(14px + 0.5vw);
+                margin: 0 10% 0 4.5%;
             }
     
     .maintexttitle {
@@ -280,22 +295,61 @@ a {
         width: 90vw;
 
     }
-     
-    .lowermaintextarea p {
-        font-size: 1.75vw;
+
+    .lowermaintextarea {
+        width: 90%;
     }
-  
+
+    .lowermaintextarea p {
+        font-size: calc(20px + 0.5vw);
+    }
+
+    .lowermaintextarea i {
+        font-size: calc(20px + 0.5vw);
+    }
+
+    .lowermaintextarea h2 {
+        font-size: calc(25px + 0.5vw);
+    }
+
+    .maintexttitle h2 {
+        font-size: calc(20px + 0.5vw);
+    }
+
+    .datasection {
+        display: block;
+    }
+
+    .fullpagecontent p {
+        font-size: calc(20px + 0.5vw);
+    }
+
+    .fullpagecontent h2 {
+        text-align: center;
+        margin-right: 10%; 
+    }
+
     .datatile {
         height: 90%;
     }
   
         .datatile li {
-            font-size: 2vw;
+            font-size: calc(17px + 0.5vw);
         }
 
         .datatile h1 {
             font-size: 2.6vw;
         } 
+
+        .datatile h2 {
+            font-size: calc(20px + 0.5vw);
+        } 
+
+        .datatile h3 {
+            font-size: calc(20px + 0.5vw);
+        }
+    
+
 
 .datatileshort {
     min-height: 50%;
@@ -317,10 +371,39 @@ a {
         font-size: 2.6vw;
     } 
 
+.datatileclick a {
+    display: grid;
+    width: 90%;
+    min-height: 100%;
+    background-color: rgba(236, 235, 235);
+    border-radius: 10px;
+    padding: 0% 5% 0% 5%;
+    border-style: solid;
+    color:black;
+    margin-bottom: 4vh;
+}
+    
+    
+        .datatileclick p {
+            text-align: center;
+        }
+    
+        .datatileclick img {
+            width: 100%;
+            height: 47%;
+        }
+    
+        .datatileclick li {
+            font-size: calc(17px + 0.5vw);
+            padding-bottom: 5%;
+        }
+    
+
+
 
 }
-
-@media only screen and (max-width: 500px) {
+/*
+@media only screen and (max-width: 600px) {
     
         .dataPicture {
             height: 80vw;
@@ -386,3 +469,5 @@ a {
 
 
 }
+
+*/
