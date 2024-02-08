@@ -42,7 +42,7 @@ a {
     height: 12vh;
     width: 100vw; 
     text-decoration: none; 
-    background-color: #333333;
+    background-color: #181717a2;
     justify-content: center;
     z-index: 1;
 }
@@ -55,7 +55,7 @@ a {
 }
 
     .title h1{
-        font-size: 1.4vw;
+        font-size: 1.8vw;
     }
 
 .navBar {
@@ -161,11 +161,11 @@ a {
 /* Banner and Time Menu Component */
 .banner{
     display: grid;
-    margin-top: 10vh;
+    /*margin-top: 10vh;*/
     width: 100vw;
     height: 36.67vh;
     grid-template-rows: 81% 19%;
-    background: linear-gradient(90deg, #464646, #8890aa) ;
+    background: linear-gradient(90deg, #181717a2, #8890a2) ;
     color: white;
 }
 .bannerImage{
@@ -208,7 +208,7 @@ a {
     grid-template-columns: 1fr 1fr 1fr;
     height: 100%;
     width: 90vw;
-    background-color: #333333;
+    background-color: #181717a2;
     color: white;
 }
 
@@ -217,7 +217,7 @@ a {
 }
 
 a:hover {
-    color:rgb(187, 187, 187);
+    color:rgb(160, 160, 160);
 }
 
 .UWLogo{

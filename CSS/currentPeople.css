@@ -21,7 +21,7 @@
     color: white;
 }
 .profile a:hover {
-    background-color: rgba(157, 169, 223, 0.548);
+    background-color: rgba(78, 104, 163, 0.345);
 }
 .profile a{
     padding: 5% 10%;
@@ -31,7 +31,7 @@
     display: grid;
     grid-template-rows: 4fr 2fr;
     border-radius: 5%;
-    background-color:  rgba(95, 113, 192, 0.548);
+    background-color:  rgba(98, 138, 188, 0.34);
 }
 .profilePicture{
     justify-self: center;
