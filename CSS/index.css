@@ -39,7 +39,7 @@ a {
     grid-template-columns: 40% 10% 1fr;
     top: 0;
     position: fixed;
-    height: 12vh;
+    height: 100px;
     width: 100vw; 
     text-decoration: none; 
     background-color: #181717a2;
@@ -80,6 +80,7 @@ a {
 .heading img {
     height: 10vh;
     margin: 0 2%;
+    min-height: 70px;
 }
 
 .mainMenuOption a:hover{
@@ -89,23 +90,25 @@ a {
 }
 
 .subMenu{
-    padding: 4%;
-    padding-left: 1%;
+    margin-top: -2px; /*This is where we are playing!*/
+    padding: 2%;
     display: none;
     /*display: grid;*/
     position: absolute;
     z-index: 1;
-    background-color: #181717a2;
+    /*background-color: #181717a2;*/
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr;
 }
 
 .submenublock {
-    width: 100%;
-    padding: 8px 2px 8px 2px;
+    width: 50%;
+    padding: 15px 30px 15px 30px;
     border-bottom: solid;
     border-width: 1px;
-    border-color:#5a5959;
+    border-color:#d4d1d1;
+    background-color: #181717a2;
+    text-align: center;
 }
 
 .subMenu a{
@@ -297,6 +300,15 @@ a:hover {
   }
 
   @media only screen and (max-width: 500px) {
+    .heading {
+        height: 60px;
+    }
+
+    .heading img {
+        min-height: 50px;
+        height: 6vw;
+    }
+    
     .footer {
         display: grid;
         margin: 0;
