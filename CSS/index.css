@@ -165,7 +165,7 @@ a {
     width: 100vw;
     height: 36.67vh;
     grid-template-rows: 81% 19%;
-    background: linear-gradient(90deg, #181717a2, #8890a2) ;
+    background: linear-gradient(90deg, #414141, #414141) ;
     color: white;
 }
 .bannerImage{

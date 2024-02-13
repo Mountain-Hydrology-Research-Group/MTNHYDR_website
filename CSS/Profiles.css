@@ -464,7 +464,9 @@ a {
 
 
 /*Here is the code for each the profile circular images*/
-
+.peopleMain {
+    background-image: url ("../src/forest_snow_mt_baker.jpg");
+}
 /*People*/
 /*Jessica Lundquist*/
 #profJessica{
