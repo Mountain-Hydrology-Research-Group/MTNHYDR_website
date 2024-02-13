@@ -15,7 +15,7 @@
 }
 
 .announcement b {
-    color: red;
+    color: rgb(255, 255, 255);
     font-size: calc(7px + 1vw);
     margin: 1% 5% 1.5% 5%;
     text-align: center;
@@ -33,10 +33,10 @@
 }
 
 #pageOne {
-    background-image: url("../src/MntBaker_Ridge_1.jpg");
+    background-image: url("../src/homepagetestpic.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 70%;
+    background-position: bottom;
 }
 
 #pageTwo {
@@ -63,7 +63,7 @@
 .meetTheTeam{
     height: 1700px;
     color:rgb(255, 255, 255);
-    background-image: url("../src/BoundaryWatersTrip2020-0555\ -\ Copy.jpg");
+    background-image: url("../src/DSC_0621-9\ -\ Copy.jpg");
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
@@ -103,11 +103,11 @@
 
 /*Info boxes and Drawings */
 .webTitle{
-    grid-column: 2 / span 4;
-    grid-row: 4 / span 2;
-    font-size: 1.8em;
-    animation-name: introFade;
-    animation-duration: 2s;
+ grid-column: 2 / span 4;
+            grid-row: 4 / span 2;
+            font-size: 1.8em;
+            animation-name: introFade;
+            animation-duration: 2s;
 }
 .initialInfo{
     grid-column: 2/ span 2;
@@ -121,7 +121,7 @@
 
     #infoLeft {
         grid-column: 2/ span 2;
-        grid-row: 3;
+        grid-row: 2;
     }
 
     #infoRight {
@@ -179,7 +179,7 @@
     justify-content: center;
     padding-top: 4%;
     font-size: 3.5em;
-    color: black
+    color: rgb(255, 255, 255)
 }
 
     /*Profile pictures*/
@@ -368,7 +368,7 @@
         }
         
         #pageOne {
-            background-image: url("../src/MntBaker_Ridge_1.jpg");
+            background-image: url("../src/homepagetestpic.jpeg");
             background-size: cover;
             background-repeat: no-repeat;
             background-position: left center ;
@@ -396,13 +396,13 @@
         }
         
             #infoLeft {
-                grid-row: 3;
+                grid-row: 2;
                 grid-column: 2;
                 font-size: 1em;
             }
         
             #infoRight {
-                grid-column: 2;
+                grid-column: 4;
                 grid-row: 2;
             }
         .illustrationSpace{
@@ -436,7 +436,7 @@
             height: 2100px;
             width: 100vw;
             color:rgb(255, 255, 255);
-            background-image: url("../src/BoundaryWatersTrip2020-0555\ -\ Copy.jpg");
+            background-image: url("../src/DSC_0621-9\ -\ Copy.jpg");
             background-position: bottom;
             background-size: cover;
             background-repeat: no-repeat;
