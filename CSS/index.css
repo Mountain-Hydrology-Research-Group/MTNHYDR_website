@@ -95,7 +95,7 @@ a {
     /*display: grid;*/
     position: absolute;
     z-index: 1;
-    background-color: #181717a2;
+    background-color: #333333;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr;
 }
@@ -131,7 +131,7 @@ a {
     position: fixed;
     right: 0px;
     color: white;
-    background-color: #181717a2;
+    background-color: #252525;
     margin-top: 12vh; /*12vh for index, 2vh for classes*/
     padding: 0 2% 2% 2%;
     display: flex;
@@ -165,7 +165,7 @@ a {
     width: 100vw;
     height: 36.67vh;
     grid-template-rows: 81% 19%;
-    background: linear-gradient(90deg, #414141, #414141) ;
+    background: linear-gradient(90deg, #181717a2, #8890a2) ;
     color: white;
 }
 .bannerImage{
