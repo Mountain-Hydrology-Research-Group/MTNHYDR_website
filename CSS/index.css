@@ -132,10 +132,10 @@ a {
 .dropdownMenu {
     visibility: hidden;
     position: fixed;
-    right: 0px;
+    right: 1vw;
     color: white;
     background-color: #181717a2;
-    margin-top: 12vh; /*12vh for index, 2vh for classes*/
+    margin-top: 100px; /*12vh for index, 2vh for classes*/
     padding: 0 2% 2% 2%;
     display: flex;
     justify-content: center;
