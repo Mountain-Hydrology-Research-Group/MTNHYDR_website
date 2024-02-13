@@ -15,18 +15,20 @@
 
 /*This is test code for making a whole alumni element a link*/
 .peopleArea a:hover {
-    background-color: rgba(78, 104, 163, 0.345);
+    background-color: rgba(255, 255, 255, 0.848);
 }
+
+
 
 .peopleArea a{
     display: grid;
     padding-top: 10%; 
     grid-template-rows: repeat(5, 1fr);
     border-radius: 5%;
-    background-color: rgba(98, 138, 188, 0.34);
+    background-color: rgba(88, 88, 88, 0.558);
     width: 14vw;
     height: 55vh;
-    color: white;
+    color: rgb(39, 39, 39);
 }
 
     .profilePic{
@@ -448,7 +450,7 @@
 
 /*this is the unedited part*/
 .peopleArea a:hover {
-    background-color: rgba(98, 138, 188, 0.544);
+    background-color: rgba(116, 115, 115, 0.848);
 }
 
 .peopleArea a{
@@ -456,11 +458,11 @@
     padding-top: 10%; 
     grid-template-rows: repeat(5, 1fr);
     border-radius: 5%;
-    background-color: rgba(98, 138, 188, 0.34);
+    background-color: rgba(29, 29, 29, 0.837);
     width: 28vw;
     height: 54vw;
     max-height: 350px;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .profilePic{
