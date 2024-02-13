@@ -63,7 +63,7 @@
 .meetTheTeam{
     height: 1700px;
     color:rgb(255, 255, 255);
-    background-image: url("../src/BoundaryWatersTrip2020-0555\ -\ Copy.jpg");
+    background-image: url("../src/DSC_0621-9 - Copy.jpg");
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
@@ -179,7 +179,7 @@
     justify-content: center;
     padding-top: 4%;
     font-size: 3.5em;
-    color: black
+    color: rgb(255, 255, 255)
 }
 
     /*Profile pictures*/

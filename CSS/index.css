@@ -42,7 +42,7 @@ a {
     height: 12vh;
     width: 100vw; 
     text-decoration: none; 
-    background-color: rgba(24, 23, 23, 0.635);
+    background-color: #181717a2;
     justify-content: center;
     z-index: 1;
 }
@@ -89,14 +89,13 @@ a {
 }
 
 .subMenu{
-    margin-top: 2vh;
-    padding: 2%;
+    padding: 4%;
     padding-left: 1%;
     display: none;
     /*display: grid;*/
     position: absolute;
     z-index: 1;
-    background-color: rgba(24, 23, 23, 0.85);
+    background-color: #181717a2;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr;
 }
@@ -132,7 +131,7 @@ a {
     position: fixed;
     right: 0px;
     color: white;
-    background-color: #252525;
+    background-color: #181717a2;
     margin-top: 12vh; /*12vh for index, 2vh for classes*/
     padding: 0 2% 2% 2%;
     display: flex;
@@ -164,7 +163,7 @@ a {
     display: grid;
     /*margin-top: 10vh;*/
     width: 100vw;
-    height: 55vh;
+    height: 36.67vh;
     grid-template-rows: 81% 19%;
     background: linear-gradient(90deg, #181717a2, #8890a2) ;
     color: white;
@@ -177,7 +176,6 @@ a {
 .bannerImage h1{
     width: 100%;
     height: 100%;
-    margin-top: 10%;
     align-self: center;
     text-align: center;
     font-size: 5vw;
