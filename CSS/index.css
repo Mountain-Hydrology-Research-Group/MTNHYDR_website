@@ -90,13 +90,12 @@ a {
 }
 
 .subMenu{
-    margin-top: -2px; /*This is where we are playing!*/
-    padding: 2%;
-    display: none;
-    /*display: grid;*/
+    margin-top: calc(22px - 0.6vw); 
+    padding: 26px 26px 26px 0px;
+    display: block;
+    opacity: 0.01;
     position: absolute;
     z-index: 1;
-    /*background-color: #181717a2;*/
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr;
 }
@@ -113,12 +112,11 @@ a {
 
 .subMenu a{
     display: block;
-    padding: 1% 0;
-    /*color: green;*/
 }
 /*This controls drop down menus*/
 .mainMenuOption:hover .subMenu, .subMenu:hover{
-    display: block;
+    transition: 0.5s;
+    opacity: 1;
 }
 
 #current{
@@ -132,19 +130,21 @@ a {
 .dropdownMenu {
     visibility: hidden;
     position: fixed;
-    right: 1vw;
+    right: 0;
     color: white;
     background-color: #181717a2;
     margin-top: 100px; /*12vh for index, 2vh for classes*/
-    padding: 0 2% 2% 2%;
+    padding: 0 8vw 2% 2%;
     display: flex;
     justify-content: center;
-    width: calc(var(--variable-width) - 20px);
+    width: 20vw;
+    min-width: 125px;
+    max-width: 140px;
     z-index: 1;
 }
 
 .dropdownMenu li {
-    padding: 10px;
+    padding: 8px;
     text-decoration: none;
     list-style-type: none;
     border-bottom: 0.5px solid #c7c7c7;
@@ -351,4 +351,10 @@ a:hover {
         margin-left: 0%;
         margin-right: 0%;
     }
+
+    .dropdownMenu {
+        margin-top: 60px;
+        right:0;
+        padding: 0 10% 2% 0;
+    } 
   }
