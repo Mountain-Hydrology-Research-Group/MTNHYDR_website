@@ -211,8 +211,8 @@ a {
     grid-template-columns: 1fr 1fr 1fr;
     height: 100%;
     width: 90vw;
-    background-color: #181717a2;
-    color: white;
+    background-color: #fffffff3;
+    color: rgb(30, 30, 30);
 }
 
 .footer a {
