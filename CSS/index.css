@@ -92,7 +92,7 @@ a {
 .subMenu{
     margin-top: calc(22px - 0.6vw); 
     padding: 26px 26px 26px 0px;
-    display: block;
+    display: none;
     opacity: 0.01;
     position: absolute;
     z-index: 1;
@@ -114,9 +114,10 @@ a {
     display: block;
 }
 /*This controls drop down menus*/
-.mainMenuOption:hover .subMenu, .subMenu:hover{
+.mainMenuOption:hover .subMenu, .subMenu:hover{ /*This is where we are working*/
+    display: block;
     transition: 0.5s;
-    opacity: 1;
+    opacity: 1; /*The above two lines are currently extranenous*/
 }
 
 #current{
@@ -130,11 +131,11 @@ a {
 .dropdownMenu {
     visibility: hidden;
     position: fixed;
-    right: 0;
+    right: 0vw;
     color: white;
     background-color: #181717a2;
     margin-top: 100px; /*12vh for index, 2vh for classes*/
-    padding: 0 8vw 2% 2%;
+    padding: 0 5vw 2% 2%;
     display: flex;
     justify-content: center;
     width: 20vw;
@@ -148,7 +149,8 @@ a {
     text-decoration: none;
     list-style-type: none;
     border-bottom: 0.5px solid #c7c7c7;
-    width: 100%; /* Set width to 100% for uniformity */
+    width: 20vw; /* Set width to 100% for uniformity */
+    max-width: 120px;
     text-align: center;
 }
 
@@ -265,11 +267,9 @@ a:hover {
 /*Dropdown menu itself*/
     .dropdownMenu {
         visibility: visible;
+        max-width: 120px;
     }
 
-    /*.navBar:hover .dropdownMenu, .dropdownMenu:hover {
-        Display: inline-block;
-    }*/
 
         .mainMenuOption {
             visibility: hidden;
@@ -355,6 +355,7 @@ a:hover {
     .dropdownMenu {
         margin-top: 60px;
         right:0;
-        padding: 0 10% 2% 0;
+        padding: 0 6% 0 0;
+        max-width: 140px;
     } 
   }

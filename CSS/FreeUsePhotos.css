@@ -78,6 +78,24 @@
     padding: 5%;
 }
 
+@media only screen and (max-width: 1000px) {
+    .photoarea{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        display: grid;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .photoarea{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        display: grids;
+    }
+}
+
+
+
 /*Start photo tile ids*/
 
 #crystalone {
