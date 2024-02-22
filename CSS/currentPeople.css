@@ -23,13 +23,13 @@
 .backgroundMain {
     color:rgb(255, 255, 255);
     /* background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.901) , rgba(217, 229, 252, 0.949));*/
-    background-image: url("../src/snowgradient.jpg");
+    background-image: url("../src/upclosegradient.jpg");
     background-position: top;
     background-size:cover;
     background-repeat: no-repeat;
 }
 .profile a:hover {
-    background-color: rgba(216, 239, 253, 0.762);
+    background-color: rgba(216, 239, 253, 0.617);
 }
 .profile a{
     padding: 5% 10%;
