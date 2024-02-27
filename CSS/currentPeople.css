@@ -23,13 +23,13 @@
 .backgroundMain {
     color:rgb(255, 255, 255);
     /* background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.901) , rgba(217, 229, 252, 0.949));*/
-    background-image: url("../src/upclosegradient.jpg");
+    background-image: url("../src/20221009_SOS\ GOTHIC\ BASIN_00884-X4.jpg");
     background-position: top;
     background-size:cover;
     background-repeat: no-repeat;
 }
 .profile a:hover {
-    background-color: rgba(216, 239, 253, 0.617);
+    background-color: rgba(177, 216, 240, 0.592);
 }
 .profile a{
     padding: 5% 10%;
@@ -39,7 +39,7 @@
     display: grid;
     grid-template-rows: 4fr 2fr;
     border-radius: 5%;
-    background-color:  rgba(255, 255, 255, 0.717);
+    background-color:  rgba(255, 255, 255, 0.814);
 }
 .profilePicture{
     justify-self: center;
