@@ -135,7 +135,7 @@ a {
     color: white;
     background-color: #181717a2;
     margin-top: 100px; /*12vh for index, 2vh for classes*/
-    padding: 0 5vw 2% 2%;
+    padding: 0 5vw 0% 2%;
     display: flex;
     justify-content: center;
     width: 20vw;
@@ -151,13 +151,14 @@ a {
     border-bottom: 0.5px solid #c7c7c7;
     width: 20vw; /* Set width to 100% for uniformity */
     max-width: 120px;
+    max-height: 20px;
     text-align: center;
 }
 
 .dropdownMenu a {
     color: white;
     text-decoration: none;
-    padding: 10px 0; /* Adjust padding for better spacing */
+    padding: 5px 0; /* Adjust padding for better spacing */
     font-size: calc(7px + 1vw);
     display: block; /* Make links block-level for full width */
     text-align: center;
@@ -252,7 +253,7 @@ a:hover {
 
 
 /*Here is the media query for the Tablet/Phone sizes*/
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1000px) {
     .heading {
         grid-template-columns: 85% 15%;
     }
@@ -353,7 +354,7 @@ a:hover {
     }
 
     .dropdownMenu {
-        margin-top: 60px;
+        margin-top: 59px;
         right:0;
         padding: 0 6% 0 0;
         max-width: 140px;
