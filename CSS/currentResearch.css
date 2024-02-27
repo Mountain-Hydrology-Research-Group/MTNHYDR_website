@@ -186,6 +186,26 @@ a {
             height: 38vh;
         }
         
+    .classbox {
+        height: 35vw;
+        width: 75vw;
+    }
+        
+    .classheader {
+        font-size: 4vw;
+    }
+
+    .classinfo h1 {
+        font-size: 3.5vw;
+    }
+
+    .classinfo li {
+        font-size: 3vw;
+    }
+
+    .classinfo p {
+        font-size: 3vw;
+    }
 }
 
 /*Here are the filepaths for the profile pictures*/

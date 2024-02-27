@@ -82,7 +82,13 @@
     .photoarea{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-        display: grid;
+    }
+    .photoitem{
+        height: 27vw;
+    }
+
+    .photoitemcaption{
+        font-size: 2.5vw;
     }
 }
 
@@ -90,7 +96,26 @@
     .photoarea{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-        display: grids;
+    }
+
+    .photoitem{
+        height: 55vw;
+        margin-left:3.5vw;
+    }
+
+    .photoitemcaption{
+        font-size: 5vw;
+    }
+
+    .photoheading h2 {
+        font-size: 5vw;
+        }
+    .disclaimer p {
+        font-size: 4vw;
+    }
+
+    .disclaimer li {
+        font-size: 4vw;
     }
 }
 
