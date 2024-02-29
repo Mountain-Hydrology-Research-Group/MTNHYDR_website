@@ -236,6 +236,15 @@ a:hover {
     height: 60%;
 }
 
+.joinUs a {
+    color: black;
+    font-size: calc(12px + 0.2vw);
+}
+
+    .joinUs a:hover {
+        color:rgb(145, 143, 143);
+    }
+
 /*Basic Website text types*/
 
 .caption {
@@ -282,18 +291,17 @@ a:hover {
         display: grid;
         margin: 0;
         padding: 0 5vw;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         height: 60%;
         width: 90vw;
+        justify-content: center;
     }
-    .joinUs {
-        visibility: hidden;
-    }
+
     .copyRights {
         grid-column: 1;
     }
     .UWLogo{
-        grid-column: 2;
+        grid-column: 3;
         opacity: 0.8;
         justify-content: flex-end;
         width: 25vw;
@@ -319,9 +327,7 @@ a:hover {
         width: 90vw;
         justify-content: center;
     }
-    .joinUs {
-        visibility: hidden;
-    }
+
     .copyRights {
         grid-column: row;
         justify-content: center;

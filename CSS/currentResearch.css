@@ -129,7 +129,9 @@ a {
         border-width: 1px;
         border-color: gray;
         height: 18vw;
+        min-height: 200px;
         width: 60%;
+        min-width: 70vw;
         justify-self: center;
         align-self: center;
         margin: auto;
@@ -144,10 +146,26 @@ a {
 
     .classinfo {
         text-align: center;
+        font-size: 1px;
+    }
+
+    .classinfo h1 {
+        font-size: calc(20px + 0.2vw);
+        color:black
+    } 
+    .classinfo p {
+        font-size: calc(15px + 0.2vw);
+    }
+
+    .classinfo li {
+        font-size: calc(15px + 0.2vw);
+    }
+    .classheader {
+        font-size: calc(25px + 0.2vw);
     }
 }
 
-@media only screen and (max-width: 490px) {
+@media only screen and (max-width: 600px) {
     .indivProj{
         display: grid;
         grid-template-columns: 1fr 1fr;
