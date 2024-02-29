@@ -33,7 +33,7 @@
 }
 
 #pageOne {
-    background-image: url("../src/homepagetestpic.jpeg");
+    background-image: url("../src/homepagepic.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -364,11 +364,11 @@
             color: white;
             display: grid;
             grid-template-columns: 15% 70% 15%;
-            grid-template-rows: 15% 70% 15%;
+            grid-template-rows: 15% 17% 68%;
         }
         
         #pageOne {
-            background-image: url("../src/homepagetestpic.jpeg");
+            background-image: url("../src/homepagepic.jpeg");
             background-size: cover;
             background-repeat: no-repeat;
             background-position: left center ;
@@ -414,7 +414,7 @@
                 animation-duration: 1s;
                 height: 100%;
                 grid-column: 2; 
-                grid-row: 2;
+                grid-row: 3;
             }
         
             #illusLeft{

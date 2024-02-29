@@ -144,7 +144,7 @@
     }
     #profWillow .profilePicture{
         background-image: url(../src/Profile\ Pictures/whoins.jpeg);
-        background-position: right;
+        background-position: center;
         background-size: cover;
     }
 
