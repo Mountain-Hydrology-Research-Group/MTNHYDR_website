@@ -63,8 +63,8 @@ a {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-right: 3%;
     height: auto;
+    margin: 0 -5% 0 20%;
 }
 
 .mainMenuOption {
