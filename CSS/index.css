@@ -64,7 +64,7 @@ a {
     justify-content: flex-end;
     align-items: center;
     margin-right: 3%;
-    height: auto;
+    height: 100%;
 }
 
 .mainMenuOption {
