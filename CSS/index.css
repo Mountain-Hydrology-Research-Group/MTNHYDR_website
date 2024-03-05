@@ -63,8 +63,13 @@ a {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+<<<<<<< HEAD
+    margin-right: 3%;
+    height: 100%;
+=======
     height: auto;
     margin: 0 -5% 0 20%;
+>>>>>>> 52d230a7ad1c8aede6985644e96aa7e80a128f17
 }
 
 .mainMenuOption {
