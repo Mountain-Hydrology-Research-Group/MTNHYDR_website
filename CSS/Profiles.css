@@ -17,6 +17,7 @@
         align-self: center;
         text-align: center;
         font-size: 5vw;
+        margin-top: 25vh;
     }
 
 .profileFull {
@@ -333,7 +334,9 @@ a {
         width: 100vw;
         display: block;
     }
-    
+    .MissingSnowbannerImage h1{
+        margin-top: 15vh;
+    }
     .sideBar{
         width: 100%;
         padding: 3% 0 0 0;
