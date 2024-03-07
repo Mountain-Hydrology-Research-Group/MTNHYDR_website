@@ -8,10 +8,10 @@
     margin: 20px 14vw 20px;
     width: 78vw;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     column-gap: 3vw;
     grid-gap: 8vh;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
 }
 
 .newsPanel{
@@ -23,6 +23,7 @@
     width: 100%;
     margin-left: 2.5%;
     text-align: center;
+    
 }
 
     .news {
@@ -30,7 +31,9 @@
         padding: 2%;
         /*background-color: rgb(236, 235, 235);*/
         margin: 2% 0;
-        border-radius: 5%;
+        border-width: 100%;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
     }
         .news img {
             max-width: 100%;
