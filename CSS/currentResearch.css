@@ -52,7 +52,7 @@ a {
 
 .classheader {
     width: 100%;
-    font-size: 2.5vw;
+    font-size: 2vw;
     color: black;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -62,19 +62,26 @@ a {
 }
 
 .classgrid {
+    width: 85%;
+    margin: 4% 7.5% 15% 7.5%;
     display: grid;
+    column-gap: 5%;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 3%; 
+    grid-template-rows: 1fr 1fr 1fr;
+    /*display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    column-gap: 40px;
+    column-gap: 40px;*/
 }
 
 .classbox {
     display: grid;
-    background-color: rgba(236, 235, 235);
+    background-color: rgba(226, 236, 245);
     border-radius: 10%;
     border-style: solid;
     border-width: 1px;
-    border-color: gray;
+    border-color: rgba(83, 160, 195, 0);
     height: 18vw;
     width: 100%;
     justify-self: center;
@@ -84,8 +91,9 @@ a {
 
 .classbox a:hover {
     background-color: rgb(248, 247, 247);
-    border-radius: 10%;
+    border-radius: 15px;
 }
+
 
     .classinfo {
         margin-left: 5%;
@@ -93,17 +101,17 @@ a {
     }
 
     .classinfo h1 {
-        font-size: 2vw;
+        font-size: 1.90vw;
         color:black
     } 
 
     .classinfo p {
-        font-size: 1.25vw;
+        font-size: 1vw;
         color:black
     }
 
     .classinfo a {
-        color: blueviolet;
+        color: rgb(69, 140, 179);
     }
 
     .classinfo a:hover {
@@ -118,11 +126,24 @@ a {
 /*Media Queries*/
 @media only screen and (max-width: 1200px) {
     .classgrid {
-        display: block;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 3%;
+        /*display: block;*/
     }
 
     .classbox {
         display: grid;
+        background-color: rgba(226, 236, 245);
+        border-radius: 15px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgba(83, 160, 195, 0);
+        height: calc(25vw + 0.2vw);
+        width: 100%;
+        justify-self: center;
+        align-self: center;
+        margin-bottom: 30px;
+        /*display: grid;
         background-color: rgba(236, 235, 235);
         border-radius: 10%;
         border-style: solid;
@@ -135,7 +156,7 @@ a {
         justify-self: center;
         align-self: center;
         margin: auto;
-        margin-bottom: 30px;
+        margin-bottom: 30px;*/
     }
     
     .researchContent{
@@ -146,19 +167,19 @@ a {
 
     .classinfo {
         text-align: center;
-        font-size: 1px;
+        font-size: .75px;
     }
 
     .classinfo h1 {
-        font-size: calc(20px + 0.2vw);
+        font-size: calc(16px + 0.2vw);
         color:black
     } 
     .classinfo p {
-        font-size: calc(15px + 0.2vw);
+        font-size: calc(12px + 0.2vw);
     }
 
     .classinfo li {
-        font-size: calc(15px + 0.2vw);
+        font-size: calc(12px + 0.2vw);
     }
     .classheader {
         font-size: calc(25px + 0.2vw);
@@ -205,24 +226,26 @@ a {
         }
         
     .classbox {
-        height: 35vw;
-        width: 75vw;
+        width: 85%;
+        height: 200px;
+        margin: 7.5% 7.5% 15% 7.5%;
+        display: block;
     }
         
     .classheader {
-        font-size: 4vw;
+        font-size: 3vw;
     }
 
     .classinfo h1 {
-        font-size: 3.5vw;
+        font-size: 3vw;
     }
 
     .classinfo li {
-        font-size: 3vw;
+        font-size: 2.2vw;
     }
 
     .classinfo p {
-        font-size: 3vw;
+        font-size: 2.2vw;
     }
 }
 
