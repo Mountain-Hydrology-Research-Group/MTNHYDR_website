@@ -30,7 +30,7 @@
     background-repeat: no-repeat;
 }
 .profile a:hover {
-    background-color: rgb(226, 236, 245);
+    background-color: rgb(204, 217, 229);
 }
 .profile a{
     padding: 5% 10%;
@@ -40,7 +40,7 @@
     display: grid;
     grid-template-rows: 4fr 2fr;
     border-radius: 5%;
-    background-color:  rgb(204, 230, 250);
+    background-color:  rgb(226, 236, 245);
 }
 .profilePicture{
     justify-self: center;

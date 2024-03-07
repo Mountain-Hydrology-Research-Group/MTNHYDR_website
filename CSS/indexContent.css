@@ -225,11 +225,11 @@
         background-size: cover;
     }
 
-    #profMatthew .profilePicture{
+    /*#profMatthew .profilePicture{
         background-image: url(../src/Profile\ Pictures/MatthewProfile.jpg);
         background-position: center;
         background-size: cover;
-    }
+    }*/
 
     #profRoss .profilePicture{
         background-image: url(../src/Profile\ Pictures/RossProfile.jpg);
