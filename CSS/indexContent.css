@@ -33,7 +33,7 @@
 }
 
 #pageOne {
-    background-image: url("../src/homepagepic.jpeg");
+    background-image: url("../src/SOSGOTHICBASIN1.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -361,14 +361,14 @@
         .page{
             height: 100vh;
             width: 100vw;
-            color: white;
+            color: rgb(255, 255, 255);
             display: grid;
             grid-template-columns: 15% 70% 15%;
             grid-template-rows: 15% 17% 68%;
         }
         
         #pageOne {
-            background-image: url("../src/homepagepic.jpeg");
+            background-image: url("../src/SOSGOTHICBASIN1.jpeg");
             background-size: cover;
             background-repeat: no-repeat;
             background-position: left center ;
