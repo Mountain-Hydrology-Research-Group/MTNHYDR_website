@@ -78,7 +78,7 @@ a {
 .classbox {
     display: grid;
     background-color: rgba(226, 236, 245);
-    border-radius: 10%;
+    border-radius: 15px;
     border-style: solid;
     border-width: 1px;
     border-color: rgba(83, 160, 195, 0);
