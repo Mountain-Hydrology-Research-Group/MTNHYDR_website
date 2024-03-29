@@ -23,11 +23,12 @@
 .peopleArea a{
     display: grid;
     padding-top: 10%; 
-    grid-template-rows: repeat(5, 1fr);
-    border-radius: 5%;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    border-radius: 15px;
     background-color: rgba(29, 29, 29, 0.837);
     width: 14vw;
-    height: 55vh;
+    height: 30vh;
     color: rgb(255, 255, 255);
 }
 

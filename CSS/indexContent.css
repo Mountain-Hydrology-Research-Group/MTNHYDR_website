@@ -33,7 +33,7 @@
 }
 
 #pageOne {
-    background-image: url("../src/SOSGOTHICBASIN1.jpeg");
+    background-image: url("../src/SOSHome.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -368,7 +368,7 @@
         }
         
         #pageOne {
-            background-image: url("../src/SOSGOTHICBASIN1.jpeg");
+            background-image: url("../src/SOSHome.jpeg");
             background-size: cover;
             background-repeat: no-repeat;
             background-position: left center ;
