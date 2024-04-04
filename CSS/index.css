@@ -223,6 +223,7 @@ a {
     position:relative;
     animation: move-words 28s linear infinite;
     margin: 0;
+    white-space: nowrap;
     color: rgb(24, 24, 24);
 }
 
@@ -390,6 +391,14 @@ a:hover {
     }
   }
 
+  .upcomingEvents {
+    position:relative;
+    animation: move-words 20s linear infinite;
+    margin: 0;
+    white-space: nowrap;
+    color: rgb(24, 24, 24);
+}
+
   @media only screen and (max-width: 500px) {
     .banner {
         height: 40vh;
@@ -456,3 +465,10 @@ a:hover {
         max-width: 140px;
     } 
   }
+  .upcomingEvents {
+    position:relative;
+    animation: move-words 12s linear infinite;
+    margin: 0;
+    white-space: nowrap;
+    color: rgb(24, 24, 24);
+}
