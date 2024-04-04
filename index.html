@@ -26,9 +26,30 @@
             <img src="src/MTNHYDLOGO_large.png" />
         </div>
     </div>
+    <div>
+        <h2 class="upcomingEvents"> <p></p>Upcoming Events: MTNHYDR goes to Engineering Discovery Days May 2nd & 3rd, 2024!</h2>
+    </div>
     <div class="twitterfollow">
         <a href="https://twitter.com/uwmtnhydr?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @uwmtnhydr</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
+    <!--<div class="Newsbanner">
+        <h1 id="Newsbanner">News Updates</h1>
+    </div>-->
+    <!--
+    <div class="carousel">
+        <div class="carousel-text">News Updates</div>
+        <div class="carousel-container">
+          <div class="carousel-item" > <img src="src/20221010_SOS GOTHIC BASIN_01169-X4.jpg"> </div>
+          <div class="carousel-item"> </div><img src="src/Banner/"> </div>
+          <div class="carousel-item" > </div><img src="src/Banner/Research.jpeg"> </div>
+          **** Add more images as needed ****
+        </div>
+        <div class="carousel-controls">
+          <div class="carousel-control prev">&lt;</div>
+          <div class="carousel-control next">&gt;</div>
+        </div>
+    </div>
+-->
     <div class="page" id="pageTwo">
         <div class="initialInfo" id="infoRight">
             <h2 class="initInfoBold">Our research goals</h2>
@@ -227,5 +248,31 @@
     </div>
     <script src="./JS/jquery-3.6.0.min.js"></script>
     <script src="./JS/index.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          const container = document.querySelector('.carousel-container');
+          const prevBtn = document.querySelector('.prev');
+          const nextBtn = document.querySelector('.next');
+    
+          let currentIndex = 0;
+    
+          function showSlide(index) {
+            container.style.transform = `translateX(-${index * 100}%)`;
+          }
+    
+          function nextSlide() {
+            currentIndex = (currentIndex + 1) % container.children.length;
+            showSlide(currentIndex);
+          }
+    
+          function prevSlide() {
+            currentIndex = (currentIndex - 1 + container.children.length) % container.children.length;
+            showSlide(currentIndex);
+          }
+    
+          nextBtn.addEventListener('click', nextSlide);
+          prevBtn.addEventListener('click', prevSlide);
+        });
+      </script>
 </body>
 </html>

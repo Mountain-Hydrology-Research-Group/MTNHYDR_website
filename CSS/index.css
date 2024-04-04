@@ -219,6 +219,22 @@ a {
     text-align: center;
     border-bottom: 1px solid gray;
 }
+.upcomingEvents {
+    position:relative;
+    animation: move-words 28s linear infinite;
+    margin: 0;
+    color: rgb(24, 24, 24);
+}
+
+@keyframes move-words {
+    0% {
+      left: 100%;
+    }
+    100% {
+      left: -100%;
+    }
+}
+
 /*
 .Newshighlightscontent {
     margin: 20px 14vw 20px;

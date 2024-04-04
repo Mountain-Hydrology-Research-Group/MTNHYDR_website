@@ -58,8 +58,68 @@
     height: 100%; 
 }
     /*end code for photo collage*/
+/*
+.Newsbanner{
+    display: grid;
+    /*margin-top: 10vh;
+    width: 100vw;
+    height: 65vh;
+    grid-template-rows: 40% 60%;
+    background: linear-gradient(rgb(204, 68, 68), rgb(162, 140, 140));
+    color: white;
+}
+*/
+/*
+.carousel {
+    width: 100vw;
+    height: 65vh;
+    overflow: hidden;
+    position: relative;
+  }
 
+  .carousel-container {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
 
+  .carousel-item {
+    flex: 0 0 100%; /* Adjust this value to changa the number of visible items 
+    background-size: 100vw;
+    background-position: top;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+
+  .carousel-text {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .carousel-controls {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .carousel-control {
+    cursor: pointer;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+  }
+
+  .carousel-control:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+*/
 .meetTheTeam{
     height: 1700px;
     color:rgb(255, 255, 255);
@@ -431,6 +491,58 @@
             text-decoration: underline;
         }
 
+/*
+.Newshighlightscontent {
+    margin: 20px 14vw 20px;
+    width: 78vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3vw;
+    grid-gap: 8vh;
+    grid-template-rows: 1fr;
+}
+
+.newshighlightPanel{
+    grid-column: 1;
+    width: 100%;
+}
+
+.titleNewshighlight{
+    width: 100%;
+    margin-left: 2.5%;
+    text-align: center;
+    
+}
+
+    .newshighlight {
+        width: 90%;
+        padding: 2%;
+        background-color:rgb(240, 248, 255);
+        margin: 2% 0;
+        border-width: 100%;
+        border-radius: 15px;
+        /*border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+        .newshighlight img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .newshighlight h1 {
+            font-size: 2vw;
+            margin: 0;
+        }
+        .newshighlight h2 {
+            font-size: 1.5vw;
+            padding-bottom: 5px;
+        }
+
+        .newshighlight p, i {
+            font-size: calc(17px + 0.3vw); 
+            
+        }
+        /*
 
         .meetTheTeam{
             height: 2100px;
@@ -534,3 +646,5 @@
             text-align: center;
         }
     }
+
+    
