@@ -5,7 +5,7 @@
 }
 
 a {
-    color: black;
+    color: rgb(61, 134, 173);
 }
 .researchContent{
     margin-top: 20px;
@@ -285,6 +285,11 @@ a {
 
 #profSnowIR {
     background-image: url(../src/Copy\ of\ IMG_7435.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+#profICESat{
+    background-image: url(../src/Methowshot.jpeg);
     background-position: center;
     background-size: cover;
 }

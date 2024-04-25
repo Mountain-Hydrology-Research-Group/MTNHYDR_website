@@ -1,6 +1,6 @@
 .bannerImage{
     grid-row: 1;
-    background-image: url(../src/Copy\ of\ IMG_9727.jpg);
+    background-image: url(../src/Banner/Research.jpeg);
     background-size: cover;
     background-position: center;
 }
@@ -48,7 +48,7 @@ a {
     }
 
     .titleFull a {
-        color:blueviolet;
+        color:rgb(61, 134, 173);
     }
 
 .ContentArea {
@@ -81,7 +81,7 @@ a {
 }
 
     .lowermaintextarea a {
-        color:blueviolet;
+        color: rgb(61, 134, 173);
     }
 
     .lowermaintextarea img {
@@ -121,7 +121,7 @@ a {
 
 
     .fullpagecontent a {
-        color: blueviolet;
+        color: rgb(61, 134, 173);
     }
 
        
@@ -169,7 +169,7 @@ a {
         }
 
         .datatile a {
-            color: blueviolet;
+            color: rgb(61, 134, 173);
         }
 
         .datatile b {

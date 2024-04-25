@@ -1,8 +1,14 @@
 .bannerImage{
     grid-row: 1;
-    background-image: url(../src/Copy\ of\ IMG_9752.jpeg);
+    background-image: url(../src/Banner/Research.jpeg);
     background-size: cover;
-    background-position: center;
+    background-position: top;
+}
+.nprbannerImage{
+    grid-row: 1;
+    background-image: url(../src/Methowshot.jpeg);
+    background-size: cover;
+    background-position: top;
 }
 
 .MissingSnowbannerImage{
@@ -28,7 +34,7 @@
 }
 
 a {
-    color: blueviolet;
+    color: rgb(61, 134, 173);
 }
     a:hover {
         color: grey
@@ -154,7 +160,7 @@ a {
             
         }
 .blueLink {
-    color: rgb(255, 255, 255)
+    color: rgb(61, 134, 173);
 }
 
 .videocontent {
@@ -730,6 +736,12 @@ a {
 /*Sublimation of Snow*/
 #profSublimationOfSnow {
     background-image: url(../src/NewSOSLogo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+/*ICESat*/
+#profICESat{
+    background-image: url(../src/Methowshot.jpeg);
     background-position: center;
     background-size: cover;
 }

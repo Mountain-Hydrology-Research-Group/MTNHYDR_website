@@ -412,6 +412,13 @@
     background-size: cover;
 }
 
+#tilethirteen {
+    background-image: url("../src/Methowshot.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 /*End code for collage images*/
 
