@@ -15,6 +15,9 @@ a {
     text-decoration: none;
 }
 
+a {
+    color: rgb(61, 134, 173);
+}
 
 /*Animations*/
 @keyframes buttonFlash {
@@ -220,10 +223,9 @@ a {
     border-bottom: 1px solid gray;
 }
 .upcomingEvents {
-    position:relative;
-    animation: move-words 160s linear infinite;
-    margin: 0;
-    white-space: nowrap;
+    text-align: center;
+    font-size: 2vw;
+    padding: 10px;
     color: rgb(24, 24, 24);
 }
 
@@ -395,10 +397,12 @@ a:hover {
   }
 
   .upcomingEvents {
-    position:relative;
+    /*position:relative;
     animation: move-words 20s linear infinite;
     margin: 0;
-    white-space: nowrap;
+    white-space: nowrap;*/
+    text-align: center;
+    padding: 10px;
     color: rgb(24, 24, 24);
 }
 
@@ -469,9 +473,12 @@ a:hover {
     } 
   }
   .upcomingEvents {
-    position:relative;
+    /*position:relative;
     animation: move-words 12s linear infinite;
     margin: 0;
-    white-space: nowrap;
+    white-space: nowrap;*/
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
     color: rgb(24, 24, 24);
 }
