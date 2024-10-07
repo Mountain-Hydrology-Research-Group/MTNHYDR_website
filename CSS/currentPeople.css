@@ -65,11 +65,6 @@
         background-size: cover;
     }
 
-    #profTwo .profilePicture{
-        background-image: url(../src/Profile\ Pictures/ncristea.png);
-        background-position: center;
-        background-size: cover;
-    }
 
     #profKehan .profilePicture{
         background-image: url(../src/KehanYang_MHG_website.jpeg);
@@ -83,27 +78,9 @@
         background-size: cover;
     }
 
-    #profFour .profilePicture{
-        background-image: url(../src/Profile\ Pictures/StevenProfile.jpg);
-        background-position: center;
-        background-size: cover;
-    }
-
-    #profFive .profilePicture{
-        background-image: url(../src/Profile\ Pictures/CassieProf.jpg);
-        background-position: center;
-        background-size: cover;
-    }
-
     #profSix .profilePicture{
         background-image: url(../src/Profile\ Pictures/HannahProfile.jpg);
         background-position: center;
-        background-size: cover;
-    }
-
-    #profSeven .profilePicture{
-        background-image: url(../src/Profile\ Pictures/JoeProfile.jpg);
-        background-position: center left;
         background-size: cover;
     }
 

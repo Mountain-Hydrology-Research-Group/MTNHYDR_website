@@ -194,6 +194,12 @@
     background-size: cover;
 }
 
+#PhdNine .profilePicture{
+    background-image: url(../src/Profile\ Pictures/CassieProf.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
 /*Masters*/
 
 #mastersJoe .profilePic {
@@ -374,6 +380,18 @@
 
 #postDocThree .profilePic {
     background-image: url(../src/KehanYang_MHG_website.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+#postDocFour .profilePicture{
+    background-image: url(../src/Profile\ Pictures/StevenProfile.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#postDocFive .profilePicture{
+    background-image: url(../src/Profile\ Pictures/ncristea.png);
     background-position: center;
     background-size: cover;
 }
