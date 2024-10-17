@@ -194,8 +194,20 @@
     background-size: cover;
 }
 
-#PhdNine .profilePicture{
-    background-image: url(../src/Profile\ Pictures/CassieProf.jpg);
+#PhdNine .profilePic{
+    background-image: url(../src/Profile\ Pictures/CassieProf.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+#PhdSteven .profilePicture{
+    background-image: url(../src/Profile\ Pictures/StevenProfile.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#PhdNicoleta .profilePic{
+    background-image: url(../src/Profile\ Pictures/ncristea.jpeg);
     background-position: center;
     background-size: cover;
 }
@@ -385,17 +397,7 @@
     background-size: cover;
 }
 
-#postDocFour .profilePicture{
-    background-image: url(../src/Profile\ Pictures/StevenProfile.jpg);
-    background-position: center;
-    background-size: cover;
-}
 
-#postDocFive .profilePicture{
-    background-image: url(../src/Profile\ Pictures/ncristea.png);
-    background-position: center;
-    background-size: cover;
-}
 
     /*Here is the media query for the Tablet/Phone sizes*/
 @media only screen and (max-width: 1200px) {
