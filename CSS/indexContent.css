@@ -120,6 +120,24 @@
     background-color: rgba(0, 0, 0, 0.8);
   }
 */
+.flyer-banner {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.flyer-banner img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.flyer-banner img:hover {
+    transform: scale(1.05);
+}
+
 .meetTheTeam{
     height: 1700px;
     color:rgb(255, 255, 255);

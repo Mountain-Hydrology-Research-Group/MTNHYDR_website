@@ -741,7 +741,7 @@ a {
 }
 /*ICESat*/
 #profICESat{
-    background-image: url(../src/Methowshot.jpeg);
+    background-image: url(../src/Methowshot.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -759,3 +759,39 @@ a {
     background-position: center;
     background-size: cover;
 }
+
+/* Reduce space between elements in the main text area */
+.mainTextArea ul {
+    margin-bottom: 10px; /* Reduce space after the list */
+}
+
+.mainTextArea img {
+    display: block; /* Ensures no inline spacing */
+    margin: 10px auto; /* Center the image and reduce vertical spacing */
+    max-width: 100%; /* Keep the image responsive */
+}
+
+.audioSection {
+    margin-top: 10px; /* Reduce space before the audio section */
+    padding-top: 10px; /* Fine-tune spacing if necessary */
+    text-align: center; /* Center text and inline elements like audio */
+}
+
+.audioSection audio {
+    display: block; /* Ensures it's treated as a block element for consistent centering */
+    margin: 0 auto; /* Horizontally centers the element */
+}
+
+.breakingNewsImage img {
+    width: 1000px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    transform: translateX(-100%); /* Start off-screen */
+    transition: transform 1s ease; /* Smooth slide-in animation */
+    opacity: 0; /* Start transparent */
+}
+
+.breakingNewsImage.visible img {
+    transform: translateX(0); /* Slide to its original position */
+    opacity: 1; /* Fully visible */
+}
+

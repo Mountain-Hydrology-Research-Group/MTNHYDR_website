@@ -114,7 +114,7 @@ const headerHTML = ` \
             <p> \
                 University of Washington<br> \
                 Department of Civil and Environmental Engineering<br> \
-                Copyright 2024 \
+                Copyright 2025 \
             </p> \
         </div> \
         <div class="UWLogo"> \
@@ -148,3 +148,19 @@ $(document).ready(() => {
         $('.dropdownMenu').slideToggle();
     });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    const breakingNewsImage = document.querySelector(".breakingNewsImage");
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                breakingNewsImage.classList.add("visible");
+                observer.unobserve(breakingNewsImage); // Stop observing once animation is triggered
+            }
+        });
+    });
+
+    observer.observe(breakingNewsImage);
+});
+

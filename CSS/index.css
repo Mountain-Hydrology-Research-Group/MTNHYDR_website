@@ -5,6 +5,8 @@ conventions followed in the site.
 Jori Carter
 */
 
+
+
 body, html {
     font-family: "Raleway", Arial, Helvetica, sans-serif;
     margin: 0;
@@ -84,6 +86,7 @@ a {
     height: 10vh;
     margin: 0 2%;
     min-height: 70px;
+    opacity: 1;
 }
 
 .mainMenuOption a:hover{
@@ -322,6 +325,7 @@ a:hover {
 
 .UWLogo img{
     height: 60%;
+    opacity: 1;
 }
 
 .joinUs a {
@@ -390,7 +394,7 @@ a:hover {
     }
     .UWLogo{
         grid-column: 3;
-        opacity: 0.8;
+        /*opacity: 0.8;*/
         justify-content: flex-end;
         width: 25vw;
     }
@@ -422,6 +426,7 @@ a:hover {
     .heading img {
         min-height: 50px;
         height: 6vw;
+        opacity: 1;
     }
     
     .footer {
@@ -440,7 +445,7 @@ a:hover {
     }
     .UWLogo{
         grid-row: 2;
-        opacity: 0.8;
+        /*opacity: 0.8;*/
         justify-content: center;
         width: 25vw;
     }
@@ -481,4 +486,73 @@ a:hover {
     font-size: 20px;
     padding: 10px;
     color: rgb(24, 24, 24);
+}
+
+/* Section: Intro */
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: #e6f7ff;
+}
+
+.intro .text {
+    flex: 1;
+    margin-right: 1rem;
+}
+
+.intro .text h2 {
+    font-size: 1.8rem;
+    color: #004080;
+}
+
+.intro .image {
+    flex: 1;
+    text-align: center;
+}
+
+.intro .image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Section: Updates */
+.updates {
+    padding: 1.5rem;
+    background-color: #fefefe;
+    border-top: 4px solid #004080;
+}
+
+.updates h2 {
+    font-size: 1.5rem;
+    color: #004080;
+    margin-bottom: 1rem;
+}
+
+.updates p {
+    margin-bottom: 0.5rem;
+}
+
+.updates a {
+    color: #004080;
+    text-decoration: none;
+}
+
+.updates a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .intro {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .intro .text {
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
 }
