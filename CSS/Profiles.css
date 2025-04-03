@@ -609,6 +609,11 @@ a {
     background-position: right;
     background-size: cover;
 }
+#profRunxin .profilePicture{
+    background-image: url(../src/Profile\ Pictures/Runxin.jpeg);
+    background-position: center;
+    background-size: cover;
+}
 
 
 /*Research*/
