@@ -343,6 +343,11 @@
         background-position: right;
         background-size: cover;
     }
+    #profWillow .profilePicture{
+        background-image: url(../src/Profile\ Pictures/Runxin.jpeg);
+        background-position: right;
+        background-size: cover;
+    }
 
 
  /*start code for collage images*/
