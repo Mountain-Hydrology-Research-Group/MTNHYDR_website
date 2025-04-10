@@ -50,6 +50,7 @@ const headerHTML = ` \
                 <div class="submenublock"><a href="${path_origin}/Pages/Research Profiles/snowInformationForWildlifeSystems.html">Snow Information For Wildlife Systems</a></div> \
                 <div class="submenublock"><a href="${path_origin}/Pages/Research Profiles/forestsAndSnow.html">Forests and Snow</a></div> \
                 <div class="submenublock"><a href="${path_origin}/Pages/Research Profiles/snowTemperatureSierra.html">Snow Temperature Readings in the Sierra</a></div> \
+                <div class="submenublock"><a href="${path_origin}/Pages/Research Profiles/ICESat.html">ICESat-2</a></div> \
                 <div class="submenublock"><a href="${path_origin}/Pages/Research Profiles/SnowIR.html">Snow IR</a></div> \
             </div> \
         </div> \ 
