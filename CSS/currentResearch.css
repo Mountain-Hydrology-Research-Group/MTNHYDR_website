@@ -1,5 +1,3 @@
-
-
 .bannerImage{
     background-image: url(../src/Banner/Research.jpeg);
     background-size: cover;
@@ -10,11 +8,12 @@ a {
     color: rgb(61, 134, 173);
 }
 
-.researchContent{
-    margin-top: 20px;
-    margin-left: 15%;
-    margin-right: 15%;
+.researchContent {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 40px;
 }
+
 .indivProj{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -61,199 +60,133 @@ a {
     width: 100%;
     font-size: 2vw;
     color: black;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 40px 0;
+    margin: 40px 0;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     text-align: center;
 }
 
 .classgrid {
-    width: 85%;
-    margin: 4% 7.5% 15% 7.5%;
+    width: 100%;
+    margin: 0 auto;
     display: grid;
-    column-gap: 5%;
     grid-template-columns: 1fr 1fr;
-    row-gap: 3%; 
-    grid-template-rows: 1fr 1fr 1fr;
-    /*display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    column-gap: 40px;*/
+    gap: 60px;
+    padding: 0 0 60px 0;
+}
+
+.class-image {
+    width: 100%;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.class-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
 }
 
 .classbox {
-    display: grid;
-    background-color: rgba(226, 236, 245);
-    border-radius: 15px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgba(83, 160, 195, 0);
-    height: 18vw;
+    display: block;
     width: 100%;
-    justify-self: center;
-    align-self: center;
-    margin-bottom: 30px;
+    padding: 30px 0;
+    margin: 0;
+    border-top: 1px solid #ddd;
 }
 
 .classbox a:hover {
-    background-color: rgb(248, 247, 247);
-    border-radius: 15px;
+    background-color: transparent;
 }
 
+.classinfo {
+    padding: 0;
+    margin: 0;
+}
 
-    .classinfo {
-        margin-left: 5%;
-        margin-right: 5%;
+.classinfo h1 {
+    font-size: 1.8vw;
+    margin: 0 0 20px 0;
+    color: black;
+    font-weight: 500;
+}
+
+.classinfo p {
+    font-size: 1.1vw;
+    margin: 0 0 20px 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+.classinfo li {
+    list-style-type: none;
+    margin: 10px 0;
+    font-size: 1.1vw;
+}
+
+.classinfo a {
+    color: rgb(61, 134, 173);
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.classinfo a:hover {
+    color: rgb(83, 160, 195);
+}
+
+@media only screen and (max-width: 900px) {
+    .researchContent {
+        padding: 0 20px;
     }
 
-    .classinfo h1 {
-        font-size: 1.90vw;
-        color:black
-    } 
-
-    .classinfo p {
-        font-size: 1vw;
-        color:black
-    }
-
-    .classinfo a {
-        color: rgb(69, 140, 179);
-    }
-
-    .classinfo a:hover {
-        background-color: rgba(236, 235, 235);
-    }
-
-    .classinfo li {
-        font-size: 1.25vw;
-    }
-
-
-/*Media Queries*/
-@media only screen and (max-width: 1200px) {
     .classgrid {
-        grid-template-columns: 1fr 1fr;
-        row-gap: 3%;
-        /*display: block;*/
+        grid-template-columns: 1fr;
+        gap: 40px;
     }
 
-    .classbox {
-        display: grid;
-        background-color: rgba(226, 236, 245);
-        border-radius: 15px;
-        border-style: solid;
-        border-width: 1px;
-        border-color: rgba(83, 160, 195, 0);
-        height: calc(25vw + 0.2vw);
-        width: 100%;
-        justify-self: center;
-        align-self: center;
-        margin-bottom: 30px;
-        /*display: grid;
-        background-color: rgba(236, 235, 235);
-        border-radius: 10%;
-        border-style: solid;
-        border-width: 1px;
-        border-color: gray;
-        height: 18vw;
-        min-height: 200px;
-        width: 60%;
-        min-width: 70vw;
-        justify-self: center;
-        align-self: center;
-        margin: auto;
-        margin-bottom: 30px;*/
-    }
-    
-    .researchContent{
-        margin-top: 20px;
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-    
-
-    .classinfo {
-        text-align: center;
-        font-size: .75px;
+    .classheader {
+        font-size: 24px;
+        padding: 30px 0;
+        margin: 30px 0;
     }
 
     .classinfo h1 {
-        font-size: calc(16px + 0.2vw);
-        color:black
-    } 
-    .classinfo p {
-        font-size: calc(12px + 0.2vw);
+        font-size: 22px;
     }
 
-    .classinfo li {
-        font-size: calc(12px + 0.2vw);
-    }
-    .classheader {
-        font-size: calc(25px + 0.2vw);
+    .classinfo p, .classinfo li {
+        font-size: 16px;
     }
 }
 
-@media only screen and (max-width: 600px) {
-    .indivProj{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        border-top: 1px solid black;
-        border-bottom: 1px solid black;
-        height: 40vh;
-        justify-self: center;
-        align-self: center;
-        margin-bottom: 50px;
+@media only screen and (max-width: 500px) {
+    .researchContent {
+        padding: 0 15px;
     }
 
-    .projInfo {
-        justify-self: center;
-        align-self: center;
-        text-align: center;
+    .classgrid {
+        gap: 30px;
     }
-    
-        .projInfo h1 {
-            font-size: 5vw;
-        }
-    
-        .projInfo p {
-            font-size: 1.25vw;
-        }
 
-        .projImage{
-            grid-column: 2;
-            align-self: center;
-            justify-self: center;
-            width: 20vh;
-            height: 20vh;
-            border-radius: 100%;
-        }
-        .projImage img{
-            padding: 1vh;
-            height: 38vh;
-        }
-        
-    .classbox {
-        width: 85%;
-        height: 200px;
-        margin: 7.5% 7.5% 15% 7.5%;
-        display: block;
-    }
-        
     .classheader {
-        font-size: 3vw;
+        font-size: 20px;
+        padding: 20px 0;
+        margin: 20px 0;
+    }
+
+    .classbox {
+        padding: 20px 0;
     }
 
     .classinfo h1 {
-        font-size: 3vw;
+        font-size: 20px;
     }
 
-    .classinfo li {
-        font-size: 2.2vw;
-    }
-
-    .classinfo p {
-        font-size: 2.2vw;
+    .classinfo p, .classinfo li {
+        font-size: 15px;
     }
 }
 
