@@ -178,6 +178,12 @@
     background-size: cover;
 }
 
+#profGus{
+    background-image: url(../src/Profile\ Pictures/Gus_Profile.jpg);
+    background-position: right;
+    background-size: cover;
+}
+
 /*Research*/
 /*Forests and Snow*/
 #profForestAndSnow {

@@ -123,6 +123,11 @@
         background-position: center;
         background-size: cover;
     }
+    #profGus .profilePicture{
+        background-image: url(../src/Profile\ Pictures/Gus_Profile.jpg);
+        background-position: center;
+        background-size: cover;
+    }
 
     /*Here is the media query for the Tablet/Phone sizes*/
     @media only screen and (max-width: 1200px) {

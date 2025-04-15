@@ -349,6 +349,11 @@
         background-position: right;
         background-size: cover;
     }
+    #profGus .profilePicture{
+        background-image: url(../src/Profile\ Pictures/Gus_Profile.jpg);
+        background-position: right;
+        background-size: cover;
+    }
     
 
 
