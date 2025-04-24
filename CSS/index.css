@@ -556,3 +556,49 @@ a:hover {
         margin-bottom: 1rem;
     }
 }
+
+.social {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin: 20px 0;
+}
+
+.social .twitter-follow-button {
+    transform: scale(1.5);
+    margin: 0;
+}
+
+.social .youtube-link {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.social .youtube-brand {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.social .youtube-brand i {
+    color: #ff0000;
+    font-size: 2em;
+}
+
+.social .youtube-text {
+    color: #282828;
+    font-size: 1.5em;
+    font-family: "Roboto", Arial, sans-serif;
+    font-weight: 500;
+}
+
+.social .youtube-link:hover .youtube-brand {
+    background-color: #f2f2f2;
+}
