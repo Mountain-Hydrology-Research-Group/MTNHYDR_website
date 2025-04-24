@@ -224,7 +224,33 @@ a {
     margin: 2%;
     text-align: center;
     border-bottom: 1px solid gray;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
+.snoqualmieButton {
+    display: inline-block;
+    text-align: center;
+    margin: 2%;
+}
+
+.snoqualmieButton a {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #abe8f5;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1em;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.snoqualmieButton a:hover {
+    background-color: #89ddf0;
+    transform: translateY(-2px);
+}
+
 .upcomingEvents {
     text-align: center;
     font-size: 2vw;
