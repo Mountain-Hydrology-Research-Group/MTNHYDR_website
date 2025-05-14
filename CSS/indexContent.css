@@ -210,12 +210,14 @@
 
 .illustrationSpace{ 
     grid-row: 2 / span 4;
+    display: flex;
+    justify-content: center;
 }
 
     #illusRight{
         grid-column: 5 / span 1;
         animation-name: introFade;
-        animation-duration: 1s;
+        animation-duration: 1.5s;
     }
 
     #illusLeft{
@@ -506,6 +508,8 @@
         .illustrationSpace{
             display: flex;
             justify-content: center;
+            flex-wrap: wrap; /* Allows it to stack if screen is too small */
+            width: 100%;
         }
             #illusRight{
                 animation-name: introFade;
@@ -518,100 +522,15 @@
             #illusLeft{
                 grid-column: 2;
                 grid-row: 2;
-                visibility: hidden;
+                height: 70%
             }
         
             .illustrationSpace img{
-                height: 80%;
-                opacity: 0.8;
+                height: 70%;
             }
         .initInfoBold{
             text-decoration: underline;
         }
-
-/*
-.Newshighlightscontent {
-    margin: 20px 14vw 20px;
-    width: 78vw;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 3vw;
-    grid-gap: 8vh;
-    grid-template-rows: 1fr;
-}
-
-.newshighlightPanel{
-    grid-column: 1;
-    width: 100%;
-}
-
-.titleNewshighlight{
-    width: 100%;
-    margin-left: 2.5%;
-    text-align: center;
-    
-}
-
-    .newshighlight {
-        width: 90%;
-        padding: 2%;
-        background-color:rgb(240, 248, 255);
-        margin: 2% 0;
-        border-width: 100%;
-        border-radius: 15px;
-        /*border-top: 1px solid black;
-        border-bottom: 1px solid black;
-    }
-        .newshighlight img {
-            max-width: 100%;
-            height: auto;
-        }
-
-        .newshighlight h1 {
-            font-size: 2vw;
-            margin: 0;
-        }
-        .newshighlight h2 {
-            font-size: 1.5vw;
-            padding-bottom: 5px;
-        }
-
-        .newshighlight p, i {
-            font-size: calc(17px + 0.3vw); 
-            
-        }
-        /*
-
-        .meetTheTeam{
-            height: 2100px;
-            width: 100vw;
-            color:rgb(255, 255, 255);
-            background-image: url("../src/DSC_0621-9\ -\ Copy.jpg");
-            background-position: bottom;
-            background-size: cover;
-            background-repeat: no-repeat;
-        }
-        
-            .profileSpace {
-                padding: 5%;
-                width: 90%;
-                display: grid;
-                grid-template-columns: 1fr 1fr 1fr;
-                grid-gap: 5% 2%;
-            }
-
-            .photocollage{
-                width: 100%;
-                height: 1500px;
-                display: grid;
-                grid-template-columns: 1fr 1fr;
-                grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-            
-            }
-        /*.photocollage {
-            display: block;
-            height: auto;
-        }*/
 
         .collageitem{
             width: 100%;

@@ -35,9 +35,14 @@
         border-top: 1px solid black;
         border-bottom: 1px solid black;
     }
+
+    .news content {
+        display: flex;
+    }
         .news img {
             max-width: 100%;
             height: auto;
+             border-radius: 10px;
         }
 
         .news h1 {
