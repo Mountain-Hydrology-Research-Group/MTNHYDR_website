@@ -60,7 +60,7 @@ a {
 
 .classheader {
     width: 100%;
-    font-size: 2vw;
+    font-size: 3vw;
     color: black;
     padding: 40px 0;
     margin: 40px 0;
@@ -106,17 +106,18 @@ a {
 .classinfo {
     padding: 0;
     margin: 0;
+    font-size: 2.5vw;
 }
 
 .classinfo h1 {
-    font-size: 1.8vw;
+    font-size: 2.1vw;
     margin: 0 0 20px 0;
     color: black;
     font-weight: 500;
 }
 
 .classinfo p {
-    font-size: 1.1vw;
+    font-size: 2.0vw;
     margin: 0 0 20px 0;
     line-height: 1.6;
     color: #333;
@@ -133,6 +134,7 @@ a {
     text-decoration: none;
     display: inline-block;
     margin-top: 10px;
+    font-size: 2.1vw;
 }
 
 .classinfo a:hover {
@@ -141,6 +143,7 @@ a {
 
 .github-info {
     text-align: center;
+    font-size: 2.5vw;
     max-width: 800px;
     margin: 2rem auto;
     padding: 1rem;
