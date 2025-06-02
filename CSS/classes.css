@@ -1,0 +1,146 @@
+.bannerImage {
+    background-image: url(../src/Banner/Research.jpeg);
+    background-size: cover;
+    background-position: top;
+}
+
+.classesContent {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 40px;
+}
+
+.classheader {
+    width: 100%;
+    font-size: 2.8rem;
+    color: black;
+    padding: 36px 0;
+    margin: 36px 0;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+.classgrid {
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 48px;
+    padding: 0 0 60px 0;
+}
+
+.class-image {
+    width: 100%;
+    margin-bottom: 24px;
+    overflow: hidden;
+}
+
+.class-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+}
+
+.classbox {
+    display: block;
+    width: 100%;
+    padding: 28px 0;
+    margin: 0;
+    border-top: 1px solid #ddd;
+}
+
+.classinfo {
+    padding: 0;
+    margin: 0;
+}
+
+.classinfo h1 {
+    font-size: 2.1rem;
+    margin: 0 0 18px 0;
+    color: black;
+    font-weight: 500;
+}
+
+.classinfo p {
+    font-size: 1.18rem;
+    margin: 0 0 18px 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+.classinfo li {
+    list-style-type: none;
+    margin: 10px 0;
+    font-size: 1.05rem;
+}
+
+.classinfo a {
+    color: rgb(61, 134, 173);
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 1.05rem;
+}
+
+.classinfo a:hover {
+    color: rgb(83, 160, 195);
+}
+
+.github-info {
+    text-align: center;
+    font-size: 1.25rem;
+    max-width: 800px;
+    margin: 2.5rem auto;
+    padding: 1.2rem;
+}
+
+/* Extra large screens (optional, 3 columns) */
+@media only screen and (min-width: 1600px) {
+    .classgrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Tablet and smaller desktop screens */
+@media only screen and (max-width: 1200px) {
+    .classgrid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 32px;
+    }
+}
+
+/* Mobile devices */
+@media only screen and (max-width: 768px) {
+    .classesContent {
+        padding: 0 12px;
+    }
+
+    .classgrid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .classheader {
+        font-size: 1.5rem;
+        padding: 16px 0;
+        margin: 16px 0;
+    }
+
+    .classinfo h1 {
+        font-size: 1.2rem;
+    }
+
+    .classinfo p {
+        font-size: 0.98rem;
+    }
+
+    .classinfo li, .classinfo a {
+        font-size: 0.95rem;
+    }
+
+    .github-info {
+        font-size: 1rem;
+    }
+} 
