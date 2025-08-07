@@ -377,6 +377,18 @@
     background-position: center;
     background-size: cover;
 }
+
+#undergradJohn .profilePic {
+    background-image: url(../src/Profile\ Pictures/JohnProfile.jpg);
+    background-position: top;
+    background-size: cover;
+}
+
+#undergradWillow .profilePic {
+    background-image: url(../src/Profile\ Pictures/whoins.jpeg);
+    background-position: center;
+    background-size: cover;
+}
 /*Postdoc*/
 
 #postDocOne .profilePic {

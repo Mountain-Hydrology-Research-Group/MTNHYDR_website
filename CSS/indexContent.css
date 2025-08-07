@@ -325,11 +325,7 @@
         background-size: cover;
     }
 
-    #profJohn .profilePicture{
-        background-image: url(../src/Profile\ Pictures/JohnProfile.jpg);
-        background-position: center;
-        background-size: cover;
-    }
+
 
     #profClinton .profilePicture{
         background-image: url(../src/Profile\ Pictures/ClintonProfile.jpeg);
@@ -342,11 +338,7 @@
         background-position: right;
         background-size: cover;
     }
-    #profWillow .profilePicture{
-        background-image: url(../src/Profile\ Pictures/whoins.jpeg);
-        background-position: right;
-        background-size: cover;
-    }
+
     #profRunxin .profilePicture{
         background-image: url(../src/Profile\ Pictures/Runxin.jpeg);
         background-position: right;
