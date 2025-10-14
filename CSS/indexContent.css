@@ -349,6 +349,11 @@
         background-position: right;
         background-size: cover;
     }
+    #profPau .profilePicture{
+        background-image: url(../src/Profile\ Pictures/Pau.jpg);
+        background-position: center;
+        background-size: cover;
+    }
     
 
 
