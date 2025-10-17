@@ -626,6 +626,12 @@ a {
     background-size: cover;
 }
 
+#profIzzie{
+    background-image: url(../src/Profile\ Pictures/IzzieProfile.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
 
 /*Research*/
 /*Missing Snow*/
