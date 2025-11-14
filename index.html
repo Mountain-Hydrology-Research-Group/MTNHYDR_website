@@ -56,17 +56,62 @@
                 AGCI Sublimation of Snow Movie Released: 
                 <a href="https://youtu.be/ql94Yz5qKiI?si=0P4cOP-FdIyzZ-Sl">"Vanishing Snow- The Hunt for Missing Water"</a>
             </p>
-            <p>Mountain Hydrology Lab featured in UW Boundless Video</p>
         </section>
         <section class="flyer-banner">
-            <div class="video-container">
-              <iframe width="560" height="315"
-                src="https://www.youtube.com/embed/QGQv8vv4KQg?start=60"
-                title="UW Be Boundless Video"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen>
-              </iframe>
+            <div class="news-carousel">
+                <div class="carousel-container">
+                    <!-- News 1: Eli Schwat Paper -->
+                    <a href="./Pages/News.html" class="carousel-slide-link">
+                        <div class="carousel-slide">
+                            <div class="slide-image" style="background-image: url('src/NewsPhotos/DannyEliMovie.jpeg');"></div>
+                            <div class="slide-content">
+                                <h3>New Paper from Eli Schwat: Estimating Snow Sublimation in Complex Terrain</h3>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <!-- News 2: Izzie REU -->
+                    <a href="./Pages/News.html" class="carousel-slide-link">
+                        <div class="carousel-slide">
+                            <div class="slide-image" style="background-image: url('src/NewsPhotos/SU2025REU_ Izzie.jpg');"></div>
+                            <div class="slide-content">
+                                <h3>Summer 2025 REU: Izzie Investigates Coastal Fog on San Juan Island</h3>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <!-- News 3: Gus REU -->
+                    <a href="./Pages/News.html" class="carousel-slide-link">
+                        <div class="carousel-slide">
+                            <div class="slide-image" style="background-image: url('src/NewsPhotos/SU2025REU_Gus.jpg');"></div>
+                            <div class="slide-content">
+                                <h3>Summer 2025 REU: Gus Explores Snow and Green-Up in the East River Basin</h3>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <!-- Video: UW Boundless -->
+                    <div class="carousel-slide">
+                        <div class="slide-video">
+                            <iframe width="560" height="315"
+                                src="https://www.youtube.com/embed/QGQv8vv4KQg?start=60"
+                                title="UW Be Boundless Video"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="slide-content">
+                            <h3>Mountain Hydrology Lab featured in UW Boundless Video</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-indicators">
+                    <span class="indicator active" data-slide="0"></span>
+                    <span class="indicator" data-slide="1"></span>
+                    <span class="indicator" data-slide="2"></span>
+                    <span class="indicator" data-slide="3"></span>
+                </div>
             </div>
           </section>          
         
@@ -224,27 +269,59 @@
     <script>
         document.addEventListener('DOMContentLoaded', function () {
           const container = document.querySelector('.carousel-container');
-          const prevBtn = document.querySelector('.prev');
-          const nextBtn = document.querySelector('.next');
-    
+          const indicators = document.querySelectorAll('.indicator');
           let currentIndex = 0;
+          const totalSlides = container.children.length;
+          let autoSlideInterval;
     
           function showSlide(index) {
+            // Update container position
             container.style.transform = `translateX(-${index * 100}%)`;
+            
+            // Update indicators
+            indicators.forEach((indicator, i) => {
+              if (i === index) {
+                indicator.classList.add('active');
+              } else {
+                indicator.classList.remove('active');
+              }
+            });
           }
     
           function nextSlide() {
-            currentIndex = (currentIndex + 1) % container.children.length;
+            currentIndex = (currentIndex + 1) % totalSlides;
             showSlide(currentIndex);
           }
     
-          function prevSlide() {
-            currentIndex = (currentIndex - 1 + container.children.length) % container.children.length;
-            showSlide(currentIndex);
+          function startAutoSlide() {
+            autoSlideInterval = setInterval(nextSlide, 5000); // Change slide every 5 seconds
           }
     
-          nextBtn.addEventListener('click', nextSlide);
-          prevBtn.addEventListener('click', prevSlide);
+          function stopAutoSlide() {
+            if (autoSlideInterval) {
+              clearInterval(autoSlideInterval);
+            }
+          }
+    
+          // Indicator click handlers
+          indicators.forEach((indicator, index) => {
+            indicator.addEventListener('click', () => {
+              currentIndex = index;
+              showSlide(currentIndex);
+              stopAutoSlide();
+              startAutoSlide(); // Restart auto-slide after manual navigation
+            });
+          });
+    
+          // Start auto-sliding
+          startAutoSlide();
+          
+          // Pause on hover
+          const carousel = document.querySelector('.news-carousel');
+          if (carousel) {
+            carousel.addEventListener('mouseenter', stopAutoSlide);
+            carousel.addEventListener('mouseleave', startAutoSlide);
+          }
         });
       </script>
 </body>
