@@ -220,6 +220,12 @@
     background-size: cover;
 }
 
+#mastersEmma .profilePic {
+    background-image: url(../src/Profile\ Pictures/SmallEmmaWaider.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
 #mastersOne .profilePic {
     background-image: url(../src/Profile\ Pictures/AnnieProfilePic.jpg);
     background-position: center;
