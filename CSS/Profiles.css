@@ -620,6 +620,12 @@ a {
     background-size: cover;
 }
 
+#profEva{
+    background-image: url(../src/Profile\ Pictures/EvaProfile.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
 #profPau{
     background-image: url(../src/Profile\ Pictures/Pau.jpg);
     background-position: center;
