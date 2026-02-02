@@ -371,25 +371,40 @@
 /* Profiles */
 .profile {
     display: grid;
-    grid-template-rows: 4fr 2fr;
+    grid-template-rows: 3fr 1.5fr;
     background-color: rgba(255, 255, 255, 0.627);
     border-radius: 7%;
     color: rgb(0, 0, 0);
     align-items: center;
     justify-items: center;
+    padding: 20px 15px 15px 15px;
+    aspect-ratio: 0.75;
+    min-height: 280px;
 }
 .profilePicture{
     grid-row: 1;
-    height: 170px;
-    width: 170px;
+    height: 180px;
+    width: 180px;
     border-radius: 100%;
+    margin-bottom: 5px;
 }
 .profile .labelProfile {
     display: block;
     grid-row: 2;
-    align-self: end;
+    align-self: start;
     justify-self: center;
     text-align: center;
+    margin-top: 5px;
+}
+
+.profile .labelProfile h3 {
+    font-size: clamp(1.1rem, 1.5vw, 1.4rem);
+    margin: 4px 0;
+}
+
+.profile .labelProfile h4 {
+    font-size: clamp(0.95rem, 1.3vw, 1.2rem);
+    margin: 3px 0;
 }
 
 .meetTheTeam h1{

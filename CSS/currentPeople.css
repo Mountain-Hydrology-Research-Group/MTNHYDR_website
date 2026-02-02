@@ -58,6 +58,16 @@
     text-align: center;
 }
 
+.profile .labelProfile h3 {
+    font-size: clamp(1.1rem, 1.5vw, 1.4rem);
+    margin: 4px 0;
+}
+
+.profile .labelProfile h4 {
+    font-size: clamp(0.95rem, 1.3vw, 1.2rem);
+    margin: 3px 0;
+}
+
 
     #profOne .profilePicture{
         background-image: url(../src/Profile\ Pictures/JessicaProfile.jpg);
