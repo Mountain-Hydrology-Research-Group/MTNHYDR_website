@@ -289,9 +289,13 @@
     .profileSpace {
         padding: 5%;
         width: 90%;
+        max-width: 1200px;
+        margin: 0 auto;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-gap: 5% 2%;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        column-gap: 2%;
+        row-gap: 5%;
+        justify-items: center;
     }
 
 .scrollDown{
@@ -378,8 +382,9 @@
     align-items: center;
     justify-items: center;
     padding: 20px 15px 15px 15px;
-    aspect-ratio: 0.75;
-    min-height: 280px;
+    width: 100%;
+    max-width: 260px;
+    height: 340px;
 }
 .profilePicture{
     grid-row: 1;
@@ -395,16 +400,37 @@
     justify-self: center;
     text-align: center;
     margin-top: 5px;
+    width: 100%;
+    min-height: 86px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profile .labelProfile a {
+    display: block;
 }
 
 .profile .labelProfile h3 {
     font-size: clamp(1.1rem, 1.5vw, 1.4rem);
     margin: 4px 0;
+    line-height: 1.2;
+    display: -webkit-box;
+    line-clamp: 2;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
 .profile .labelProfile h4 {
     font-size: clamp(0.95rem, 1.3vw, 1.2rem);
     margin: 3px 0;
+    line-height: 1.2;
+    display: -webkit-box;
+    line-clamp: 2;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
 .meetTheTeam h1{
@@ -698,6 +724,8 @@
     @media only screen and (max-width: 550px) {
         .page{
             grid-template-rows: 15% 30% 55%;
+            width: 100%;
+            padding-top: 60px; /* fixed header height on phones */
         }
 
         #pageTwo {
@@ -720,30 +748,62 @@
                 grid-row: 3;
             }
 
+            .webTitle{
+                grid-column: 2;
+                grid-row: 2;
+                font-size: 1.4em;
+                text-align: center;
+                padding: 0 12px;
+            }
+
+            .illustrationSpace{
+                grid-column: 2;
+                grid-row: 3;
+                align-items: flex-start;
+            }
+
+            .illustrationSpace img{
+                height: auto;
+                max-height: 32vh;
+                max-width: 70vw;
+            }
+
         .meetTheTeam{
-            height: 2400px;
+            height: auto;
+            padding-bottom: 40px;
         }
         
             .profileSpace {
                 display: grid;
-                grid-template-columns: 1fr 1fr;
-                grid-gap: 2% 2%;
+                grid-template-columns: 1fr;
+                row-gap: 16px;
+                column-gap: 0;
+                width: 100%;
+                padding: 16px 0 0 0;
+                justify-items: center;
             }
 
             /* Profiles Changes*/
             .profile {
                 display: grid;
-                grid-template-rows: 3fr 2fr;
+                grid-template-rows: auto auto;
+                width: min(86vw, 340px);
+                max-width: none;
+                height: auto;
+                justify-self: center;
+                aspect-ratio: auto;
+                min-height: 0;
+                padding: 16px 12px 14px 12px;
             }
 
             .profilePicture{
-                height: 130px;
-                width: 130px;
-
+                height: 140px;
+                width: 140px;
             }
 
             .profile .labelProfile {
                 text-align: center;
+                margin-top: 4px;
             }
 
         .photocollage{
