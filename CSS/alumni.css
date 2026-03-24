@@ -441,6 +441,12 @@
     background-size: cover;
 }
 
+#PhdEli .profilePic {
+    background-image: url(../src/Profile\ Pictures/EliProfile.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
 
 
     /*Here is the media query for the Tablet/Phone sizes*/
