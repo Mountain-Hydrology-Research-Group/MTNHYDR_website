@@ -156,6 +156,11 @@
         background-position: center;
         background-size: cover;
     }
+    #profIsabella .profilePicture{
+        background-image: url(../src/Profile\ Pictures/Isabella_Claeson_profile.jpeg);
+        background-position: center;
+        background-size: cover;
+    }
     #profEva .profilePicture{
         background-image: url(../src/Profile\ Pictures/EvaProfile.jpeg);
         background-position: center;
