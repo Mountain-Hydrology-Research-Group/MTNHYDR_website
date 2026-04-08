@@ -626,6 +626,12 @@ a {
     background-size: cover;
 }
 
+#profCarlos{
+    background-image: url(../src/Profile\ Pictures/Carlos_profile.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
 #profEva{
     background-image: url(../src/Profile\ Pictures/EvaProfile.jpeg);
     background-position: center;
