@@ -632,6 +632,18 @@ a {
     background-size: cover;
 }
 
+#profDominic{
+    background-image: url(../src/Profile\ Pictures/Dominic_profile.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#profArya{
+    background-image: url(../src/Profile\ Pictures/Arya_profile.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
 #profEva{
     background-image: url(../src/Profile\ Pictures/EvaProfile.jpeg);
     background-position: center;

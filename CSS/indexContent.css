@@ -537,6 +537,16 @@
         background-position: center;
         background-size: cover;
     }
+    #profDominic .profilePicture{
+        background-image: url(../src/Profile\ Pictures/Dominic_profile.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    #profArya .profilePicture{
+        background-image: url(../src/Profile\ Pictures/Arya_profile.jpg);
+        background-position: center;
+        background-size: cover;
+    }
     #profEva .profilePicture{
         background-image: url(../src/Profile\ Pictures/EvaProfile.jpeg);
         background-position: center;
