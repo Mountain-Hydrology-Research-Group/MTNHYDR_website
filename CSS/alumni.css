@@ -421,6 +421,12 @@
     background-position: center;
     background-size: cover;
 }
+
+#undergradRunxin .profilePic {
+    background-image: url(../src/Profile\ Pictures/Runxin.jpeg);
+    background-position: top;
+    background-size: cover;
+}
 /*Postdoc*/
 
 #postDocOne .profilePic {
