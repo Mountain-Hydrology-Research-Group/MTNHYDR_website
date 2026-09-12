@@ -232,6 +232,12 @@
     background-size: cover;
 }
 
+#PhdDanny .profilePic{
+    background-image: url(../src/Profile\ Pictures/DannyBeard.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
 /*Masters*/
 
 #mastersJoe .profilePic {
@@ -427,6 +433,13 @@
     background-position: top;
     background-size: cover;
 }
+
+#undergradIsabella .profilePic {
+    background-image: url(../src/Profile\ Pictures/Isabella_Claeson_profile.jpeg);
+    background-position: top;
+    background-size: cover;
+}
+
 /*Postdoc*/
 
 #postDocOne .profilePic {
