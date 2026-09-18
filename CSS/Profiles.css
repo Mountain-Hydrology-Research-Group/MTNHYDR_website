@@ -604,6 +604,14 @@ a {
     background-position: right;
     background-size: cover;
 }
+
+#profRaphaelle {
+    background-image: url(../src/Profile\ Pictures/Raphaelle_profile.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
 #profWillow {
     background-image: url(../src/Profile\ Pictures/whoins.jpeg);
     background-position: right;
