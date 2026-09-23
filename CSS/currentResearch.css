@@ -59,6 +59,11 @@ a {
 /*Here are the filepaths for the profile pictures*/
 
 /*Current Research*/
+#profSnow4Flow{
+    background-image: url(../src/snow4flowglacier.jpg);
+    background-position: center;
+    background-size: cover;
+}
 #profMissingSnow{
     background-image: url(../src/GothicMtn.jpeg);
     background-position: center;

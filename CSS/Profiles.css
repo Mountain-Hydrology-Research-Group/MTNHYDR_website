@@ -672,6 +672,16 @@ a {
 
 
 /*Research*/
+
+/*Snow4Flow*/
+#profSnow4Flow{
+    background-image: url(../src/snow4flowglacier.jpg);
+    background-position: right;
+    background-size: cover;
+}
+
+
+
 /*Missing Snow*/
 #profMissingSnow{
     background-image: url(../src/GothicMtn.jpg);
